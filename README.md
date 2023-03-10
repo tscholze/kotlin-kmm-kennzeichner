@@ -3,6 +3,8 @@
 ## tl;dr
 This is currently a playground to get to know with [Kotlin Mobile Multiplatform](https://kotlinlang.org/lp/mobile/) in combination with a shared Jetpack Compose and SwiftUI.
 
+![](docs/kennzeichner-desc.png?raw=true)
+
 ## Build status
 
 |Service|Status|
