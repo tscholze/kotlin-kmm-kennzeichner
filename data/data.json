@@ -1,0 +1,4475 @@
+[
+  {
+    "id": "A",
+    "name": "Augsburg",
+    "lat": "48,3667",
+    "long": "10,9",
+    "inhabitants": 266.647,
+    "leader": "Eva Weber",
+    "area": 147
+  },
+  {
+    "id": "AA",
+    "name": "Ostalbkreis",
+    "lat": "48,961",
+    "long": "10,1306",
+    "inhabitants": 24.772,
+    "leader": "Michael Dambacher",
+    "area": 127
+  },
+  {
+    "id": "AB",
+    "name": "Aschaffenburg",
+    "lat": "49,973",
+    "long": "9,149",
+    "inhabitants": 68.808,
+    "leader": "Jürgen Herzing",
+    "area": 62
+  },
+  {
+    "id": "ABG",
+    "name": "Landkreis Altenburger Land",
+    "lat": "50,9922",
+    "long": "12,4443",
+    "inhabitants": 35.965,
+    "leader": "André Neumann",
+    "area": 46
+  },
+  {
+    "id": "AC",
+    "name": "Aachen",
+    "lat": "50,7754",
+    "long": "6,0815",
+    "inhabitants": 260.454,
+    "leader": "Sibylle Keupen",
+    "area": 161
+  },
+  {
+    "id": "AE",
+    "name": "Auerbach",
+    "lat": "48,4017",
+    "long": "10,6717",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "AH",
+    "name": "Ahaus",
+    "lat": "52,0766",
+    "long": "7,0078",
+    "inhabitants": 38.952,
+    "leader": "Karola Voß",
+    "area": 151
+  },
+  {
+    "id": "AIB",
+    "name": "Bad Aibling",
+    "lat": "47,8667",
+    "long": "12,0167",
+    "inhabitants": 18.052,
+    "leader": "Stephan Schlier",
+    "area": 42
+  },
+  {
+    "id": "AIC",
+    "name": "Landkreis Aichach-Friedberg",
+    "lat": "48,3549",
+    "long": "10,9797",
+    "inhabitants": 29.119,
+    "leader": "Roland Eichmann",
+    "area": 81
+  },
+  {
+    "id": "AK",
+    "name": "Altenkirchen (Westerwald)",
+    "lat": "50,6872",
+    "long": "7,6456",
+    "inhabitants": 6.263,
+    "leader": "Matthias Gibhardt",
+    "area": 11
+  },
+  {
+    "id": "AL",
+    "name": "Altena",
+    "lat": "53,1325",
+    "long": "6,4778",
+    "inhabitants": 320,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "ALF",
+    "name": "Alfeld (Leine)",
+    "lat": "51,9903",
+    "long": "9,8378",
+    "inhabitants": 20.46,
+    "leader": "Bernd Beushausen",
+    "area": 73
+  },
+  {
+    "id": "ALS",
+    "name": "Alsfeld",
+    "lat": "50,7528",
+    "long": "9,2706",
+    "inhabitants": 16.901,
+    "leader": "Stephan Paule",
+    "area": 130
+  },
+  {
+    "id": "ALZ",
+    "name": "Alzenau",
+    "lat": "50,0667",
+    "long": "9,0667",
+    "inhabitants": 18.816,
+    "leader": "Stephan Noll",
+    "area": 59
+  },
+  {
+    "id": "AM",
+    "name": "Amberg",
+    "lat": "49,4424",
+    "long": "11,8559",
+    "inhabitants": 43.529,
+    "leader": "Michael Cerny",
+    "area": 50
+  },
+  {
+    "id": "AN",
+    "name": "Ansbach",
+    "lat": "49,3007",
+    "long": "10,5715",
+    "inhabitants": 40.296,
+    "leader": "Thomas Deffner",
+    "area": 100
+  },
+  {
+    "id": "ANA",
+    "name": "Annaberg-Buchholz",
+    "lat": "50,5804",
+    "long": "13,0021",
+    "inhabitants": 22.248,
+    "leader": "Rolf Schmidt",
+    "area": 28
+  },
+  {
+    "id": "ANG",
+    "name": "Angermünde",
+    "lat": "53,0159",
+    "long": "14,0003",
+    "inhabitants": 14.598,
+    "leader": "Frederik Bewer",
+    "area": 326
+  },
+  {
+    "id": "ANK",
+    "name": "Anklam",
+    "lat": "53,8557",
+    "long": "13,6888",
+    "inhabitants": 13.737,
+    "leader": "Michael Galander",
+    "area": 57
+  },
+  {
+    "id": "AÖ",
+    "name": "Landkreis Altötting",
+    "lat": "48,1724",
+    "long": "12,8305",
+    "inhabitants": 18.155,
+    "leader": "Florian Schneider",
+    "area": 20
+  },
+  {
+    "id": "AP",
+    "name": "Landkreis Weimarer Land",
+    "lat": "51,0256",
+    "long": "11,5164",
+    "inhabitants": 23.386,
+    "leader": "Rüdiger Eisenbrand",
+    "area": 46
+  },
+  {
+    "id": "APD",
+    "name": "Apolda",
+    "lat": "51,0256",
+    "long": "11,5164",
+    "inhabitants": 23.386,
+    "leader": "Rüdiger Eisenbrand",
+    "area": 46
+  },
+  {
+    "id": "AR",
+    "name": "Arnsberg",
+    "lat": "51,3953",
+    "long": "8,0687",
+    "inhabitants": 74.617,
+    "leader": "Ralf Paul Bittner",
+    "area": 193
+  },
+  {
+    "id": "ARN",
+    "name": "Arnstadt",
+    "lat": "50,8379",
+    "long": "10,9441",
+    "inhabitants": 25.092,
+    "leader": "",
+    "area": 55
+  },
+  {
+    "id": "ART",
+    "name": "Artern",
+    "lat": "51,372",
+    "long": "11,2879",
+    "inhabitants": 5.867,
+    "leader": "Torsten Blümel",
+    "area": 45
+  },
+  {
+    "id": "AS",
+    "name": "Landkreis Amberg-Sulzbach",
+    "lat": "49,4424",
+    "long": "11,8559",
+    "inhabitants": 43.529,
+    "leader": "Michael Cerny",
+    "area": 50
+  },
+  {
+    "id": "ASD",
+    "name": "Aschendorf-Hümmling (Papenburg-Aschendorf)",
+    "lat": "52,7069431",
+    "long": "7,2470479",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "ASL",
+    "name": "Aschersleben",
+    "lat": "51,7531",
+    "long": "11,4616",
+    "inhabitants": 29.874,
+    "leader": "Andreas Michelmann",
+    "area": 156
+  },
+  {
+    "id": "ASZ",
+    "name": "Schwarzenberg/Erzgeb.",
+    "lat": "50,5336",
+    "long": "12,7844",
+    "inhabitants": 18.892,
+    "leader": "Ruben Gehart",
+    "area": 46
+  },
+  {
+    "id": "AT",
+    "name": "Altentreptow",
+    "lat": "53,6667",
+    "long": "13,25",
+    "inhabitants": 5.984,
+    "leader": "Claudia Ellgoth",
+    "area": 53
+  },
+  {
+    "id": "AU",
+    "name": "Eschweiler",
+    "lat": "50,8173",
+    "long": "6,273",
+    "inhabitants": 55.505,
+    "leader": "Nadine Leonhardt",
+    "area": 77
+  },
+  {
+    "id": "AUR",
+    "name": "Aurich",
+    "lat": "53,4671",
+    "long": "7,4803",
+    "inhabitants": 40.447,
+    "leader": "Horst Feddermann",
+    "area": 197
+  },
+  {
+    "id": "AW",
+    "name": "Landkreis Ahrweiler",
+    "lat": "50,5447",
+    "long": "7,1133",
+    "inhabitants": 27.427,
+    "leader": "Guido Orthen",
+    "area": 63
+  },
+  {
+    "id": "AZ",
+    "name": "Landkreis Alzey-Worms",
+    "lat": "49,7431",
+    "long": "8,114",
+    "inhabitants": 17.902,
+    "leader": "Christoph Burkhard",
+    "area": 35
+  },
+  {
+    "id": "AZE",
+    "name": "Anhalt-Zerbst (Coswig)",
+    "lat": "51,9538359",
+    "long": "12,0827412",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "B",
+    "name": "Berlin",
+    "lat": "52,50697",
+    "long": "13,2843078",
+    "inhabitants": "3.769.495",
+    "leader": "Franziska Giffey",
+    "area": 892
+  },
+  {
+    "id": "BA",
+    "name": "Bamberg",
+    "lat": "49,8942",
+    "long": "10,8855",
+    "inhabitants": 70.084,
+    "leader": "Andreas Starke",
+    "area": 55
+  },
+  {
+    "id": "BAD",
+    "name": "Baden-Baden",
+    "lat": "48,7628",
+    "long": "8,2408",
+    "inhabitants": 54.461,
+    "leader": "Margret Mergen",
+    "area": 140
+  },
+  {
+    "id": "BAR",
+    "name": "Landkreis Barnim",
+    "lat": "52,8331",
+    "long": "13,8331",
+    "inhabitants": 41.331,
+    "leader": "Friedhelm Boginski",
+    "area": 58
+  },
+  {
+    "id": "BB",
+    "name": "Böblingen",
+    "lat": "48,6856",
+    "long": "9,0153",
+    "inhabitants": 372.334,
+    "leader": "Stefan Belz",
+    "area": 39
+  },
+  {
+    "id": "BBG",
+    "name": "Bernburg (Saale)",
+    "lat": "51,7955",
+    "long": "11,7393",
+    "inhabitants": 36.105,
+    "leader": "Silvia Ristow",
+    "area": 113
+  },
+  {
+    "id": "BBL",
+    "name": "Brandenburg",
+    "lat": "52,4",
+    "long": "13,0667",
+    "inhabitants": 158.902,
+    "leader": "",
+    "area": ""
+  },
+  {
+    "id": "BC",
+    "name": "Landkreis Biberach",
+    "lat": "48,2289",
+    "long": "9,8797",
+    "inhabitants": 19.543,
+    "leader": "Gerold Rechle",
+    "area": 62
+  },
+  {
+    "id": "BCH",
+    "name": "Buchen (Odenwald)",
+    "lat": "49,5217",
+    "long": "9,3233",
+    "inhabitants": 18.506,
+    "leader": "Roland Burger",
+    "area": 139
+  },
+  {
+    "id": "BD",
+    "name": "Bundestag",
+    "lat": "52,50697",
+    "long": "13,2843078",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "BE",
+    "name": "Beckum",
+    "lat": "51,755",
+    "long": "8,0403",
+    "inhabitants": 36.736,
+    "leader": "Michael Gerdhenrich",
+    "area": 111
+  },
+  {
+    "id": "BED",
+    "name": "Brand-Erbisdorf",
+    "lat": "50,8601",
+    "long": "13,3201",
+    "inhabitants": 10.836,
+    "leader": "Dr. Martin Antonow",
+    "area": 46
+  },
+  {
+    "id": "BEI",
+    "name": "Beilngries",
+    "lat": "49,0365",
+    "long": "11,4712",
+    "inhabitants": 8.652,
+    "leader": "Helmut Schloderer",
+    "area": 100
+  },
+  {
+    "id": "BEL",
+    "name": "Bad Belzig",
+    "lat": "52,1415",
+    "long": "12,5934",
+    "inhabitants": 11.308,
+    "leader": "Roland Leisegang",
+    "area": 235
+  },
+  {
+    "id": "BER",
+    "name": "Bernau bei Berlin",
+    "lat": "52,6667",
+    "long": "13,5831",
+    "inhabitants": 36.059,
+    "leader": "André Stahl",
+    "area": 104
+  },
+  {
+    "id": "BF",
+    "name": "Steinfurt (Burgsteinfurt)",
+    "lat": "52,1455642",
+    "long": "7,2965841",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "BG",
+    "name": "Bundesgrenzschutz",
+    "lat": "52,50697",
+    "long": "13,2843078",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "BGD",
+    "name": "Berchtesgaden",
+    "lat": "47,6314",
+    "long": "13,0042",
+    "inhabitants": 7.662,
+    "leader": "Franz Rasp",
+    "area": 0
+  },
+  {
+    "id": "BGL",
+    "name": "Landkreis Berchtesgadener Land",
+    "lat": "47,7247",
+    "long": "12,8769",
+    "inhabitants": 17.373,
+    "leader": "Christoph Lung",
+    "area": 39
+  },
+  {
+    "id": "BH",
+    "name": "Bühl",
+    "lat": "48,6953",
+    "long": "8,135",
+    "inhabitants": 29.386,
+    "leader": "Hubert Schnurr",
+    "area": 73
+  },
+  {
+    "id": "BI",
+    "name": "Bielefeld",
+    "lat": "52,0231",
+    "long": "8,5332",
+    "inhabitants": 323.395,
+    "leader": "Pit Clausen",
+    "area": 258
+  },
+  {
+    "id": "BID",
+    "name": "Biedenkopf",
+    "lat": "50,9129",
+    "long": "8,5254",
+    "inhabitants": 13.312,
+    "leader": "Joachim Thiemig",
+    "area": 90
+  },
+  {
+    "id": "BIN",
+    "name": "Bingen am Rhein",
+    "lat": "49,9667",
+    "long": "7,895",
+    "inhabitants": 24.398,
+    "leader": "Thomas Feser",
+    "area": 38
+  },
+  {
+    "id": "BIR",
+    "name": "Birkenfeld",
+    "lat": "49,65",
+    "long": "7,1833",
+    "inhabitants": 6.984,
+    "leader": "Miroslaw Kowalski",
+    "area": 14
+  },
+  {
+    "id": "BIT",
+    "name": "Eifelkreis Bitburg-Prüm",
+    "lat": "49,974",
+    "long": "6,5226",
+    "inhabitants": 12.875,
+    "leader": "Joachim Kandels",
+    "area": 48
+  },
+  {
+    "id": "BIW",
+    "name": "Bischofswerda",
+    "lat": "51,1259",
+    "long": "14,1825",
+    "inhabitants": 12.395,
+    "leader": "Holm Große",
+    "area": 46
+  },
+  {
+    "id": "BK",
+    "name": "Backnang",
+    "lat": "48,9464",
+    "long": "9,4306",
+    "inhabitants": 35.496,
+    "leader": "Maximilian Friedrich",
+    "area": 39
+  },
+  {
+    "id": "BKS",
+    "name": "Bernkastel-Kues",
+    "lat": "49,911",
+    "long": "7,0665",
+    "inhabitants": 6.675,
+    "leader": "Wolfgang Port",
+    "area": 24
+  },
+  {
+    "id": "BL",
+    "name": "Zollernalbkreis",
+    "lat": "48,2134",
+    "long": "9,0241",
+    "inhabitants": 45.565,
+    "leader": "Klaus Konzelmann",
+    "area": 134
+  },
+  {
+    "id": "BLB",
+    "name": "Bad Laasphe",
+    "lat": "50,9303",
+    "long": "8,4167",
+    "inhabitants": 14.446,
+    "leader": "Dirk Terlinden",
+    "area": 136
+  },
+  {
+    "id": "BLK",
+    "name": "Burgenlandkreis",
+    "lat": "51,1998",
+    "long": "11,9668",
+    "inhabitants": 33.436,
+    "leader": "Robby Risch",
+    "area": 114
+  },
+  {
+    "id": "BM",
+    "name": "Erftkreis (Bergheim)",
+    "lat": "50,9690408",
+    "long": "6,5953282",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "BN",
+    "name": "Bonn",
+    "lat": "50,7327",
+    "long": "7,0963",
+    "inhabitants": 327.913,
+    "leader": "Katja Dörner",
+    "area": 141
+  },
+  {
+    "id": "BNA",
+    "name": "Borna",
+    "lat": "51,1167",
+    "long": "12,5",
+    "inhabitants": 21.211,
+    "leader": "Simone Luedtke",
+    "area": 62
+  },
+  {
+    "id": "BO",
+    "name": "Bochum",
+    "lat": "51,4819",
+    "long": "7,2158",
+    "inhabitants": 373.976,
+    "leader": "Thomas Eiskirch",
+    "area": 145
+  },
+  {
+    "id": "BÖ",
+    "name": "Oschersleben (Bode)",
+    "lat": "52,017",
+    "long": "11,25",
+    "inhabitants": 19.671,
+    "leader": "Benjamin Kanngießer",
+    "area": 189
+  },
+  {
+    "id": "BOG",
+    "name": "Bogen",
+    "lat": "48,9167",
+    "long": "12,6833",
+    "inhabitants": 10.147,
+    "leader": "Andrea Probst",
+    "area": 50
+  },
+  {
+    "id": "BOH",
+    "name": "Bocholt",
+    "lat": "51,8386",
+    "long": "6,6225",
+    "inhabitants": 73.17,
+    "leader": "Thomas Kerkhoff",
+    "area": 119
+  },
+  {
+    "id": "BOR",
+    "name": "Kreis Borken",
+    "lat": "51,8386",
+    "long": "6,6225",
+    "inhabitants": 73.17,
+    "leader": "Thomas Kerkhoff",
+    "area": 119
+  },
+  {
+    "id": "BOT",
+    "name": "Bottrop",
+    "lat": "51,5222",
+    "long": "6,9242",
+    "inhabitants": 116.361,
+    "leader": "Bernd Tischler",
+    "area": 101
+  },
+  {
+    "id": "BP",
+    "name": "Deutsche Bundespost",
+    "lat": "52,50697",
+    "long": "13,2843078",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "BR",
+    "name": "Bruchsal",
+    "lat": "49,1258",
+    "long": "8,5977",
+    "inhabitants": 43.267,
+    "leader": "Cornelia Petzold-Schick",
+    "area": 93
+  },
+  {
+    "id": "BRA",
+    "name": "Landkreis Wesermarsch",
+    "lat": "53,4848",
+    "long": "8,475",
+    "inhabitants": 27.246,
+    "leader": "Nils Siemen",
+    "area": 87
+  },
+  {
+    "id": "BRB",
+    "name": "Brandenburg",
+    "lat": "52,4",
+    "long": "13,0667",
+    "inhabitants": 158.902,
+    "leader": "",
+    "area": ""
+  },
+  {
+    "id": "BRG",
+    "name": "Burg (Spreewald)",
+    "lat": "51,8347",
+    "long": "14,15",
+    "inhabitants": 4.469,
+    "leader": "Ira Frackmann",
+    "area": 35
+  },
+  {
+    "id": "BRI",
+    "name": "Brilon",
+    "lat": "51,3833",
+    "long": "8,5667",
+    "inhabitants": 26.431,
+    "leader": "Christoph Bartsch",
+    "area": 229
+  },
+  {
+    "id": "BRK",
+    "name": "Bad Brückenau",
+    "lat": "50,3094",
+    "long": "9,7906",
+    "inhabitants": 7.007,
+    "leader": "Jochen Vogel",
+    "area": 24
+  },
+  {
+    "id": "BRL",
+    "name": "Blankenburg (Harz)",
+    "lat": "51,7916",
+    "long": "10,9637",
+    "inhabitants": 22.351,
+    "leader": "Heiko Breithaupt",
+    "area": 149
+  },
+  {
+    "id": "BRV",
+    "name": "Bremervörde",
+    "lat": "53,4883",
+    "long": "9,1422",
+    "inhabitants": 18.939,
+    "leader": "Michael Hannebache",
+    "area": 150
+  },
+  {
+    "id": "BS",
+    "name": "Braunschweig",
+    "lat": "52,2642",
+    "long": "10,5264",
+    "inhabitants": 250.556,
+    "leader": "Thorsten Kornblum",
+    "area": 192
+  },
+  {
+    "id": "BSB",
+    "name": "Bersenbrück",
+    "lat": "52,533",
+    "long": "7,917",
+    "inhabitants": 7.961,
+    "leader": "",
+    "area": 43
+  },
+  {
+    "id": "BSK",
+    "name": "Beeskow",
+    "lat": "52,1667",
+    "long": "14,25",
+    "inhabitants": 8.235,
+    "leader": "Frank Steffen",
+    "area": 77
+  },
+  {
+    "id": "BT",
+    "name": "Bayreuth",
+    "lat": "49,9416",
+    "long": "11,571",
+    "inhabitants": 73.111,
+    "leader": "Thomas Ebersberger",
+    "area": 67
+  },
+  {
+    "id": "BTF",
+    "name": "Bitterfeld",
+    "lat": "51,6167",
+    "long": "12,3167",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 28
+  },
+  {
+    "id": "BU",
+    "name": "Burgdorf",
+    "lat": "52,4464",
+    "long": "10,0066",
+    "inhabitants": 30.063,
+    "leader": "Armin Pollehn",
+    "area": 112
+  },
+  {
+    "id": "BÜD",
+    "name": "Büdingen",
+    "lat": "50,2909",
+    "long": "9,1163",
+    "inhabitants": 21.361,
+    "leader": "Benjamin Harris",
+    "area": 123
+  },
+  {
+    "id": "BUL",
+    "name": "Burglengenfeld",
+    "lat": "49,2093",
+    "long": "12,04",
+    "inhabitants": 12.309,
+    "leader": "Thomas Gesche",
+    "area": 93
+  },
+  {
+    "id": "BÜR",
+    "name": "Büren",
+    "lat": "51,5529",
+    "long": "8,5599",
+    "inhabitants": 21.553,
+    "leader": "Burkhard Schwuchow",
+    "area": 171
+  },
+  {
+    "id": "BÜS",
+    "name": "Büsingen am Hochrhein",
+    "lat": "47,697",
+    "long": "8,6905",
+    "inhabitants": 1.491,
+    "leader": "Vera Schraner",
+    "area": 8
+  },
+  {
+    "id": "BÜZ",
+    "name": "Bützow",
+    "lat": "53,85",
+    "long": "11,9833",
+    "inhabitants": 7.585,
+    "leader": "Christian Grüschow",
+    "area": 40
+  },
+  {
+    "id": "BW",
+    "name": "Bundes-Wasser- und Schiffahrtsverwaltung",
+    "lat": "52,50697",
+    "long": "13,2843078",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "BWL",
+    "name": "Baden-Württemberg",
+    "lat": "48,7833",
+    "long": "9,1833",
+    "inhabitants": 613.392,
+    "leader": "",
+    "area": 207
+  },
+  {
+    "id": "BYL",
+    "name": "Bayern",
+    "lat": "48,1391",
+    "long": "11,5802",
+    "inhabitants": "1.539.740",
+    "leader": "Dieter Reiter",
+    "area": 311
+  },
+  {
+    "id": "BZ",
+    "name": "Bautzen",
+    "lat": "51,1833",
+    "long": "14,4167",
+    "inhabitants": 40.798,
+    "leader": "Alexander Ahrens",
+    "area": 67
+  },
+  {
+    "id": "BZA",
+    "name": "Bad Bergzabern",
+    "lat": "49,1028",
+    "long": "7,9991",
+    "inhabitants": 8.124,
+    "leader": "Hermann Augspurger",
+    "area": 11
+  },
+  {
+    "id": "C",
+    "name": "Chemnitz",
+    "lat": "50,8327",
+    "long": "12,9242",
+    "inhabitants": 243.173,
+    "leader": "Sven Schulze",
+    "area": 221
+  },
+  {
+    "id": "CA",
+    "name": "Calau",
+    "lat": "51,7458",
+    "long": "13,9508",
+    "inhabitants": 8.813,
+    "leader": "Werner Suchner",
+    "area": 163
+  },
+  {
+    "id": "CAS",
+    "name": "Castrop-Rauxel",
+    "lat": "51,55",
+    "long": "7,3167",
+    "inhabitants": 75.408,
+    "leader": "Rajko Kravanja",
+    "area": 52
+  },
+  {
+    "id": "CB",
+    "name": "Cottbus",
+    "lat": "51,7606",
+    "long": "14,3342",
+    "inhabitants": 102.129,
+    "leader": "Holger Kelch",
+    "area": 164
+  },
+  {
+    "id": "CB",
+    "name": "Cottbus",
+    "lat": "51,7606",
+    "long": "14,3342",
+    "inhabitants": 102.129,
+    "leader": "Holger Kelch",
+    "area": 164
+  },
+  {
+    "id": "CE",
+    "name": "Celle",
+    "lat": "52,6256",
+    "long": "10,0825",
+    "inhabitants": 70.745,
+    "leader": "Jörg Nigge",
+    "area": 176
+  },
+  {
+    "id": "CHA",
+    "name": "Landkreis Cham",
+    "lat": "49,2193",
+    "long": "12,6675",
+    "inhabitants": 17.11,
+    "leader": "Martin Stoiber",
+    "area": 81
+  },
+  {
+    "id": "CLP",
+    "name": "Cloppenburg",
+    "lat": "52,8429",
+    "long": "8,0354",
+    "inhabitants": 32.278,
+    "leader": "Neidhard Varnhorn",
+    "area": 71
+  },
+  {
+    "id": "CLZ",
+    "name": "Clausthal-Zellerfeld",
+    "lat": "51,8016",
+    "long": "10,3386",
+    "inhabitants": 14.561,
+    "leader": "Petra Emmerich-Kopatsch",
+    "area": 44
+  },
+  {
+    "id": "CO",
+    "name": "Coburg",
+    "lat": "50,2667",
+    "long": "10,9667",
+    "inhabitants": 40.915,
+    "leader": "Dominik Sauerteig",
+    "area": 48
+  },
+  {
+    "id": "COC",
+    "name": "Landkreis Cochem-Zell",
+    "lat": "50,1469",
+    "long": "7,1667",
+    "inhabitants": 4.998,
+    "leader": "Walter Schmitz",
+    "area": 21
+  },
+  {
+    "id": "COE",
+    "name": "Kreis Coesfeld",
+    "lat": "51,8308",
+    "long": "7,2783",
+    "inhabitants": 46.762,
+    "leader": "Carsten Hövekamp",
+    "area": 184
+  },
+  {
+    "id": "CR",
+    "name": "Crailsheim",
+    "lat": "49,1344",
+    "long": "10,072",
+    "inhabitants": 32.96,
+    "leader": "Christoph Grimmer",
+    "area": 109
+  },
+  {
+    "id": "CUX",
+    "name": "Cuxhaven",
+    "lat": "53,8617",
+    "long": "8,6941",
+    "inhabitants": 51.249,
+    "leader": "Uwe Santjer",
+    "area": 162
+  },
+  {
+    "id": "CW",
+    "name": "Calw",
+    "lat": "48,7143",
+    "long": "8,7412",
+    "inhabitants": 23.401,
+    "leader": "Florian Kling",
+    "area": 60
+  },
+  {
+    "id": "D",
+    "name": "Düsseldorf",
+    "lat": "51,225",
+    "long": "6,7757",
+    "inhabitants": 592.393,
+    "leader": "Stephan Keller",
+    "area": 217
+  },
+  {
+    "id": "DA",
+    "name": "Landkreis Darmstadt-Dieburg",
+    "lat": "49,8667",
+    "long": "8,65",
+    "inhabitants": 149.052,
+    "leader": "Jochen Partsch",
+    "area": 122
+  },
+  {
+    "id": "DA",
+    "name": "Darmstadt",
+    "lat": "49,8667",
+    "long": "8,65",
+    "inhabitants": 149.052,
+    "leader": "Jochen Partsch",
+    "area": 122
+  },
+  {
+    "id": "DAH",
+    "name": "Landkreis Dachau",
+    "lat": "48,2594",
+    "long": "11,4343",
+    "inhabitants": 41.678,
+    "leader": "Florian Hartmann",
+    "area": 35
+  },
+  {
+    "id": "DAN",
+    "name": "Landkreis Lüchow-Dannenberg",
+    "lat": "52,967",
+    "long": "11,15",
+    "inhabitants": 9.523,
+    "leader": "Manfred Liebhaber",
+    "area": 89
+  },
+  {
+    "id": "DAU",
+    "name": "Daun",
+    "lat": "50,1986",
+    "long": "6,8319",
+    "inhabitants": 8.269,
+    "leader": "Friedhelm Marder",
+    "area": 49
+  },
+  {
+    "id": "DB",
+    "name": "Deutsche Bundesbahn",
+    "lat": "52,50697",
+    "long": "13,2843078",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "DBR",
+    "name": "Bad Doberan",
+    "lat": "54,1069",
+    "long": "11,9053",
+    "inhabitants": 11.294,
+    "leader": "Thorsten Semrau",
+    "area": 33
+  },
+  {
+    "id": "DD",
+    "name": "Dresden",
+    "lat": "51,0333",
+    "long": "13,7333",
+    "inhabitants": 529.781,
+    "leader": "Dirk Hilbert",
+    "area": 329
+  },
+  {
+    "id": "DE",
+    "name": "Dessau",
+    "lat": "51,8389",
+    "long": "12,2452",
+    "inhabitants": 67.747,
+    "leader": "",
+    "area": 183
+  },
+  {
+    "id": "DEG",
+    "name": "Deggendorf",
+    "lat": 0,
+    "long": 0,
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "DEL",
+    "name": "Delmenhorst",
+    "lat": "53,0506",
+    "long": "8,6317",
+    "inhabitants": 74.497,
+    "leader": "Petra Gerlach",
+    "area": 62
+  },
+  {
+    "id": "DGF",
+    "name": "Landkreis Dingolfing-Landau",
+    "lat": "48,6285",
+    "long": "12,4978",
+    "inhabitants": 18.229,
+    "leader": "Armin Grassinger",
+    "area": 44
+  },
+  {
+    "id": "DH",
+    "name": "Diepholz",
+    "lat": "52,6072",
+    "long": "8,3711",
+    "inhabitants": 16.553,
+    "leader": "Florian Marré",
+    "area": 104
+  },
+  {
+    "id": "DI",
+    "name": "Dieburg",
+    "lat": "49,9",
+    "long": "8,85",
+    "inhabitants": 15.204,
+    "leader": "Frank Haus",
+    "area": 23
+  },
+  {
+    "id": "DIL",
+    "name": "Dillenburg",
+    "lat": "50,7394",
+    "long": "8,2844",
+    "inhabitants": 23.78,
+    "leader": "Michael Lotz",
+    "area": 84
+  },
+  {
+    "id": "DIN",
+    "name": "Dinslaken",
+    "lat": "51,5667",
+    "long": "6,7333",
+    "inhabitants": 69.472,
+    "leader": "Michaela Eislöffel",
+    "area": 48
+  },
+  {
+    "id": "DIZ",
+    "name": "Unterlahnkreis (Diez)",
+    "lat": "50,360124",
+    "long": "7,9553905",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "DKB",
+    "name": "Dinkelsbühl",
+    "lat": "49,0794049",
+    "long": "10,2476207",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "DL",
+    "name": "Döbeln",
+    "lat": "51,1194",
+    "long": "13,1128",
+    "inhabitants": 0,
+    "leader": "Sven Liebhauser",
+    "area": 85
+  },
+  {
+    "id": "DLG",
+    "name": "Dillingen an der Donau",
+    "lat": "48,5813",
+    "long": "10,4954",
+    "inhabitants": 18.341,
+    "leader": "Frank Kunz",
+    "area": 76
+  },
+  {
+    "id": "DM",
+    "name": "Demmin",
+    "lat": "53,9064",
+    "long": "13,0406",
+    "inhabitants": 12.219,
+    "leader": "Ernst Wellmer",
+    "area": 81
+  },
+  {
+    "id": "DN",
+    "name": "Düren",
+    "lat": "50,8",
+    "long": "6,4833",
+    "inhabitants": 92.82,
+    "leader": "Frank Peter Ullrich",
+    "area": 85
+  },
+  {
+    "id": "DO",
+    "name": "Dortmund",
+    "lat": "51,5167",
+    "long": "7,4667",
+    "inhabitants": 580.956,
+    "leader": "Thomas Westphal",
+    "area": 281
+  },
+  {
+    "id": "DON",
+    "name": "Landkreis Donau-Ries",
+    "lat": "48,85",
+    "long": "10,5",
+    "inhabitants": 19.119,
+    "leader": "David Wittner",
+    "area": 68
+  },
+  {
+    "id": "DS",
+    "name": "Donaueschingen",
+    "lat": "47,9531",
+    "long": "8,5033",
+    "inhabitants": 21.338,
+    "leader": "Erik Pauly",
+    "area": 105
+  },
+  {
+    "id": "DT",
+    "name": "Detmold",
+    "lat": "51,9333",
+    "long": "8,8833",
+    "inhabitants": 73.028,
+    "leader": "Frank Hilker",
+    "area": 129
+  },
+  {
+    "id": "DU",
+    "name": "Duisburg",
+    "lat": "51,4351",
+    "long": "6,7627",
+    "inhabitants": 488.005,
+    "leader": "Sören Link",
+    "area": 233
+  },
+  {
+    "id": "DUD",
+    "name": "Duderstadt",
+    "lat": "51,5125",
+    "long": "10,2597",
+    "inhabitants": 22.114,
+    "leader": "Thorsten Feike",
+    "area": 96
+  },
+  {
+    "id": "DÜW",
+    "name": "Landkreis Bad Dürkheim",
+    "lat": "49,356",
+    "long": "8,2505",
+    "inhabitants": 20.486,
+    "leader": "Tobias Meyer",
+    "area": 40
+  },
+  {
+    "id": "DW",
+    "name": "Dippoldiswalde",
+    "lat": "50,8933",
+    "long": "13,6667",
+    "inhabitants": 10.429,
+    "leader": "Kerstin Körner",
+    "area": 104
+  },
+  {
+    "id": "DZ",
+    "name": "Delitzsch",
+    "lat": "51,522",
+    "long": "12,3373",
+    "inhabitants": 26.958,
+    "leader": "Manfred Wilde",
+    "area": 84
+  },
+  {
+    "id": "E",
+    "name": "Essen",
+    "lat": "52,2404",
+    "long": "12,0489",
+    "inhabitants": 573.468,
+    "leader": "Thomas Kufen",
+    "area": 210
+  },
+  {
+    "id": "EB",
+    "name": "Eilenburg",
+    "lat": "51,4608",
+    "long": "12,6358",
+    "inhabitants": 17.072,
+    "leader": "Ralf Scheler",
+    "area": 47
+  },
+  {
+    "id": "EBE",
+    "name": "Landkreis Ebersberg",
+    "lat": "48,105",
+    "long": "11,7706",
+    "inhabitants": 21.697,
+    "leader": "Leonhard Spitzauer",
+    "area": 34
+  },
+  {
+    "id": "EBN",
+    "name": "Ebern",
+    "lat": "50,1",
+    "long": "10,7936",
+    "inhabitants": 7.292,
+    "leader": "Jürgen Hennemann",
+    "area": 95
+  },
+  {
+    "id": "EBS",
+    "name": "Ebermannstadt",
+    "lat": "49,7782",
+    "long": "11,1859",
+    "inhabitants": 6.826,
+    "leader": "Christiane Meyer",
+    "area": 50
+  },
+  {
+    "id": "ECK",
+    "name": "Eckernförde",
+    "lat": "54,4742",
+    "long": "9,8378",
+    "inhabitants": 22.798,
+    "leader": "Jörg Sibbel",
+    "area": 18
+  },
+  {
+    "id": "ED",
+    "name": "Landkreis Erding",
+    "lat": "48,2833",
+    "long": "11,9",
+    "inhabitants": 34.02,
+    "leader": "Maximilian Gotz",
+    "area": 55
+  },
+  {
+    "id": "EE",
+    "name": "Landkreis Elbe-Elster",
+    "lat": "51,6331",
+    "long": "13,7167",
+    "inhabitants": 17.861,
+    "leader": "Jörg Gampe",
+    "area": 77
+  },
+  {
+    "id": "EF",
+    "name": "Erfurt",
+    "lat": "50,9737",
+    "long": "11,0224",
+    "inhabitants": 206.384,
+    "leader": "Andreas Bausewein (Oberbürgermeister)",
+    "area": 269
+  },
+  {
+    "id": "EG",
+    "name": "Eggenfelden",
+    "lat": "48,4054",
+    "long": "12,7627",
+    "inhabitants": 12.837,
+    "leader": "Martin Biber",
+    "area": 45
+  },
+  {
+    "id": "EH",
+    "name": "Eisenhüttenstadt",
+    "lat": "52,1447",
+    "long": "14,6696",
+    "inhabitants": 32.214,
+    "leader": "Frank Balzer",
+    "area": 63
+  },
+  {
+    "id": "EHI",
+    "name": "Ehingen (Donau)",
+    "lat": "48,2833",
+    "long": "9,7236",
+    "inhabitants": 24.559,
+    "leader": "Alexander Baumann",
+    "area": 178
+  },
+  {
+    "id": "EI",
+    "name": "Eichstätt",
+    "lat": "48,891",
+    "long": "11,1852",
+    "inhabitants": 14.103,
+    "leader": "Josef Grienberger",
+    "area": 48
+  },
+  {
+    "id": "EIC",
+    "name": "Landkreis Eichsfeld",
+    "lat": "50,9332",
+    "long": "11,2948",
+    "inhabitants": 19.951,
+    "leader": "Marko Grosa",
+    "area": 110
+  },
+  {
+    "id": "EIH",
+    "name": "Eichstätt",
+    "lat": "48,891",
+    "long": "11,1852",
+    "inhabitants": 14.103,
+    "leader": "Josef Grienberger",
+    "area": 48
+  },
+  {
+    "id": "EIL",
+    "name": "Lutherstadt Eisleben",
+    "lat": "51,5167",
+    "long": "11,55",
+    "inhabitants": 26.19,
+    "leader": "Carsten Staub",
+    "area": 144
+  },
+  {
+    "id": "EIN",
+    "name": "Einbeck",
+    "lat": "51,8167",
+    "long": "9,8667",
+    "inhabitants": 27.082,
+    "leader": "Sabine Michalek",
+    "area": 231
+  },
+  {
+    "id": "EIS",
+    "name": "Eisenberg",
+    "lat": "50,9682",
+    "long": "11,9007",
+    "inhabitants": 11.072,
+    "leader": "Michael Kieslich",
+    "area": 25
+  },
+  {
+    "id": "EL",
+    "name": "Landkreis Emsland",
+    "lat": "52,5321",
+    "long": "7,323",
+    "inhabitants": 51.625,
+    "leader": "Dieter Krone",
+    "area": 176
+  },
+  {
+    "id": "EM",
+    "name": "Emmendingen",
+    "lat": "48,122",
+    "long": "7,8474",
+    "inhabitants": 26.511,
+    "leader": "Stefan Schlatterer",
+    "area": 34
+  },
+  {
+    "id": "EMD",
+    "name": "Emden",
+    "lat": "53,3669",
+    "long": "7,2061",
+    "inhabitants": 51.528,
+    "leader": "Tim Kruithoff",
+    "area": 112
+  },
+  {
+    "id": "EMS",
+    "name": "Rhein-Lahn-Kreis",
+    "lat": "50,3011",
+    "long": "7,6056",
+    "inhabitants": 18.056,
+    "leader": "Lennart Siefert",
+    "area": 37
+  },
+  {
+    "id": "EN",
+    "name": "Ennepe-Ruhr-Kreis",
+    "lat": "51,4375",
+    "long": "7,3373",
+    "inhabitants": 98.352,
+    "leader": "Lars König",
+    "area": 72
+  },
+  {
+    "id": "ER",
+    "name": "Erlangen",
+    "lat": "49,5999",
+    "long": "11,0063",
+    "inhabitants": 106.326,
+    "leader": "Florian Janik",
+    "area": 77
+  },
+  {
+    "id": "ERB",
+    "name": "Odenwaldkreis",
+    "lat": "49,6786",
+    "long": "9,0039",
+    "inhabitants": 16.598,
+    "leader": "Tobias Robischon",
+    "area": 87
+  },
+  {
+    "id": "ERH",
+    "name": "Landkreis Erlangen-Höchstadt",
+    "lat": "49,5999",
+    "long": "11,0063",
+    "inhabitants": 106.326,
+    "leader": "Florian Janik",
+    "area": 77
+  },
+  {
+    "id": "ERK",
+    "name": "Erkelenz",
+    "lat": "51,0833",
+    "long": "6,3167",
+    "inhabitants": 44.457,
+    "leader": "Stephan Muckel",
+    "area": 117
+  },
+  {
+    "id": "ES",
+    "name": "Esslingen am Neckar",
+    "lat": "48,7333",
+    "long": "9,3167",
+    "inhabitants": 91.573,
+    "leader": "Matthias Klopfer",
+    "area": 46
+  },
+  {
+    "id": "ESA",
+    "name": "Eisenach",
+    "lat": "50,9761",
+    "long": "10,3206",
+    "inhabitants": 42.661,
+    "leader": "Katja Wolf",
+    "area": 0
+  },
+  {
+    "id": "ESB",
+    "name": "Eschenbach in der Oberpfalz",
+    "lat": "49,75",
+    "long": "11,8167",
+    "inhabitants": 4.159,
+    "leader": "Marcus Gradl",
+    "area": 35
+  },
+  {
+    "id": "ESW",
+    "name": "Werra-Meißner-Kreis",
+    "lat": "51,1881",
+    "long": "10,0528",
+    "inhabitants": 20.125,
+    "leader": "Alexander Heppe",
+    "area": 63
+  },
+  {
+    "id": "EU",
+    "name": "Kreis Euskirchen",
+    "lat": "50,6602",
+    "long": "6,7913",
+    "inhabitants": 55.62,
+    "leader": "Sacha Reichelt",
+    "area": 140
+  },
+  {
+    "id": "EUT",
+    "name": "Eutin",
+    "lat": "54,1378",
+    "long": "10,6181",
+    "inhabitants": 17.298,
+    "leader": "Carsten Behnk",
+    "area": 41
+  },
+  {
+    "id": "EW",
+    "name": "Eberswalde",
+    "lat": "52,8331",
+    "long": "13,8331",
+    "inhabitants": 41.331,
+    "leader": "Friedhelm Boginski",
+    "area": 58
+  },
+  {
+    "id": "F",
+    "name": "Frankfurt am Main",
+    "lat": "50,1109",
+    "long": "8,6795",
+    "inhabitants": 691.518,
+    "leader": "Peter Feldmann (Oberbürgermeister)",
+    "area": 248
+  },
+  {
+    "id": "FAL",
+    "name": "Landkreis Heidekreis",
+    "lat": "52,8667",
+    "long": "9,5833",
+    "inhabitants": 24.069,
+    "leader": "Helma Spöring",
+    "area": 335
+  },
+  {
+    "id": "FB",
+    "name": "Wetteraukreis",
+    "lat": "50,1781",
+    "long": "8,7361",
+    "inhabitants": 31.487,
+    "leader": "Thomas Stöhr",
+    "area": 26
+  },
+  {
+    "id": "FD",
+    "name": "Fulda",
+    "lat": "50,5539",
+    "long": "9,6743",
+    "inhabitants": 64.008,
+    "leader": "Dr. Heiko Wingenfeld",
+    "area": 104
+  },
+  {
+    "id": "FDB",
+    "name": "Friedberg (Hessen)",
+    "lat": "50,3333",
+    "long": "8,75",
+    "inhabitants": 27.801,
+    "leader": "Dirk Antkowiak",
+    "area": 50
+  },
+  {
+    "id": "FDS",
+    "name": "Landkreis Freudenstadt",
+    "lat": "48,4453",
+    "long": "8,6911",
+    "inhabitants": 25.935,
+    "leader": "",
+    "area": 120
+  },
+  {
+    "id": "FEU",
+    "name": "Feuchtwangen",
+    "lat": "49,1667",
+    "long": "10,3167",
+    "inhabitants": 12.206,
+    "leader": "Patrick Ruh",
+    "area": 137
+  },
+  {
+    "id": "FF",
+    "name": "Frankfurt am Main",
+    "lat": "50,1109",
+    "long": "8,6795",
+    "inhabitants": 691.518,
+    "leader": "Peter Feldmann (Oberbürgermeister)",
+    "area": 248
+  },
+  {
+    "id": "FFB",
+    "name": "Fürstenfeldbruck",
+    "lat": "48,1778",
+    "long": "11,2556",
+    "inhabitants": 34.033,
+    "leader": "Erich Raff",
+    "area": 33
+  },
+  {
+    "id": "FG",
+    "name": "Freiberg",
+    "lat": "50,914",
+    "long": "13,3372",
+    "inhabitants": 41.823,
+    "leader": "Sven Krüger",
+    "area": 48
+  },
+  {
+    "id": "FH",
+    "name": "Main-Taunus-Kreis",
+    "lat": "50,0833",
+    "long": "8,45",
+    "inhabitants": 38.289,
+    "leader": "Christian Vogt",
+    "area": 57
+  },
+  {
+    "id": "FI",
+    "name": "Finsterwalde",
+    "lat": "51,6331",
+    "long": "13,7167",
+    "inhabitants": 17.861,
+    "leader": "Jörg Gampe",
+    "area": 77
+  },
+  {
+    "id": "FKB",
+    "name": "Frankenberg (Eder)",
+    "lat": "51,0589",
+    "long": "8,7967",
+    "inhabitants": 18.93,
+    "leader": "Rüdiger Heß",
+    "area": 125
+  },
+  {
+    "id": "FL",
+    "name": "Flensburg",
+    "lat": "54,7819",
+    "long": "9,4367",
+    "inhabitants": 89.357,
+    "leader": "Simone Lange",
+    "area": 56
+  },
+  {
+    "id": "FLÖ",
+    "name": "Flöha",
+    "lat": "50,8612",
+    "long": "13,0661",
+    "inhabitants": 10.124,
+    "leader": "Volker Holuscha",
+    "area": 28
+  },
+  {
+    "id": "FN",
+    "name": "Bodenseekreis",
+    "lat": "47,65",
+    "long": "9,4833",
+    "inhabitants": 58.848,
+    "leader": "Andreas Brand",
+    "area": 70
+  },
+  {
+    "id": "FO",
+    "name": "Forchheim",
+    "lat": "49,7197",
+    "long": "11,0581",
+    "inhabitants": 30.418,
+    "leader": "Uwe Kirschstein",
+    "area": 45
+  },
+  {
+    "id": "FOR",
+    "name": "Forst (Lausitz)",
+    "lat": "51,7333",
+    "long": "14,6333",
+    "inhabitants": 21.304,
+    "leader": "Simone Taubenek",
+    "area": 110
+  },
+  {
+    "id": "FR",
+    "name": "Landkreis Breisgau-Hochschwarzwald",
+    "lat": "47,9833",
+    "long": "7,85",
+    "inhabitants": 229.144,
+    "leader": "Martin Horn",
+    "area": 153
+  },
+  {
+    "id": "FR",
+    "name": "Freiburg im Breisgau",
+    "lat": "47,9833",
+    "long": "7,85",
+    "inhabitants": 229.144,
+    "leader": "Martin Horn",
+    "area": 153
+  },
+  {
+    "id": "FRG",
+    "name": "Landkreis Freyung-Grafenau",
+    "lat": "48,7305",
+    "long": "13,6011",
+    "inhabitants": 10.456,
+    "leader": "Heinz Pollak",
+    "area": 80
+  },
+  {
+    "id": "FRI",
+    "name": "Landkreis Friesland",
+    "lat": "53,3969",
+    "long": "8,1361",
+    "inhabitants": 24.801,
+    "leader": "Gerd-Christian Wagner",
+    "area": 114
+  },
+  {
+    "id": "FRW",
+    "name": "Bad Freienwalde (Oder)",
+    "lat": "52,7875",
+    "long": "14,0302",
+    "inhabitants": 12.38,
+    "leader": "Ralf Lehmann",
+    "area": 132
+  },
+  {
+    "id": "FS",
+    "name": "Freising",
+    "lat": "48,4028",
+    "long": "11,7489",
+    "inhabitants": 45.654,
+    "leader": "Tobias Eschenbacher",
+    "area": 88
+  },
+  {
+    "id": "FT",
+    "name": "Frankenthal (Pfalz)",
+    "lat": "49,5333",
+    "long": "8,35",
+    "inhabitants": 47.002,
+    "leader": "Martin Hebich",
+    "area": 44
+  },
+  {
+    "id": "FTL",
+    "name": "Freital",
+    "lat": "51,0167",
+    "long": "13,65",
+    "inhabitants": 39.037,
+    "leader": "Uwe Rumberg",
+    "area": 41
+  },
+  {
+    "id": "FÜ",
+    "name": "Fürth",
+    "lat": "49,4667",
+    "long": 11,
+    "inhabitants": 116.317,
+    "leader": "Thomas Jung",
+    "area": 63
+  },
+  {
+    "id": "FÜS",
+    "name": "Füssen",
+    "lat": "47,5667",
+    "long": "10,7",
+    "inhabitants": 14.236,
+    "leader": "Maximilian Eichstetter",
+    "area": 44
+  },
+  {
+    "id": "FW",
+    "name": "Fürstenwalde/Spree",
+    "lat": "52,3617",
+    "long": "14,0617",
+    "inhabitants": 32.867,
+    "leader": "Matthias Rudolph",
+    "area": 71
+  },
+  {
+    "id": "FZ",
+    "name": "Fritzlar",
+    "lat": "51,1337",
+    "long": "9,2743",
+    "inhabitants": 14.463,
+    "leader": "Hartmut Spogat",
+    "area": 89
+  },
+  {
+    "id": "G",
+    "name": "Gera",
+    "lat": "50,8805",
+    "long": "12,0812",
+    "inhabitants": 98.762,
+    "leader": "Julian Vonarb",
+    "area": 152
+  },
+  {
+    "id": "GA",
+    "name": "Gardelegen",
+    "lat": "52,5242",
+    "long": "11,394",
+    "inhabitants": 14.588,
+    "leader": "Mandy Zepig",
+    "area": 632
+  },
+  {
+    "id": "GAN",
+    "name": "Bad Gandersheim",
+    "lat": "51,8706",
+    "long": "10,0247",
+    "inhabitants": 10.572,
+    "leader": "Franziska Schwarz",
+    "area": 9
+  },
+  {
+    "id": "GAP",
+    "name": "Garmisch-Partenkirchen",
+    "lat": "47,4924",
+    "long": "11,0861",
+    "inhabitants": 26.178,
+    "leader": "Elisabeth Koch",
+    "area": 206
+  },
+  {
+    "id": "GC",
+    "name": "Glauchau",
+    "lat": "50,8233",
+    "long": "12,5444",
+    "inhabitants": 24.991,
+    "leader": "Dr. Peter Dresler",
+    "area": 51
+  },
+  {
+    "id": "GD",
+    "name": "Schwäbisch Gmünd",
+    "lat": "48,7795854",
+    "long": "9,7584405",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "GDB",
+    "name": "Gadebusch",
+    "lat": "53,7",
+    "long": "11,1167",
+    "inhabitants": 5.753,
+    "leader": "Ulrich Howest",
+    "area": 48
+  },
+  {
+    "id": "GE",
+    "name": "Gelsenkirchen",
+    "lat": "51,5115",
+    "long": "7,093",
+    "inhabitants": 256.652,
+    "leader": "Karin Welge",
+    "area": 105
+  },
+  {
+    "id": "GEL",
+    "name": "Geldern",
+    "lat": "51,5189",
+    "long": "6,3268",
+    "inhabitants": 33.575,
+    "leader": "Sven Kaiser",
+    "area": 97
+  },
+  {
+    "id": "GEM",
+    "name": "Gemünden am Main",
+    "lat": "50,0568",
+    "long": "9,69",
+    "inhabitants": 10.818,
+    "leader": "Jürgen Lippert",
+    "area": 75
+  },
+  {
+    "id": "GEO",
+    "name": "Gerolzhofen",
+    "lat": "49,9",
+    "long": "10,35",
+    "inhabitants": 6.61,
+    "leader": "Thorsten Wozniak",
+    "area": 18
+  },
+  {
+    "id": "GER",
+    "name": "Germersheim",
+    "lat": "49,2189",
+    "long": "8,3696",
+    "inhabitants": 20.874,
+    "leader": "Marcus Schaile",
+    "area": 21
+  },
+  {
+    "id": "GF",
+    "name": "Gifhorn",
+    "lat": "52,4886",
+    "long": "10,5464",
+    "inhabitants": 41.799,
+    "leader": "Matthias Nerlich",
+    "area": 105
+  },
+  {
+    "id": "GG",
+    "name": "Groß-Gerau",
+    "lat": "49,9192",
+    "long": "8,485",
+    "inhabitants": 23.322,
+    "leader": "Erhard Walther",
+    "area": 54
+  },
+  {
+    "id": "GHA",
+    "name": "Geithain",
+    "lat": "51,05",
+    "long": "12,6833",
+    "inhabitants": 5.997,
+    "leader": "Frank Rudolph",
+    "area": 55
+  },
+  {
+    "id": "GHC",
+    "name": "Gräfenhainichen",
+    "lat": "51,7167",
+    "long": "12,4333",
+    "inhabitants": 7.712,
+    "leader": "Enrico Schilling",
+    "area": 159
+  },
+  {
+    "id": "GI",
+    "name": "Gießen",
+    "lat": "51,4448",
+    "long": "12,2252",
+    "inhabitants": 80.082,
+    "leader": "Frank-Tilo Becher",
+    "area": 73
+  },
+  {
+    "id": "GK",
+    "name": "Geilenkirchen-Heinsberg (Erkelenz)",
+    "lat": "50,9738011",
+    "long": "6,0557972",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "GL",
+    "name": "Rheinisch-Bergischer Kreis",
+    "lat": "50,9918",
+    "long": "7,1365",
+    "inhabitants": 105.836,
+    "leader": "Frank Stein",
+    "area": 83
+  },
+  {
+    "id": "GLA",
+    "name": "Gladbeck",
+    "lat": "51,5667",
+    "long": "6,9667",
+    "inhabitants": 75.253,
+    "leader": "Bettina Weist",
+    "area": 0
+  },
+  {
+    "id": "GM",
+    "name": "Oberbergischer Kreis",
+    "lat": "51,0283",
+    "long": "7,5654",
+    "inhabitants": 51.309,
+    "leader": "Frank Helmenstein",
+    "area": 95
+  },
+  {
+    "id": "GMN",
+    "name": "Grimmen",
+    "lat": "54,11",
+    "long": "13,0414",
+    "inhabitants": 10.655,
+    "leader": "Benno Rüster",
+    "area": 50
+  },
+  {
+    "id": "GN",
+    "name": "Gelnhausen",
+    "lat": "50,2058992",
+    "long": "9,1563508",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "GNT",
+    "name": "Genthin",
+    "lat": "52,4",
+    "long": "12,1667",
+    "inhabitants": 16.004,
+    "leader": "Matthias Günther",
+    "area": 231
+  },
+  {
+    "id": "GÖ",
+    "name": "Göttingen",
+    "lat": "51,5339",
+    "long": "9,9356",
+    "inhabitants": 121.364,
+    "leader": "Petra Broistedt",
+    "area": 117
+  },
+  {
+    "id": "GOA",
+    "name": "Sankt Goar",
+    "lat": "50,1516",
+    "long": "7,7114",
+    "inhabitants": 2.83,
+    "leader": "Falko Hönisch",
+    "area": 23
+  },
+  {
+    "id": "GOH",
+    "name": "Sankt Goarshausen",
+    "lat": "50,1554",
+    "long": "7,715",
+    "inhabitants": 1.28,
+    "leader": "Matthias Pflugradt",
+    "area": 7
+  },
+  {
+    "id": "GP",
+    "name": "Göppingen",
+    "lat": "48,7032",
+    "long": "9,654",
+    "inhabitants": 57.336,
+    "leader": "Alexander Maier",
+    "area": 59
+  },
+  {
+    "id": "GR",
+    "name": "Görlitz",
+    "lat": "51,1531",
+    "long": "14,9753",
+    "inhabitants": 55.928,
+    "leader": "Octavian Ursu",
+    "area": 68
+  },
+  {
+    "id": "OVP",
+    "name": "Anklam",
+    "lat": "53,8557",
+    "long": "13,6888",
+    "inhabitants": 13.737,
+    "leader": "Michael Galander",
+    "area": 57
+  },
+  {
+    "id": "OZ",
+    "name": "Oschatz",
+    "lat": "51,3003",
+    "long": "13,1072",
+    "inhabitants": 15.662,
+    "leader": "Andreas Kretschmar",
+    "area": 55
+  },
+  {
+    "id": "ÖHR",
+    "name": "Öhringen",
+    "lat": "49,2024",
+    "long": "9,5031",
+    "inhabitants": 22.949,
+    "leader": "Thilo Michler",
+    "area": 68
+  },
+  {
+    "id": "P",
+    "name": "Potsdam",
+    "lat": "52,4",
+    "long": "13,0667",
+    "inhabitants": 158.902,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "PA",
+    "name": "Passau",
+    "lat": "48,5735",
+    "long": "13,464",
+    "inhabitants": 50.548,
+    "leader": "Jürgen Dupper",
+    "area": 70
+  },
+  {
+    "id": "PAF",
+    "name": "Pfaffenhofen an der Ilm",
+    "lat": "48,5333",
+    "long": "11,5167",
+    "inhabitants": 23.971,
+    "leader": "Thomas Herker",
+    "area": 92
+  },
+  {
+    "id": "PAN",
+    "name": "Landkreis Rottal-Inn",
+    "lat": "48,4054",
+    "long": "12,7627",
+    "inhabitants": 12.837,
+    "leader": "Martin Biber",
+    "area": 45
+  },
+  {
+    "id": "PAR",
+    "name": "Parsberg",
+    "lat": "49,15",
+    "long": "11,7167",
+    "inhabitants": 6.561,
+    "leader": "Josef Bauer",
+    "area": 57
+  },
+  {
+    "id": "PB",
+    "name": "Paderborn",
+    "lat": "51,7167",
+    "long": "8,7667",
+    "inhabitants": 147.688,
+    "leader": "Michael Dreier",
+    "area": 179
+  },
+  {
+    "id": "PCH",
+    "name": "Parchim",
+    "lat": "53,4167",
+    "long": "11,8333",
+    "inhabitants": 18.831,
+    "leader": "Dirk Flörke",
+    "area": 124
+  },
+  {
+    "id": "PE",
+    "name": "Peine",
+    "lat": "52,3203",
+    "long": "10,2336",
+    "inhabitants": 49.188,
+    "leader": "Klaus Saemann",
+    "area": 120
+  },
+  {
+    "id": "PEG",
+    "name": "Pegnitz",
+    "lat": "49,7566",
+    "long": "11,541",
+    "inhabitants": 13.751,
+    "leader": "Wolfgang Nierhoff",
+    "area": 100
+  },
+  {
+    "id": "PER",
+    "name": "Perleberg",
+    "lat": "53,071",
+    "long": "11,8541",
+    "inhabitants": 12.474,
+    "leader": "Annett Jura",
+    "area": 138
+  },
+  {
+    "id": "PF",
+    "name": "Pforzheim",
+    "lat": "48,9",
+    "long": "8,7167",
+    "inhabitants": 120.709,
+    "leader": "Peter Boch",
+    "area": 98
+  },
+  {
+    "id": "PF",
+    "name": "Enzkreis",
+    "lat": "48,9",
+    "long": "8,7167",
+    "inhabitants": 120.709,
+    "leader": "Peter Boch",
+    "area": 98
+  },
+  {
+    "id": "PI",
+    "name": "Pinneberg",
+    "lat": "53,6333",
+    "long": "9,8",
+    "inhabitants": 42.367,
+    "leader": "Urte Steinberg",
+    "area": 22
+  },
+  {
+    "id": "PIR",
+    "name": "Sächsische Schweiz (Pirna)",
+    "lat": "50,9574327",
+    "long": "13,8950628",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "PK",
+    "name": "Pritzwalk",
+    "lat": "53,1497",
+    "long": "12,1831",
+    "inhabitants": 12.929,
+    "leader": "Dr. Ronald Thiel",
+    "area": 166
+  },
+  {
+    "id": "PL",
+    "name": "Plauen",
+    "lat": "50,4952",
+    "long": "12,1384",
+    "inhabitants": 66.287,
+    "leader": "Steffen Zenner",
+    "area": 102
+  },
+  {
+    "id": "PLÖ",
+    "name": "Plön",
+    "lat": "54,1586",
+    "long": "10,4132",
+    "inhabitants": 133.433,
+    "leader": "Lars Winter",
+    "area": 37
+  },
+  {
+    "id": "PM",
+    "name": "Landkreis Potsdam-Mittelmark",
+    "lat": "52,3781",
+    "long": "12,935",
+    "inhabitants": 23.129,
+    "leader": "Manuela Saß",
+    "area": 116
+  },
+  {
+    "id": "PN",
+    "name": "Pößneck",
+    "lat": "50,7",
+    "long": "11,6",
+    "inhabitants": 13.08,
+    "leader": "Michael Modde",
+    "area": 24
+  },
+  {
+    "id": "PR",
+    "name": "Landkreis Prignitz",
+    "lat": 53,
+    "long": "11,75",
+    "inhabitants": 19.023,
+    "leader": "Oliver Hermann",
+    "area": 50
+  },
+  {
+    "id": "PRÜ",
+    "name": "Prüm",
+    "lat": "50,2073",
+    "long": "6,4247",
+    "inhabitants": 5.253,
+    "leader": "Johannes Reuschen",
+    "area": 23
+  },
+  {
+    "id": "PS",
+    "name": "Pirmasens",
+    "lat": "49,2",
+    "long": "7,6",
+    "inhabitants": 40.006,
+    "leader": "Markus Christian Zwick",
+    "area": 61
+  },
+  {
+    "id": "PW",
+    "name": "Pasewalk",
+    "lat": "53,5",
+    "long": 14,
+    "inhabitants": 11.545,
+    "leader": "Danny Rodewald",
+    "area": 55
+  },
+  {
+    "id": "PZ",
+    "name": "Prenzlau",
+    "lat": "53,3168",
+    "long": "13,8603",
+    "inhabitants": 20.285,
+    "leader": "Hendrik Sommer",
+    "area": 142
+  },
+  {
+    "id": "QFT",
+    "name": "Querfurt",
+    "lat": "51,3833",
+    "long": "11,6011",
+    "inhabitants": 12.155,
+    "leader": "Andreas Nette",
+    "area": 155
+  },
+  {
+    "id": "QLB",
+    "name": "Quedlinburg",
+    "lat": "51,7917",
+    "long": "11,1472",
+    "inhabitants": 21.5,
+    "leader": "Frank Ruch",
+    "area": 120
+  },
+  {
+    "id": "R",
+    "name": "Landkreis Regensburg",
+    "lat": "49,1236",
+    "long": "12,1283",
+    "inhabitants": 15.013,
+    "leader": "Josef Schindler",
+    "area": 100
+  },
+  {
+    "id": "RA",
+    "name": "Rastatt",
+    "lat": "48,85",
+    "long": "8,2",
+    "inhabitants": 47.523,
+    "leader": "Hans Jürgen Pütsch",
+    "area": 59
+  },
+  {
+    "id": "RC",
+    "name": "Reichenbach im Vogtland",
+    "lat": "50,6167",
+    "long": "12,3",
+    "inhabitants": 20.746,
+    "leader": "Raphael Kürzinger (Oberbürgermeister)",
+    "area": 34
+  },
+  {
+    "id": "RD",
+    "name": "Kreis Rendsburg-Eckernförde",
+    "lat": "54,3",
+    "long": "9,6667",
+    "inhabitants": 28.35,
+    "leader": "Janet Sönnichsen",
+    "area": 24
+  },
+  {
+    "id": "RDG",
+    "name": "Ribnitz-Damgarten",
+    "lat": "54,25",
+    "long": "12,4667",
+    "inhabitants": 16.309,
+    "leader": "Luca Ruppe",
+    "area": 122
+  },
+  {
+    "id": "RE",
+    "name": "Recklinghausen",
+    "lat": "51,6113",
+    "long": "7,1974",
+    "inhabitants": 117.672,
+    "leader": "Christoph Tesche",
+    "area": 66
+  },
+  {
+    "id": "REG",
+    "name": "Regen",
+    "lat": "48,9667",
+    "long": "13,1333",
+    "inhabitants": 11.842,
+    "leader": "Andreas Kroner",
+    "area": 65
+  },
+  {
+    "id": "REH",
+    "name": "Rehau",
+    "lat": "50,25",
+    "long": "12,0167",
+    "inhabitants": 9.631,
+    "leader": "Michael Abraham",
+    "area": 80
+  },
+  {
+    "id": "REI",
+    "name": "Landkreis Berchtesgadener Land",
+    "lat": "47,7247",
+    "long": "12,8769",
+    "inhabitants": 17.373,
+    "leader": "Christoph Lung",
+    "area": 39
+  },
+  {
+    "id": "RG",
+    "name": "Großenhain",
+    "lat": "51,2833",
+    "long": "13,55",
+    "inhabitants": 19.977,
+    "leader": "Sven Mißbach",
+    "area": 97
+  },
+  {
+    "id": "RH",
+    "name": "Landkreis Roth",
+    "lat": "49,2461",
+    "long": "11,0911",
+    "inhabitants": 24.604,
+    "leader": "",
+    "area": 96
+  },
+  {
+    "id": "RI",
+    "name": "Rinteln",
+    "lat": "52,1906",
+    "long": "9,0814",
+    "inhabitants": 27.223,
+    "leader": "Andrea Lange",
+    "area": 109
+  },
+  {
+    "id": "RID",
+    "name": "Riedenburg",
+    "lat": "48,9667",
+    "long": "11,6833",
+    "inhabitants": 5.632,
+    "leader": "Thomas Zehetbauer",
+    "area": 100
+  },
+  {
+    "id": "RIE",
+    "name": "Riesa",
+    "lat": "51,3002",
+    "long": "13,3021",
+    "inhabitants": 34.777,
+    "leader": "Marco Müller",
+    "area": 59
+  },
+  {
+    "id": "RL",
+    "name": "Rochlitz",
+    "lat": "51,0532",
+    "long": "12,7928",
+    "inhabitants": 6.351,
+    "leader": "Frank Dehne",
+    "area": 24
+  },
+  {
+    "id": "RM",
+    "name": "Röbel/Müritz",
+    "lat": "53,3758",
+    "long": "12,5976",
+    "inhabitants": 5.266,
+    "leader": "Andreas Sprick",
+    "area": 30
+  },
+  {
+    "id": "RN",
+    "name": "Rathenow",
+    "lat": "52,6",
+    "long": "12,3333",
+    "inhabitants": 25.791,
+    "leader": "Ronald Seeger",
+    "area": 106
+  },
+  {
+    "id": "RO",
+    "name": "Rosenheim",
+    "lat": "47,8561",
+    "long": "12,124",
+    "inhabitants": 61.512,
+    "leader": "Andreas März",
+    "area": 37
+  },
+  {
+    "id": "ROD",
+    "name": "Roding",
+    "lat": "49,2",
+    "long": "12,5167",
+    "inhabitants": 11.451,
+    "leader": "Alexandra Riedl",
+    "area": 114
+  },
+  {
+    "id": "ROF",
+    "name": "Rotenburg an der Fulda",
+    "lat": "50,9952",
+    "long": "9,7269",
+    "inhabitants": 13.672,
+    "leader": "Christian Grunwald",
+    "area": 80
+  },
+  {
+    "id": "ROH",
+    "name": "Rotenburg (Wümme)",
+    "lat": "53,1116",
+    "long": "9,4026",
+    "inhabitants": 21.951,
+    "leader": "Torsten Oestmann",
+    "area": 99
+  },
+  {
+    "id": "ROK",
+    "name": "Rockenhausen",
+    "lat": "49,6286",
+    "long": "7,8205",
+    "inhabitants": 5.457,
+    "leader": "Michael Vettermann",
+    "area": 37
+  },
+  {
+    "id": "ROL",
+    "name": "Rottenburg an der Laaber",
+    "lat": "48,7019",
+    "long": "12,0303",
+    "inhabitants": 7.605,
+    "leader": "Alfred Holzner",
+    "area": 90
+  },
+  {
+    "id": "ROS",
+    "name": "Rostock",
+    "lat": "54,0833",
+    "long": "12,1333",
+    "inhabitants": 204.26,
+    "leader": "Claus Ruhe Madsen",
+    "area": 181
+  },
+  {
+    "id": "ROT",
+    "name": "Rothenburg ob der Tauber",
+    "lat": "49,3658649",
+    "long": "10,127404",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "ROW",
+    "name": "Rotenburg (Wümme)",
+    "lat": "53,1116",
+    "long": "9,4026",
+    "inhabitants": 21.951,
+    "leader": "Torsten Oestmann",
+    "area": 99
+  },
+  {
+    "id": "RPL",
+    "name": "Rheinland-Pfalz",
+    "lat": 50,
+    "long": "8,2667",
+    "inhabitants": 200.957,
+    "leader": "Michael Ebling",
+    "area": 98
+  },
+  {
+    "id": "RS",
+    "name": "Remscheid",
+    "lat": "51,1833",
+    "long": "7,2",
+    "inhabitants": 109.596,
+    "leader": "Burkhard Mast-Weisz",
+    "area": 75
+  },
+  {
+    "id": "RSL",
+    "name": "Roßlau (Elbe)",
+    "lat": "51,8939",
+    "long": "12,2476",
+    "inhabitants": 12.183,
+    "leader": "",
+    "area": 62
+  },
+  {
+    "id": "RT",
+    "name": "Landkreis Reutlingen",
+    "lat": "48,5367",
+    "long": "9,2858",
+    "inhabitants": 21.999,
+    "leader": "Carmen Haberstroh",
+    "area": 35
+  },
+  {
+    "id": "RU",
+    "name": "Rudolstadt",
+    "lat": "50,7169",
+    "long": "11,3275",
+    "inhabitants": 24.285,
+    "leader": "Jörg Reichl",
+    "area": 135
+  },
+  {
+    "id": "RÜD",
+    "name": "Rheingau-Taunus-Kreis",
+    "lat": "50,1333",
+    "long": "8,15",
+    "inhabitants": 28.978,
+    "leader": "Sandro Zehner",
+    "area": 67
+  },
+  {
+    "id": "RÜG",
+    "name": "Rügen (Bergen)",
+    "lat": "54,4127142",
+    "long": "13,4544839",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "RV",
+    "name": "Ravensburg",
+    "lat": "47,7843",
+    "long": "9,6098",
+    "inhabitants": 49.399,
+    "leader": "Daniel Rapp",
+    "area": 92
+  },
+  {
+    "id": "RW",
+    "name": "Landkreis Rottweil",
+    "lat": "48,223",
+    "long": "8,3856",
+    "inhabitants": 21.621,
+    "leader": "Dorothee Eisenlohr",
+    "area": 81
+  },
+  {
+    "id": "RWL",
+    "name": "Nordrhein-Westfalen",
+    "lat": "50,9405",
+    "long": "6,9599",
+    "inhabitants": "1.017.155",
+    "leader": "Henriette Reker",
+    "area": 405
+  },
+  {
+    "id": "RY",
+    "name": "Rheydt",
+    "lat": "51,1667",
+    "long": "6,45",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "RZ",
+    "name": "Kreis Herzogtum Lauenburg",
+    "lat": "53,4302",
+    "long": "10,3741",
+    "inhabitants": 29.258,
+    "leader": "Olaf Schulze",
+    "area": 33
+  },
+  {
+    "id": "S",
+    "name": "Stuttgart",
+    "lat": "48,7833",
+    "long": "9,1833",
+    "inhabitants": 613.392,
+    "leader": "",
+    "area": 207
+  },
+  {
+    "id": "SAB",
+    "name": "Saarburg",
+    "lat": "49,617",
+    "long": "6,55",
+    "inhabitants": 6.293,
+    "leader": "Jürgen Dixius",
+    "area": 21
+  },
+  {
+    "id": "SAD",
+    "name": "Landkreis Schwandorf",
+    "lat": "49,3283",
+    "long": "12,11",
+    "inhabitants": 27.911,
+    "leader": "Andreas Feller",
+    "area": 124
+  },
+  {
+    "id": "SÄK",
+    "name": "Bad Säckingen",
+    "lat": "47,5544",
+    "long": "7,9474",
+    "inhabitants": 16.859,
+    "leader": "Alexander Guhl",
+    "area": 25
+  },
+  {
+    "id": "SAL",
+    "name": "Saarland",
+    "lat": "49,3438",
+    "long": "7,1801",
+    "inhabitants": 48.33,
+    "leader": "Jörg Aumann",
+    "area": 75
+  },
+  {
+    "id": "SAN",
+    "name": "Stadtsteinach",
+    "lat": "50,1603",
+    "long": "11,5053",
+    "inhabitants": 3.348,
+    "leader": "Roland Wolfrum",
+    "area": 40
+  },
+  {
+    "id": "SAW",
+    "name": "Salzwedel",
+    "lat": "52,85",
+    "long": "11,15",
+    "inhabitants": 24.775,
+    "leader": "Sabine Blümel",
+    "area": 305
+  },
+  {
+    "id": "SB",
+    "name": "Regionalverband Saarbrücken",
+    "lat": "49,2501",
+    "long": "6,8603",
+    "inhabitants": 40.086,
+    "leader": "Christiane Blatt",
+    "area": 67
+  },
+  {
+    "id": "SBG",
+    "name": "Straßburg",
+    "lat": "48,58",
+    "long": "7,75",
+    "inhabitants": 272.116,
+    "leader": "",
+    "area": 78
+  },
+  {
+    "id": "SBK",
+    "name": "Schönebeck",
+    "lat": "52,0167",
+    "long": "11,75",
+    "inhabitants": 34.723,
+    "leader": "Bert Knoblauch",
+    "area": 86
+  },
+  {
+    "id": "SC",
+    "name": "Schwabach",
+    "lat": "49,3295",
+    "long": "11,0188",
+    "inhabitants": 39.112,
+    "leader": "Peter Reiß",
+    "area": 41
+  },
+  {
+    "id": "SCZ",
+    "name": "Schleiz",
+    "lat": "50,5833",
+    "long": "11,8167",
+    "inhabitants": 8.824,
+    "leader": "Marko Bias",
+    "area": 108
+  },
+  {
+    "id": "SD",
+    "name": "Stade",
+    "lat": "53,6008",
+    "long": "9,4764",
+    "inhabitants": 45.918,
+    "leader": "Sönke Hartlef",
+    "area": 110
+  },
+  {
+    "id": "SDH",
+    "name": "Sondershausen",
+    "lat": "51,3667",
+    "long": "10,8667",
+    "inhabitants": 23.747,
+    "leader": "Steffen Grimm",
+    "area": 114
+  },
+  {
+    "id": "SDL",
+    "name": "Stendal",
+    "lat": "52,6",
+    "long": "11,85",
+    "inhabitants": 39.439,
+    "leader": "Klaus Schmotz",
+    "area": 268
+  },
+  {
+    "id": "SDT",
+    "name": "Schwedt/Oder",
+    "lat": "53,0545",
+    "long": "14,2852",
+    "inhabitants": 35.162,
+    "leader": "Annekathrin Hoppe",
+    "area": 252
+  },
+  {
+    "id": "SE",
+    "name": "Kreis Segeberg",
+    "lat": "53,7064",
+    "long": "10,0103",
+    "inhabitants": 71.929,
+    "leader": "Elke Christina Roeder",
+    "area": 58
+  },
+  {
+    "id": "SEB",
+    "name": "Sebnitz",
+    "lat": "50,9667",
+    "long": "14,2833",
+    "inhabitants": 8.701,
+    "leader": "Mike Ruckh",
+    "area": 88
+  },
+  {
+    "id": "SEE",
+    "name": "Seelow",
+    "lat": "52,5339",
+    "long": "14,3811",
+    "inhabitants": 5.599,
+    "leader": "Jörg Schröder",
+    "area": 25
+  },
+  {
+    "id": "SEF",
+    "name": "Scheinfeld",
+    "lat": "49,6661",
+    "long": "10,4622",
+    "inhabitants": 4.68,
+    "leader": "Claus Seifert",
+    "area": 45
+  },
+  {
+    "id": "SEL",
+    "name": "Selb",
+    "lat": "50,1667",
+    "long": "12,1333",
+    "inhabitants": 16.298,
+    "leader": "Ulrich Pötzsch",
+    "area": 62
+  },
+  {
+    "id": "SF",
+    "name": "Landkreis Oberallgäu",
+    "lat": "47,5158",
+    "long": "10,2811",
+    "inhabitants": 20.99,
+    "leader": "Christian Wilhelm",
+    "area": 21
+  },
+  {
+    "id": "SFA",
+    "name": "Landkreis Heidekreis",
+    "lat": "52,8667",
+    "long": "9,5833",
+    "inhabitants": 24.069,
+    "leader": "Helma Spöring",
+    "area": 335
+  },
+  {
+    "id": "SFB",
+    "name": "Senftenberg",
+    "lat": "51,5193",
+    "long": "14,0076",
+    "inhabitants": 27.029,
+    "leader": "Andreas Fredrich",
+    "area": 128
+  },
+  {
+    "id": "SFT",
+    "name": "Staßfurt",
+    "lat": "51,853",
+    "long": "11,5883",
+    "inhabitants": 29.753,
+    "leader": "Sven Wagner",
+    "area": 147
+  },
+  {
+    "id": "SG",
+    "name": "Solingen",
+    "lat": "51,1667",
+    "long": "7,0833",
+    "inhabitants": 159.699,
+    "leader": "Tim Kurzbach",
+    "area": 89
+  },
+  {
+    "id": "SGH",
+    "name": "Sangerhausen",
+    "lat": "51,4667",
+    "long": "11,3",
+    "inhabitants": 30.648,
+    "leader": "Sven Strauß",
+    "area": 208
+  },
+  {
+    "id": "SH",
+    "name": "Schleswig-Holstein",
+    "lat": "54,3227",
+    "long": "10,1359",
+    "inhabitants": 242.041,
+    "leader": "Ulf Kämpfer",
+    "area": 119
+  },
+  {
+    "id": "SHA",
+    "name": "Landkreis Schwäbisch Hall",
+    "lat": "49,1344",
+    "long": "10,072",
+    "inhabitants": 32.96,
+    "leader": "Christoph Grimmer",
+    "area": 109
+  },
+  {
+    "id": "SHG",
+    "name": "Landkreis Schaumburg",
+    "lat": "52,1906",
+    "long": "9,0814",
+    "inhabitants": 27.223,
+    "leader": "Andrea Lange",
+    "area": 109
+  },
+  {
+    "id": "SHK",
+    "name": "Saale-Holzland-Kreis",
+    "lat": "50,9682",
+    "long": "11,9007",
+    "inhabitants": 11.072,
+    "leader": "Michael Kieslich",
+    "area": 25
+  },
+  {
+    "id": "SHL",
+    "name": "Suhl",
+    "lat": "50,6106",
+    "long": "10,6931",
+    "inhabitants": 38.219,
+    "leader": "André Knapp",
+    "area": 142
+  },
+  {
+    "id": "SI",
+    "name": "Siegen",
+    "lat": "50,8833",
+    "long": "8,0167",
+    "inhabitants": 103.37,
+    "leader": "Steffen Mues",
+    "area": 115
+  },
+  {
+    "id": "SIG",
+    "name": "Sigmaringen",
+    "lat": "48,0867",
+    "long": "9,2164",
+    "inhabitants": 16.451,
+    "leader": "Marcus Ehm",
+    "area": 93
+  },
+  {
+    "id": "SIM",
+    "name": "Rhein-Hunsrück-Kreis",
+    "lat": "50,2317",
+    "long": "7,5881",
+    "inhabitants": 15.921,
+    "leader": "Jörg Haseneier",
+    "area": 75
+  },
+  {
+    "id": "SK",
+    "name": "Saalkreis",
+    "lat": "51,4544645",
+    "long": "11,5197929",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "SL",
+    "name": "Kreis Schleswig-Flensburg",
+    "lat": "54,5181",
+    "long": "9,5703",
+    "inhabitants": 24.029,
+    "leader": "Arthur Christiansen",
+    "area": 24
+  },
+  {
+    "id": "SLE",
+    "name": "Schleiden",
+    "lat": "50,5295",
+    "long": "6,4766",
+    "inhabitants": 13.287,
+    "leader": "Ingo Pfennings",
+    "area": 122
+  },
+  {
+    "id": "SLF",
+    "name": "Landkreis Saalfeld-Rudolstadt",
+    "lat": "50,6505",
+    "long": "11,3543",
+    "inhabitants": 27.242,
+    "leader": "Steffen Kania",
+    "area": 146
+  },
+  {
+    "id": "SLG",
+    "name": "Bad Saulgau",
+    "lat": "48,0185",
+    "long": "9,498",
+    "inhabitants": 17.538,
+    "leader": "Doris Schröter",
+    "area": 97
+  },
+  {
+    "id": "SLN",
+    "name": "Schmölln",
+    "lat": "50,895",
+    "long": "12,3564",
+    "inhabitants": 12.224,
+    "leader": "Sven Schrade",
+    "area": 95
+  },
+  {
+    "id": "SLS",
+    "name": "Saarlouis",
+    "lat": "49,3167",
+    "long": "6,75",
+    "inhabitants": 37.77,
+    "leader": "Peter Demmer",
+    "area": 43
+  },
+  {
+    "id": "SLÜ",
+    "name": "Schlüchtern",
+    "lat": "50,35",
+    "long": "9,5167",
+    "inhabitants": 16.879,
+    "leader": "Matthias Möller",
+    "area": 113
+  },
+  {
+    "id": "SLZ",
+    "name": "Bad Salzungen",
+    "lat": "50,8117",
+    "long": "10,2333",
+    "inhabitants": 16.008,
+    "leader": "Klaus Bohl",
+    "area": 152
+  },
+  {
+    "id": "SM",
+    "name": "Landkreis Schmalkalden-Meiningen",
+    "lat": "50,5642",
+    "long": "10,4152",
+    "inhabitants": 20.844,
+    "leader": "Fabian Giesder",
+    "area": 106
+  },
+  {
+    "id": "SMÜ",
+    "name": "Schwabmünchen",
+    "lat": "48,1856",
+    "long": "10,755",
+    "inhabitants": 13.23,
+    "leader": "Lorenz Müller",
+    "area": 56
+  },
+  {
+    "id": "SN",
+    "name": "Schwerin",
+    "lat": "52,1497",
+    "long": "13,6331",
+    "inhabitants": 847,
+    "leader": "Heinz Gode",
+    "area": 7
+  },
+  {
+    "id": "SNH",
+    "name": "Sinsheim",
+    "lat": "49,2527",
+    "long": "8,8794",
+    "inhabitants": 35.482,
+    "leader": "Jörg Albrecht",
+    "area": 0
+  },
+  {
+    "id": "SO",
+    "name": "Kreis Soest",
+    "lat": "51,6667",
+    "long": "8,35",
+    "inhabitants": 66.952,
+    "leader": "Arne Moritz",
+    "area": 113
+  },
+  {
+    "id": "SOB",
+    "name": "Schrobenhausen",
+    "lat": "48,5333",
+    "long": "11,2667",
+    "inhabitants": 16.064,
+    "leader": "Harald Reisner",
+    "area": 75
+  },
+  {
+    "id": "SOG",
+    "name": "Schongau",
+    "lat": "47,8153",
+    "long": "10,8951",
+    "inhabitants": 12.193,
+    "leader": "Falk Sluyterman van Langeweyde",
+    "area": 21
+  },
+  {
+    "id": "SOK",
+    "name": "Saale-Orla-Kreis",
+    "lat": "50,7",
+    "long": "11,6",
+    "inhabitants": 13.08,
+    "leader": "Michael Modde",
+    "area": 24
+  },
+  {
+    "id": "SOL",
+    "name": "Soltau",
+    "lat": "52,9833",
+    "long": "9,8333",
+    "inhabitants": 21.831,
+    "leader": "Olaf Klang",
+    "area": 203
+  },
+  {
+    "id": "SÖM",
+    "name": "Sömmerda",
+    "lat": "51,17",
+    "long": "11,17",
+    "inhabitants": 72.345,
+    "leader": "Ralf Hauboldt",
+    "area": 88
+  },
+  {
+    "id": "SON",
+    "name": "Sonneberg",
+    "lat": "50,35",
+    "long": "11,1667",
+    "inhabitants": 22.807,
+    "leader": "Dr. Heiko Voigt",
+    "area": 85
+  },
+  {
+    "id": "SP",
+    "name": "Speyer",
+    "lat": "49,3194",
+    "long": "8,4311",
+    "inhabitants": 50.036,
+    "leader": "Stefanie Seiler",
+    "area": 43
+  },
+  {
+    "id": "SPB",
+    "name": "Spremberg",
+    "lat": "51,5717",
+    "long": "14,3794",
+    "inhabitants": 25.05,
+    "leader": "Christine Herntier",
+    "area": 202
+  },
+  {
+    "id": "SPN",
+    "name": "Landkreis Spree-Neiße",
+    "lat": "51,5717",
+    "long": "14,3794",
+    "inhabitants": 25.05,
+    "leader": "Christine Herntier",
+    "area": 202
+  },
+  {
+    "id": "SPR",
+    "name": "Springe",
+    "lat": "52,2167",
+    "long": "9,55",
+    "inhabitants": 29.421,
+    "leader": "Christian Springfeld",
+    "area": 160
+  },
+  {
+    "id": "SR",
+    "name": "Straubing",
+    "lat": "48,8801",
+    "long": "12,5703",
+    "inhabitants": 44.724,
+    "leader": "Markus Pannermayr",
+    "area": 68
+  },
+  {
+    "id": "SR",
+    "name": "Landkreis Straubing-Bogen",
+    "lat": "48,8801",
+    "long": "12,5703",
+    "inhabitants": 44.724,
+    "leader": "Markus Pannermayr",
+    "area": 68
+  },
+  {
+    "id": "SRB",
+    "name": "Strausberg",
+    "lat": "52,5805",
+    "long": "13,8816",
+    "inhabitants": 26.229,
+    "leader": "Elke Stadeler",
+    "area": 68
+  },
+  {
+    "id": "SRO",
+    "name": "Stadtroda",
+    "lat": "50,85",
+    "long": "11,7333",
+    "inhabitants": 6.277,
+    "leader": "Klaus Hempel",
+    "area": 24
+  },
+  {
+    "id": "ST",
+    "name": "Kreis Steinfurt",
+    "lat": "52,2766",
+    "long": "7,4384",
+    "inhabitants": 76.53,
+    "leader": "Peter Lüttmann",
+    "area": 145
+  },
+  {
+    "id": "STA",
+    "name": "Starnberg",
+    "lat": "48,0005",
+    "long": "11,3429",
+    "inhabitants": 23.223,
+    "leader": "Patrick Janik",
+    "area": 62
+  },
+  {
+    "id": "STB",
+    "name": "Sternberg",
+    "lat": "53,7",
+    "long": "11,8167",
+    "inhabitants": 4.446,
+    "leader": "Jochen Quandt",
+    "area": 68
+  },
+  {
+    "id": "STD",
+    "name": "Stade",
+    "lat": "53,6008",
+    "long": "9,4764",
+    "inhabitants": 45.918,
+    "leader": "Sönke Hartlef",
+    "area": 110
+  },
+  {
+    "id": "STE",
+    "name": "Bad Staffelstein",
+    "lat": "50,1021",
+    "long": "11,0014",
+    "inhabitants": 10.583,
+    "leader": "Mario Schönwald",
+    "area": 99
+  },
+  {
+    "id": "STH",
+    "name": "Stadthagen",
+    "lat": "52,3233",
+    "long": "9,2029",
+    "inhabitants": 22.638,
+    "leader": "Oliver Theiß",
+    "area": 60
+  },
+  {
+    "id": "STL",
+    "name": "Stollberg/Erzgebirge",
+    "lat": "50,7096",
+    "long": "12,7763",
+    "inhabitants": 12.062,
+    "leader": "Marcel Schmidt",
+    "area": 39
+  },
+  {
+    "id": "STO",
+    "name": "Stockach",
+    "lat": "47,854",
+    "long": "9,0147",
+    "inhabitants": 16.621,
+    "leader": "Rainer Stolz",
+    "area": 70
+  },
+  {
+    "id": "SU",
+    "name": "Rhein-Sieg-Kreis",
+    "lat": "50,8161",
+    "long": "7,1556",
+    "inhabitants": 75.369,
+    "leader": "Alexander Biber",
+    "area": 62
+  },
+  {
+    "id": "SUL",
+    "name": "Sulzbach-Rosenberg",
+    "lat": "49,5052",
+    "long": "11,7386",
+    "inhabitants": 19.976,
+    "leader": "Michael Göth",
+    "area": 53
+  },
+  {
+    "id": "SÜW",
+    "name": "Landkreis Südliche Weinstraße",
+    "lat": "49,1935",
+    "long": "8,1131",
+    "inhabitants": 43.957,
+    "leader": "Thomas Hirsch",
+    "area": 83
+  },
+  {
+    "id": "SW",
+    "name": "Landkreis Schweinfurt",
+    "lat": "49,9824",
+    "long": "10,0993",
+    "inhabitants": 10.528,
+    "leader": "Sebastian Hauck",
+    "area": 74
+  },
+  {
+    "id": "SWA",
+    "name": "Rheingau-Taunus-Kreis",
+    "lat": "50,1333",
+    "long": "8,15",
+    "inhabitants": 28.978,
+    "leader": "Sandro Zehner",
+    "area": 67
+  },
+  {
+    "id": "SY",
+    "name": "Syke",
+    "lat": "52,9131",
+    "long": "8,8269",
+    "inhabitants": 24.425,
+    "leader": "Suse Laue",
+    "area": 128
+  },
+  {
+    "id": "SZ",
+    "name": "Salzgitter",
+    "lat": "52,15",
+    "long": "10,3333",
+    "inhabitants": 101.75,
+    "leader": "Frank Klingebiel",
+    "area": 224
+  },
+  {
+    "id": "SZB",
+    "name": "Schwarzenberg/Erzgeb.",
+    "lat": "50,5336",
+    "long": "12,7844",
+    "inhabitants": 18.892,
+    "leader": "Ruben Gehart",
+    "area": 46
+  },
+  {
+    "id": "TBB",
+    "name": "Main-Tauber-Kreis",
+    "lat": "49,7589",
+    "long": "9,5175",
+    "inhabitants": 24.008,
+    "leader": "Markus Herrera Torrez",
+    "area": 139
+  },
+  {
+    "id": "TE",
+    "name": "Tecklenburg",
+    "lat": "52,2189337",
+    "long": "7,7367887",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "TET",
+    "name": "Teterow",
+    "lat": "53,7667",
+    "long": "12,5667",
+    "inhabitants": 9.1,
+    "leader": "Andreas Lange",
+    "area": 47
+  },
+  {
+    "id": "TF",
+    "name": "Landkreis Teltow-Fläming",
+    "lat": "52,3369",
+    "long": "13,4143",
+    "inhabitants": 25.501,
+    "leader": "Michael Schwuchow",
+    "area": 55
+  },
+  {
+    "id": "TG",
+    "name": "Torgau",
+    "lat": "51,5552",
+    "long": "12,9992",
+    "inhabitants": 20.015,
+    "leader": "Romina Barth",
+    "area": 103
+  },
+  {
+    "id": "THL",
+    "name": "Thüringen",
+    "lat": "47,2",
+    "long": "9,7667",
+    "inhabitants": 2.183,
+    "leader": "Harald Witwer",
+    "area": 6
+  },
+  {
+    "id": "TIR",
+    "name": "Tirschenreuth",
+    "lat": "49,8781",
+    "long": "12,337",
+    "inhabitants": 9.188,
+    "leader": "Franz Stahl",
+    "area": 67
+  },
+  {
+    "id": "TO",
+    "name": "Torgau",
+    "lat": "51,5552",
+    "long": "12,9992",
+    "inhabitants": 20.015,
+    "leader": "Romina Barth",
+    "area": 103
+  },
+  {
+    "id": "TÖL",
+    "name": "Landkreis Bad Tölz-Wolfratshausen",
+    "lat": "47,8591",
+    "long": "11,4813",
+    "inhabitants": 23.338,
+    "leader": "Michael Müller",
+    "area": 25
+  },
+  {
+    "id": "TÖN",
+    "name": "Amt Eiderstedt",
+    "lat": "54,333",
+    "long": "8,783",
+    "inhabitants": 11.396,
+    "leader": "",
+    "area": 249
+  },
+  {
+    "id": "TP",
+    "name": "Templin",
+    "lat": "53,1167",
+    "long": "13,5",
+    "inhabitants": 16.645,
+    "leader": "Detlef Tabbert",
+    "area": 377
+  },
+  {
+    "id": "TR",
+    "name": "Landkreis Trier-Saarburg",
+    "lat": "49,7535",
+    "long": "6,647",
+    "inhabitants": 105.675,
+    "leader": "Wolfram Leibe",
+    "area": 117
+  },
+  {
+    "id": "TR",
+    "name": "Trier",
+    "lat": "49,7535",
+    "long": "6,647",
+    "inhabitants": 105.675,
+    "leader": "Wolfram Leibe",
+    "area": 117
+  },
+  {
+    "id": "TS",
+    "name": "Traunstein",
+    "lat": "47,8667",
+    "long": "12,6333",
+    "inhabitants": 18.68,
+    "leader": "Christian Hümmer",
+    "area": 49
+  },
+  {
+    "id": "TT",
+    "name": "Tettnang",
+    "lat": "47,6708",
+    "long": "9,5875",
+    "inhabitants": 18.54,
+    "leader": "Bruno Walter",
+    "area": 71
+  },
+  {
+    "id": "TÜ",
+    "name": "Tübingen",
+    "lat": "48,5229",
+    "long": "9,0521",
+    "inhabitants": 89.011,
+    "leader": "Boris Palmer",
+    "area": 108
+  },
+  {
+    "id": "TUT",
+    "name": "Landkreis Tuttlingen",
+    "lat": "47,9831",
+    "long": "8,8193",
+    "inhabitants": 34.696,
+    "leader": "Michael Beck",
+    "area": 90
+  },
+  {
+    "id": "ÜB",
+    "name": "Überlingen",
+    "lat": "47,8023556",
+    "long": "9,1256784",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "UE",
+    "name": "Uelzen",
+    "lat": "52,9647",
+    "long": "10,5658",
+    "inhabitants": 34.395,
+    "leader": "Jürgen Markwardt",
+    "area": 136
+  },
+  {
+    "id": "UEM",
+    "name": "Ueckermünde",
+    "lat": "53,7386",
+    "long": "14,0429",
+    "inhabitants": 10.21,
+    "leader": "Jürgen Kliewe",
+    "area": 85
+  },
+  {
+    "id": "UER",
+    "name": "Uecker-Randow (Pasewalk)",
+    "lat": "53,5121185",
+    "long": "13,9721852",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "UFF",
+    "name": "Uffenheim",
+    "lat": "49,5167",
+    "long": "10,25",
+    "inhabitants": 6.183,
+    "leader": "Wolfgang Lampe",
+    "area": 59
+  },
+  {
+    "id": "UH",
+    "name": "Unstrut-Hainich-Kreis",
+    "lat": "51,2072",
+    "long": "10,4545",
+    "inhabitants": 36.21,
+    "leader": "Dr. Johannes Bruns",
+    "area": 131
+  },
+  {
+    "id": "UL",
+    "name": "Alb-Donau-Kreis",
+    "lat": "48,2833",
+    "long": "9,7236",
+    "inhabitants": 24.559,
+    "leader": "Alexander Baumann",
+    "area": 178
+  },
+  {
+    "id": "UL",
+    "name": "Ulm",
+    "lat": "48,4",
+    "long": "9,9833",
+    "inhabitants": 1.5,
+    "leader": "Gunter Czisch (Oberbürgermeister)",
+    "area": 119
+  },
+  {
+    "id": "UM",
+    "name": "Landkreis Uckermark",
+    "lat": "53,0545",
+    "long": "14,2852",
+    "inhabitants": 35.162,
+    "leader": "Annekathrin Hoppe",
+    "area": 252
+  },
+  {
+    "id": "UN",
+    "name": "Unna",
+    "lat": "51,5347",
+    "long": "7,6889",
+    "inhabitants": 66.644,
+    "leader": "Dirk Wigant",
+    "area": 89
+  },
+  {
+    "id": "USI",
+    "name": "Usingen",
+    "lat": "50,3354",
+    "long": "8,5345",
+    "inhabitants": 13.253,
+    "leader": "Steffen Wernard",
+    "area": 56
+  },
+  {
+    "id": "V",
+    "name": "Vogtlandkreis",
+    "lat": "50,4952",
+    "long": "12,1384",
+    "inhabitants": 66.287,
+    "leader": "Steffen Zenner",
+    "area": 102
+  },
+  {
+    "id": "VAI",
+    "name": "Vaihingen an der Enz",
+    "lat": "48,9306",
+    "long": "8,9595",
+    "inhabitants": 28.901,
+    "leader": "Gerd Maisch",
+    "area": 73
+  },
+  {
+    "id": "VB",
+    "name": "Vogelsbergkreis",
+    "lat": "50,7528",
+    "long": "9,2706",
+    "inhabitants": 16.901,
+    "leader": "Stephan Paule",
+    "area": 130
+  },
+  {
+    "id": "VEC",
+    "name": "Vechta",
+    "lat": "52,7306",
+    "long": "8,2886",
+    "inhabitants": 30.998,
+    "leader": "Kristian Kater",
+    "area": 88
+  },
+  {
+    "id": "VER",
+    "name": "Landkreis Verden",
+    "lat": "53,0128",
+    "long": "9,0255",
+    "inhabitants": 30.162,
+    "leader": "Rainer Ditzfeld",
+    "area": 68
+  },
+  {
+    "id": "VIB",
+    "name": "Vilsbiburg",
+    "lat": "48,45",
+    "long": "12,3534",
+    "inhabitants": 11.527,
+    "leader": "Sibylle Entwistle",
+    "area": 69
+  },
+  {
+    "id": "VIE",
+    "name": "Viersen",
+    "lat": "51,2561",
+    "long": "6,3972",
+    "inhabitants": 75.36,
+    "leader": "Sabine Anemüller",
+    "area": 91
+  },
+  {
+    "id": "VIT",
+    "name": "Viechtach",
+    "lat": "49,0799",
+    "long": "12,8864",
+    "inhabitants": 8.354,
+    "leader": "Franz Wittmann",
+    "area": 62
+  },
+  {
+    "id": "VK",
+    "name": "Völklingen",
+    "lat": "49,2501",
+    "long": "6,8603",
+    "inhabitants": 40.086,
+    "leader": "Christiane Blatt",
+    "area": 67
+  },
+  {
+    "id": "VL",
+    "name": "Villingen-Schwenningen",
+    "lat": "48,0554",
+    "long": "8,4601",
+    "inhabitants": 81.246,
+    "leader": "Jürgen Roth",
+    "area": 165
+  },
+  {
+    "id": "VOF",
+    "name": "Vilshofen an der Donau",
+    "lat": "48,634",
+    "long": "13,1845",
+    "inhabitants": 16.328,
+    "leader": "Florian Gams",
+    "area": 86
+  },
+  {
+    "id": "VOH",
+    "name": "Vohenstrauß",
+    "lat": "49,623",
+    "long": "12,3415",
+    "inhabitants": 7.722,
+    "leader": "Andreas Wutzlhofer",
+    "area": 74
+  },
+  {
+    "id": "VS",
+    "name": "Schwarzwald-Baar-Kreis",
+    "lat": "48,0554",
+    "long": "8,4601",
+    "inhabitants": 81.246,
+    "leader": "Jürgen Roth",
+    "area": 165
+  },
+  {
+    "id": "W",
+    "name": "Wuppertal",
+    "lat": "51,2667",
+    "long": "7,1833",
+    "inhabitants": 349.47,
+    "leader": "Uwe Schneidewind",
+    "area": 168
+  },
+  {
+    "id": "WA",
+    "name": "Landkreis Waldeck-Frankenberg",
+    "lat": "51,2767",
+    "long": "8,8737",
+    "inhabitants": 24.071,
+    "leader": "Klaus Friedrich",
+    "area": 124
+  },
+  {
+    "id": "WAF",
+    "name": "Warendorf",
+    "lat": "51,9518",
+    "long": "7,9903",
+    "inhabitants": 38.134,
+    "leader": "Peter Horstmann",
+    "area": 177
+  },
+  {
+    "id": "WAK",
+    "name": "Wartburgkreis",
+    "lat": "50,9761",
+    "long": "10,3206",
+    "inhabitants": 42.661,
+    "leader": "Katja Wolf",
+    "area": ""
+  },
+  {
+    "id": "WAN",
+    "name": "Herne",
+    "lat": "51,55",
+    "long": "7,2167",
+    "inhabitants": 164.244,
+    "leader": "Frank Dudda",
+    "area": 51
+  },
+  {
+    "id": "WAR",
+    "name": "Sde Warburg",
+    "lat": "32,2094",
+    "long": "34,9045",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "WAT",
+    "name": "Wattenscheid",
+    "lat": "51,4826",
+    "long": "7,1339",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 24
+  },
+  {
+    "id": "WB",
+    "name": "Wittenberg",
+    "lat": "44,8272",
+    "long": "-89,1694",
+    "inhabitants": 984,
+    "leader": "",
+    "area": 5
+  },
+  {
+    "id": "WBS",
+    "name": "Leinefelde-Worbis",
+    "lat": "50,9332",
+    "long": "11,2948",
+    "inhabitants": 19.951,
+    "leader": "Marko Grosa",
+    "area": 110
+  },
+  {
+    "id": "WD",
+    "name": "Rheda-Wiedenbrück",
+    "lat": "51,855",
+    "long": "8,2945",
+    "inhabitants": 47.316,
+    "leader": "Theo Mettenborg",
+    "area": 87
+  },
+  {
+    "id": "WDA",
+    "name": "Werdau",
+    "lat": "50,7333",
+    "long": "12,3833",
+    "inhabitants": 23.146,
+    "leader": "Sören Kristensen",
+    "area": 66
+  },
+  {
+    "id": "WE",
+    "name": "Weimar",
+    "lat": "50,9791",
+    "long": "11,3245",
+    "inhabitants": 65.542,
+    "leader": "Peter Kleine",
+    "area": 84
+  },
+  {
+    "id": "WEB",
+    "name": "Westerburg",
+    "lat": "50,564",
+    "long": "7,9715",
+    "inhabitants": 5.623,
+    "leader": "Janick Pape",
+    "area": 18
+  },
+  {
+    "id": "WEG",
+    "name": "Wegscheid",
+    "lat": "48,6012",
+    "long": "13,7873",
+    "inhabitants": 5.652,
+    "leader": "Lothar Venus",
+    "area": 81
+  },
+  {
+    "id": "WEL",
+    "name": "Weilburg",
+    "lat": "50,4833",
+    "long": "8,25",
+    "inhabitants": 13.274,
+    "leader": "Johannes Hanisch",
+    "area": 57
+  },
+  {
+    "id": "WEM",
+    "name": "Bremerhaven",
+    "lat": "53,55",
+    "long": "8,5833",
+    "inhabitants": 112.895,
+    "leader": "Melf Grantz",
+    "area": 94
+  },
+  {
+    "id": "WEN",
+    "name": "Weiden in der Oberpfalz",
+    "lat": "49,675",
+    "long": "12,1605",
+    "inhabitants": 41.954,
+    "leader": "Jens Meyer",
+    "area": 69
+  },
+  {
+    "id": "WER",
+    "name": "Wertingen",
+    "lat": "48,5333",
+    "long": "10,6667",
+    "inhabitants": 8.909,
+    "leader": "Willy Lehmeier",
+    "area": 52
+  },
+  {
+    "id": "WES",
+    "name": "Wesel",
+    "lat": "51,6565",
+    "long": "6,6112",
+    "inhabitants": 60.75,
+    "leader": "Ulrike Westkamp",
+    "area": 123
+  },
+  {
+    "id": "WF",
+    "name": "Wolfenbüttel",
+    "lat": "52,1622",
+    "long": "10,5369",
+    "inhabitants": 53.797,
+    "leader": "Ivica Lukanic",
+    "area": 78
+  },
+  {
+    "id": "WG",
+    "name": "Wangen",
+    "lat": "47,6833",
+    "long": "9,8333",
+    "inhabitants": 3.191,
+    "leader": "Troy Dutta",
+    "area": 10
+  },
+  {
+    "id": "WHV",
+    "name": "Wilhelmshaven",
+    "lat": "53,5167",
+    "long": "8,1333",
+    "inhabitants": 81.02,
+    "leader": "Carsten Feist",
+    "area": 107
+  },
+  {
+    "id": "WI",
+    "name": "Wiesbaden",
+    "lat": "50,08",
+    "long": "8,24",
+    "inhabitants": 278.919,
+    "leader": "Gert-Uwe Mende",
+    "area": 204
+  },
+  {
+    "id": "WIL",
+    "name": "Landkreis Bernkastel-Wittlich",
+    "lat": "49,9844",
+    "long": "6,8913",
+    "inhabitants": 17.763,
+    "leader": "Joachim Rodenkirch",
+    "area": 50
+  },
+  {
+    "id": "WIS",
+    "name": "Wismar",
+    "lat": "53,8944",
+    "long": "11,4615",
+    "inhabitants": 44.397,
+    "leader": "Thomas Beyer",
+    "area": 41
+  },
+  {
+    "id": "WIT",
+    "name": "Witten",
+    "lat": "51,4375",
+    "long": "7,3373",
+    "inhabitants": 98.352,
+    "leader": "Lars König",
+    "area": 72
+  },
+  {
+    "id": "WIZ",
+    "name": "Witzenhausen",
+    "lat": "51,3394",
+    "long": "9,8564",
+    "inhabitants": 15.476,
+    "leader": "Daniel Herz",
+    "area": 127
+  },
+  {
+    "id": "WK",
+    "name": "Wittstock/Dosse",
+    "lat": "53,1636",
+    "long": "12,4856",
+    "inhabitants": 15.65,
+    "leader": "Jörg Gehrmann",
+    "area": 417
+  },
+  {
+    "id": "WL",
+    "name": "Landkreis Harburg",
+    "lat": "53,3833",
+    "long": "9,9667",
+    "inhabitants": 41.56,
+    "leader": "Emily Weede",
+    "area": 105
+  },
+  {
+    "id": "WLG",
+    "name": "Wolgast",
+    "lat": "54,0528",
+    "long": "13,7743",
+    "inhabitants": 12.061,
+    "leader": "Stefan Weigler",
+    "area": 62
+  },
+  {
+    "id": "WM",
+    "name": "Landkreis Weilheim-Schongau",
+    "lat": "47,8333",
+    "long": "11,15",
+    "inhabitants": 21.574,
+    "leader": "Markus Loth",
+    "area": 55
+  },
+  {
+    "id": "WMS",
+    "name": "Wolmirstedt",
+    "lat": "52,2519",
+    "long": "11,6297",
+    "inhabitants": 12.334,
+    "leader": "Marlies Cassuhn",
+    "area": 54
+  },
+  {
+    "id": "WN",
+    "name": "Rems-Murr-Kreis",
+    "lat": "48,8303",
+    "long": "9,3169",
+    "inhabitants": 52.845,
+    "leader": "Sebastian Wolf",
+    "area": 43
+  },
+  {
+    "id": "WND",
+    "name": "St. Wendel",
+    "lat": "49,4684",
+    "long": "7,1699",
+    "inhabitants": 26.582,
+    "leader": "Peter Klär",
+    "area": 114
+  },
+  {
+    "id": "WO",
+    "name": "Worms",
+    "lat": "49,6306",
+    "long": "8,3579",
+    "inhabitants": 81.967,
+    "leader": "Adolf Kessel",
+    "area": 109
+  },
+  {
+    "id": "WOB",
+    "name": "Wolfsburg",
+    "lat": "52,4231",
+    "long": "10,7872",
+    "inhabitants": 122.583,
+    "leader": "Dennis Weilmann",
+    "area": 204
+  },
+  {
+    "id": "WOH",
+    "name": "Wolfhagen",
+    "lat": "51,3261",
+    "long": "9,1733",
+    "inhabitants": 12.889,
+    "leader": "Reinhard Schaake",
+    "area": 112
+  },
+  {
+    "id": "WOL",
+    "name": "Wolfach",
+    "lat": "48,3013",
+    "long": "8,2212",
+    "inhabitants": 5.843,
+    "leader": "Thomas Geppert",
+    "area": 68
+  },
+  {
+    "id": "WOR",
+    "name": "Wolfratshausen",
+    "lat": "47,9133",
+    "long": "11,4278",
+    "inhabitants": 18.836,
+    "leader": "Klaus Heilinglechner",
+    "area": 9
+  },
+  {
+    "id": "WOS",
+    "name": "Wolfstein",
+    "lat": "49,5843",
+    "long": "7,6058",
+    "inhabitants": 1.919,
+    "leader": "Herwart Dilly",
+    "area": 14
+  },
+  {
+    "id": "WR",
+    "name": "Wernigerode",
+    "lat": "51,8382",
+    "long": "10,7904",
+    "inhabitants": 35.041,
+    "leader": "Peter Gaffert",
+    "area": 170
+  },
+  {
+    "id": "WRN",
+    "name": "Waren (Müritz)",
+    "lat": "53,5182",
+    "long": "12,6866",
+    "inhabitants": 21.223,
+    "leader": "Norbert Möller",
+    "area": 158
+  },
+  {
+    "id": "WS",
+    "name": "Wasserburg am Inn",
+    "lat": "48,0617",
+    "long": "12,2333",
+    "inhabitants": 12.266,
+    "leader": "Michael Kölbl",
+    "area": 19
+  },
+  {
+    "id": "WSF",
+    "name": "Weißenfels",
+    "lat": "51,1998",
+    "long": "11,9668",
+    "inhabitants": 33.436,
+    "leader": "Robby Risch",
+    "area": 114
+  },
+  {
+    "id": "WST",
+    "name": "Landkreis Ammerland",
+    "lat": "53,25",
+    "long": "7,9167",
+    "inhabitants": 21.964,
+    "leader": "Michael Rösner",
+    "area": 179
+  },
+  {
+    "id": "WSW",
+    "name": "Weißwasser/Oberlausitz",
+    "lat": "51,5",
+    "long": "14,6333",
+    "inhabitants": 19.927,
+    "leader": "Torsten Pötzsch",
+    "area": 64
+  },
+  {
+    "id": "WT",
+    "name": "Landkreis Waldshut",
+    "lat": "47,6231",
+    "long": "8,2144",
+    "inhabitants": 22.729,
+    "leader": "Philipp Frank",
+    "area": 78
+  },
+  {
+    "id": "WTL",
+    "name": "Wittlage (Bad Essen)",
+    "lat": "52,3187755",
+    "long": "8,3645891",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "WTM",
+    "name": "Wittmund",
+    "lat": "53,575",
+    "long": "7,7808",
+    "inhabitants": 21.031,
+    "leader": "Rolf Claußen",
+    "area": 210
+  },
+  {
+    "id": "WÜ",
+    "name": "Würzburg",
+    "lat": "49,7943",
+    "long": "9,9275",
+    "inhabitants": 133.808,
+    "leader": "Christian Schuchardt",
+    "area": 0
+  },
+  {
+    "id": "WÜ",
+    "name": "Landkreis Würzburg",
+    "lat": "49,7943",
+    "long": "9,9275",
+    "inhabitants": 133.808,
+    "leader": "Christian Schuchardt",
+    "area": ""
+  },
+  {
+    "id": "WUG",
+    "name": "Landkreis Weißenburg-Gunzenhausen",
+    "lat": "49,1147",
+    "long": "10,7542",
+    "inhabitants": 16.202,
+    "leader": "Karl-Heinz Fitz",
+    "area": 83
+  },
+  {
+    "id": "WÜM",
+    "name": "Waldmünchen",
+    "lat": "49,3783",
+    "long": "12,707",
+    "inhabitants": 7.088,
+    "leader": "Markus Ackermann",
+    "area": 101
+  },
+  {
+    "id": "WUN",
+    "name": "Wunsiedel",
+    "lat": "50,0387",
+    "long": "12,005",
+    "inhabitants": 9.688,
+    "leader": "Nicolas Lahovnik",
+    "area": 55
+  },
+  {
+    "id": "WUR",
+    "name": "Wurzen",
+    "lat": "51,367",
+    "long": "12,7374",
+    "inhabitants": 16.992,
+    "leader": "Jörg Röglin",
+    "area": 69
+  },
+  {
+    "id": "WW",
+    "name": "Westerwaldkreis",
+    "lat": "50,4362",
+    "long": "7,8331",
+    "inhabitants": 12.486,
+    "leader": "Gabriele Wieland",
+    "area": 34
+  },
+  {
+    "id": "WZ",
+    "name": "Wetzlar",
+    "lat": "50,570627",
+    "long": "84,609786",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "WZL",
+    "name": "Stadt Wanzleben",
+    "lat": "52,0634",
+    "long": "11,4425",
+    "inhabitants": 5.294,
+    "leader": "",
+    "area": 45
+  },
+  {
+    "id": "X",
+    "name": "Bundeswehr für Fahrzeuge der NATO-Hauptquartiere",
+    "lat": "52,50697",
+    "long": "13,2843078",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "Y",
+    "name": "Bundeswehr",
+    "lat": "52,50697",
+    "long": "13,2843078",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "Z",
+    "name": "Zwickauer Land (Werdau)",
+    "lat": "50,7297751",
+    "long": "12,3124603",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "Z",
+    "name": "Zoll",
+    "lat": "52,50697",
+    "long": "13,2843078",
+    "inhabitants": 0,
+    "leader": "",
+    "area": 0
+  },
+  {
+    "id": "ZE",
+    "name": "Zerbst/Anhalt",
+    "lat": "51,9681",
+    "long": "12,0844",
+    "inhabitants": 23.982,
+    "leader": "Andreas Dittmann",
+    "area": 468
+  },
+  {
+    "id": "ZEL",
+    "name": "Zell (Mosel)",
+    "lat": "50,0276",
+    "long": "7,1815",
+    "inhabitants": 4.226,
+    "leader": "Hans-Peter Döpgen",
+    "area": 45
+  },
+  {
+    "id": "ZI",
+    "name": "Zittau",
+    "lat": "50,8989",
+    "long": "14,8093",
+    "inhabitants": 28.906,
+    "leader": "Thomas Zenker",
+    "area": 67
+  },
+  {
+    "id": "ZIG",
+    "name": "Ziegenhain",
+    "lat": "50,6779",
+    "long": "7,5278",
+    "inhabitants": 133,
+    "leader": "Elmar Chylka",
+    "area": 1
+  },
+  {
+    "id": "ZP",
+    "name": "Zschopau",
+    "lat": "50,7471",
+    "long": "13,0702",
+    "inhabitants": 10.678,
+    "leader": "Arne Sigmund",
+    "area": 23
+  },
+  {
+    "id": "ZR",
+    "name": "Zeulenroda-Triebes",
+    "lat": "50,6465",
+    "long": "11,9812",
+    "inhabitants": 16.606,
+    "leader": "Nils Hammerschmidt",
+    "area": 135
+  },
+  {
+    "id": "ZS",
+    "name": "Zossen",
+    "lat": "52,2167",
+    "long": "13,4497",
+    "inhabitants": 17.477,
+    "leader": "Wiebke Schwarzweller",
+    "area": 180
+  },
+  {
+    "id": "ZW",
+    "name": "Zweibrücken",
+    "lat": "49,2505",
+    "long": "7,3611",
+    "inhabitants": 33.807,
+    "leader": "Marold Wosnitza",
+    "area": 71
+  }
+]
