@@ -2,15 +2,26 @@ import SwiftUI
 import shared
 
 struct ContentView: View {
-	let greet = Greeting().greet()
+    @ObservedObject private(set) var viewModel: ViewModel
 
-	var body: some View {
-		Text(greet)
-	}
+    var body: some View {
+        Text(viewModel.text)
+    }
 }
 
-struct ContentView_Previews: PreviewProvider {
-	static var previews: some View {
-		ContentView()
-	}
+extension ContentView {
+    class ViewModel: ObservableObject {
+        @Published var text = "Loading..."
+        init() {
+            LicensePlateRepository().demo { text, error in
+                DispatchQueue.main.async {
+                    if let text {
+                        self.text = text
+                    } else {
+                        self.text = error?.localizedDescription ?? "error"
+                    }
+                }
+            }
+        }
+    }
 }
