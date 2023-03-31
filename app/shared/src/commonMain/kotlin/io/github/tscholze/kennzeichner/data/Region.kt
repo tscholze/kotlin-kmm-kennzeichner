@@ -8,7 +8,7 @@ data class Region (
     val name: String,
     val lat: String,
     val long: String,
-   // val inhabitants: Double,
+    val inhabitants: String,
     val leader: String,
-//    val area: Long
+    val area: String
 )

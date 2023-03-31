@@ -4,6 +4,7 @@ plugins {
     id("com.android.library").version("8.0.0-rc01").apply(false)
     kotlin("android").version("1.8.0").apply(false)
     kotlin("multiplatform").version("1.8.0").apply(false)
+    id("com.google.android.libraries.mapsplatform.secrets-gradle-plugin").version("2.0.1").apply(false)
 }
 
 tasks.register("clean", Delete::class) {
