@@ -1,4 +1,4 @@
-package io.github.tscholze.kennzeichner.android.composables
+package io.github.tscholze.kennzeichner.android.composables.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
