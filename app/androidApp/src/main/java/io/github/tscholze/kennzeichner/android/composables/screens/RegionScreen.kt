@@ -15,13 +15,16 @@ import io.github.tscholze.kennzeichner.data.Region
 fun RegionScreen(regionId: String) {
     PageLayout("Kennzeichen") {
 
+        // MARK: - Properties -
+
         var region by remember { mutableStateOf<Region?>(null) }
 
+        // MARK: - LaunchEffect -
         LaunchedEffect(key1 = true) {
-            LicensePlateRepository().fetchRegions()
             region = LicensePlateRepository().regionForId(regionId)
         }
 
+        // MARK: - UI -
         Text(text = region?.name ?: "Nicht geladen")
     }
 }

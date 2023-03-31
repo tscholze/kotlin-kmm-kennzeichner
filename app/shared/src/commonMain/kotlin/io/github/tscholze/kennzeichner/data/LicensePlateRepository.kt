@@ -37,7 +37,14 @@ class LicensePlateRepository {
      * @param id ID to look up.
      * @return Found region.
      */
-    fun regionForId(id: String): Region {
-        return cachedRegions.first { it.id == id }
+    suspend fun regionForId(id: String): Region {
+        val region = cachedRegions.find { it.id == id }
+
+        return if (region == null) {
+            fetchRegions()
+            regionForId(id)
+        } else {
+            region
+        }
     }
 }
