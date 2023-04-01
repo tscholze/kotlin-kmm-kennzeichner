@@ -3,43 +3,30 @@ package io.github.tscholze.kennzeichner.android
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
-import androidx.compose.material.Text
-import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberCoroutineScope
-import androidx.compose.runtime.setValue
-import androidx.compose.ui.Modifier
-import io.github.tscholze.kennzeichner.data.LicensePlateRepository
-import kotlinx.coroutines.launch
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
+import io.github.tscholze.kennzeichner.android.composables.screens.RegionScreen
+import io.github.tscholze.kennzeichner.android.composables.screens.RegionsScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            MyApplicationTheme {
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colors.background
-                ) {
-                    val scope = rememberCoroutineScope()
-                    var text by remember { mutableStateOf("") }
-
-                    LaunchedEffect(true) {
-                        scope.launch {
-                            text = try {
-                               LicensePlateRepository().demo()
-                            } catch (e: Exception) {
-                                e.localizedMessage ?: "error"
-                            }
-                        }
+            val navController = rememberNavController()
+            NavHost(navController = navController, startDestination = "regions") {
+                composable("regions") {
+                    RegionsScreen(
+                        navigateToRegion = { id -> navController.navigate("regions/${id}")}
+                    )
+                }
+                composable("regions/{id}") { backStackEntry ->
+                    val id = backStackEntry.arguments?.getString("id")
+                    if(id != null) {
+                        RegionScreen(regionId = id)
+                    } else {
+                        TODO()
                     }
-
-                    Text(text = text)
                 }
             }
         }

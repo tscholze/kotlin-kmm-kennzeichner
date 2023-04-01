@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="regions_title">Kennzeichen</string>
+    <string name="region_meta_leader_format">Bürgermeister*in: %1$s</string>
+    <string name="region_meta_inhabitants_format">Einwohner: %1$s</string>
+    <string name="region_meta_area_format">Fläche: %1$s qkm</string>
+</resources>

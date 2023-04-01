@@ -1,6 +1,7 @@
 plugins {
-    kotlin("multiplatform")
     id("com.android.library")
+    kotlin("multiplatform")
+    kotlin("plugin.serialization") version "1.7.10"
 }
 
 kotlin {
@@ -27,9 +28,17 @@ kotlin {
 
         val commonMain by getting {
             dependencies {
-                implementation("io.ktor:ktor-client-core:$ktorVersion")
-                implementation("io.ktor:ktor-client-core:$ktorVersion")
-                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
+                // Kotlinx
+                with(Dependencies.Kotlinx) {
+                    implementation(coroutines)
+                }
+
+                // Ktor
+                with(Dependencies.Ktor) {
+                    implementation(core)
+                    implementation(contentNegotiation)
+                    implementation(json)
+                }
             }
         }
 
@@ -40,7 +49,10 @@ kotlin {
         }
         val androidMain by getting {
             dependencies {
-                implementation("io.ktor:ktor-client-okhttp:$ktorVersion")
+                // Ktor
+                with(Dependencies.Ktor) {
+                    implementation(cio)
+                }
             }
 
         }
@@ -55,7 +67,10 @@ kotlin {
             iosSimulatorArm64Main.dependsOn(this)
 
             dependencies {
-                implementation("io.ktor:ktor-client-darwin:$ktorVersion")
+                // Ktor
+                with(Dependencies.Ktor) {
+                    implementation(darwin)
+                }
             }
         }
         val iosX64Test by getting
@@ -78,3 +93,43 @@ android {
         targetSdk = 33
     }
 }
+
+// MARK: - Dependencies -
+
+/**
+ * Contains all gradle dependencies.
+ *
+ * Usage:
+ * ```
+ *     with(Dependencies.Kotlinx) {
+ *         implement(coroutines)
+ *     }
+ * ```
+ */
+object Dependencies {
+    object Kotlinx {
+        const val coroutines =
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.Kotlinx.kotlinxVersion}"
+    }
+
+    object Ktor {
+        const val core = "io.ktor:ktor-client-core:${Versions.Ktor.ktorVersion}"
+        const val cio = "io.ktor:ktor-client-cio:${Versions.Ktor.ktorVersion}"
+        const val contentNegotiation =
+            "io.ktor:ktor-client-content-negotiation:${Versions.Ktor.ktorVersion}"
+        const val json = "io.ktor:ktor-serialization-kotlinx-json:${Versions.Ktor.ktorVersion}"
+        const val darwin = "io.ktor:ktor-client-darwin:${Versions.Ktor.ktorVersion}"
+    }
+
+    // MARK: - Versions -
+    private object Versions {
+        object Ktor {
+            const val ktorVersion = "2.1.3"
+        }
+
+        object Kotlinx {
+            const val kotlinxVersion = "1.6.4"
+        }
+    }
+}
+
