@@ -62,7 +62,7 @@ internal fun KennScaffold(
                         horizontalArrangement = Arrangement.spacedBy(10.dp),
                         verticalAlignment = Alignment.CenterVertically
                     ) {
-                        Text("Visit me on GitHub")
+                        Text("Fork me")
                         Icon(
                             Icons.Rounded.Face,
                             contentDescription = "Go to GitHub"

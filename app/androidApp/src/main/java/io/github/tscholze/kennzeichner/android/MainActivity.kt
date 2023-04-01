@@ -3,11 +3,9 @@ package io.github.tscholze.kennzeichner.android
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import androidx.navigation.navArgument
 import io.github.tscholze.kennzeichner.android.composables.screens.RegionScreen
 import io.github.tscholze.kennzeichner.android.composables.screens.RegionsScreen
 
