@@ -31,6 +31,10 @@ First Android views (List, detail, map) alongside the required `shared` features
 
 Succesfull run of the Android Studio Kotlin Mobile Multiplatform. Tested by starting the Android and iOS application.
 
+**UI**
+
+![](docs/010-summary.png)
+
 ## Feature roadmap
 
 ### Setup
