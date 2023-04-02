@@ -17,13 +17,17 @@ import androidx.compose.material.Text
 import androidx.compose.material.TopAppBar
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Face
-import androidx.compose.material.icons.rounded.Home
+import androidx.compose.material.icons.rounded.List
+import androidx.compose.material.icons.rounded.Place
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalUriHandler
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
+import io.github.tscholze.kennzeichner.android.R
 
 // MARK: - Composable -
 
@@ -40,6 +44,7 @@ import androidx.compose.ui.unit.sp
 @Composable
 internal fun KennScaffold(
     title: String,
+    navController: NavController,
     content: @Composable () -> Unit
 ) {
     // MARK: - Helper -
@@ -62,10 +67,10 @@ internal fun KennScaffold(
                         horizontalArrangement = Arrangement.spacedBy(10.dp),
                         verticalAlignment = Alignment.CenterVertically
                     ) {
-                        Text("Fork me")
+                        Text(stringResource(R.string.button_fork_me_title))
                         Icon(
                             Icons.Rounded.Face,
-                            contentDescription = "Go to GitHub"
+                            contentDescription = stringResource(R.string.button_fork_me_title)
                         )
                     }
 
@@ -77,21 +82,43 @@ internal fun KennScaffold(
     @Composable
     fun KennBottomAppBar() {
         BottomAppBar {
+            // List
             BottomNavigationItem(
                 icon = {
                     Icon(
-                        Icons.Rounded.Home,
-                        contentDescription = "Liste"
+                        Icons.Rounded.List,
+                        contentDescription = stringResource(R.string.tabitem_list_title)
                     )
                 },
                 label = {
                     Text(
-                        text = "Liste",
+                        text = stringResource(R.string.tabitem_list_title),
                         fontSize = 10.sp
                     )
                 },
                 selected = false,
                 onClick = {
+                    navController.navigate("regions")
+                }
+            )
+
+            // Map
+            BottomNavigationItem(
+                icon = {
+                    Icon(
+                        Icons.Rounded.Place,
+                        contentDescription = stringResource(R.string.tabitem_map_title)
+                    )
+                },
+                label = {
+                    Text(
+                        text = stringResource(R.string.tabitem_map_title),
+                        fontSize = 10.sp
+                    )
+                },
+                selected = false,
+                onClick = {
+                    navController.navigate("map")
                 }
             )
         }

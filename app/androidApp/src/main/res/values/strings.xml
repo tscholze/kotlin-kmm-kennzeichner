@@ -4,4 +4,8 @@
     <string name="region_meta_leader_format">Bürgermeister*in: %1$s</string>
     <string name="region_meta_inhabitants_format">Einwohner: %1$s</string>
     <string name="region_meta_area_format">Fläche: %1$s qkm</string>
+    <string name="tabitem_list_title">Liste</string>
+    <string name="tabitem_map_title">Karte</string>
+    <string name="button_fork_me_title">Fork me</string>
+    <string name="maps_title">Karte</string>
 </resources>
