@@ -17,14 +17,10 @@ fun NavigationContainer() {
             RegionsScreen(navController)
         }
 
-        // Region detail
+        // Region's detail
         composable("regions/{id}") { backStackEntry ->
-            val id = backStackEntry.arguments?.getString("id")
-            if(id != null) {
-                RegionScreen(regionId = id, navController)
-            } else {
-                TODO()
-            }
+            val id = backStackEntry.arguments?.getString("id") ?: "A"
+            RegionScreen(regionId = id, navController)
         }
 
         // Map
