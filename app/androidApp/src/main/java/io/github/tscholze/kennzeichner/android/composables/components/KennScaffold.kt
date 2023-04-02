@@ -81,6 +81,9 @@ internal fun KennScaffold(
 
     @Composable
     fun KennBottomAppBar() {
+
+        val currentRoute = navController.currentBackStackEntry?.destination?.route ?: ""
+
         BottomAppBar {
             // List
             BottomNavigationItem(
@@ -96,7 +99,7 @@ internal fun KennScaffold(
                         fontSize = 10.sp
                     )
                 },
-                selected = false,
+                selected = currentRoute.contains("regions"),
                 onClick = {
                     navController.navigate("regions")
                 }
@@ -116,7 +119,7 @@ internal fun KennScaffold(
                         fontSize = 10.sp
                     )
                 },
-                selected = false,
+                selected = currentRoute == "map",
                 onClick = {
                     navController.navigate("map")
                 }
