@@ -109,26 +109,26 @@ android {
 object Dependencies {
     object Kotlinx {
         const val coroutines =
-            "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.Kotlinx.kotlinxVersion}"
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.Kotlinx.version}"
     }
 
     object Ktor {
-        const val core = "io.ktor:ktor-client-core:${Versions.Ktor.ktorVersion}"
-        const val cio = "io.ktor:ktor-client-cio:${Versions.Ktor.ktorVersion}"
+        const val core = "io.ktor:ktor-client-core:${Versions.Ktor.version}"
+        const val cio = "io.ktor:ktor-client-cio:${Versions.Ktor.version}"
         const val contentNegotiation =
-            "io.ktor:ktor-client-content-negotiation:${Versions.Ktor.ktorVersion}"
-        const val json = "io.ktor:ktor-serialization-kotlinx-json:${Versions.Ktor.ktorVersion}"
-        const val darwin = "io.ktor:ktor-client-darwin:${Versions.Ktor.ktorVersion}"
+            "io.ktor:ktor-client-content-negotiation:${Versions.Ktor.version}"
+        const val json = "io.ktor:ktor-serialization-kotlinx-json:${Versions.Ktor.version}"
+        const val darwin = "io.ktor:ktor-client-darwin:${Versions.Ktor.version}"
     }
 
     // MARK: - Versions -
     private object Versions {
         object Ktor {
-            const val ktorVersion = "2.1.3"
+            const val version = "2.1.3"
         }
 
         object Kotlinx {
-            const val kotlinxVersion = "1.6.4"
+            const val version = "1.6.4"
         }
     }
 }

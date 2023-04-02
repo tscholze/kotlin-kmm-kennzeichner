@@ -44,17 +44,61 @@ android {
 dependencies {
     implementation(project(":shared"))
 
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
+    with(Dependencies.KotlinX) {
+        implementation(coroutines)
+    }
 
-    implementation ("com.google.maps.android:maps-compose:2.11.2")
-    implementation("com.google.android.gms:play-services-maps:18.1.0")
-    implementation("com.google.maps.android:maps-compose-utils:2.11.2")
+    with(Dependencies.Maps) {
+        implementation(compose)
+        implementation(utils)
+        implementation(playServices)
+    }
 
-    implementation("androidx.navigation:navigation-compose:2.5.3")
-    implementation("androidx.compose.ui:ui:1.4.0")
-    implementation("androidx.compose.ui:ui-tooling:1.4.0")
-    implementation("androidx.compose.ui:ui-tooling-preview:1.4.0")
-    implementation("androidx.compose.foundation:foundation:1.4.0")
-    implementation("androidx.compose.material:material:1.4.0")
-    implementation("androidx.activity:activity-compose:1.7.0")
+    with(Dependencies.AndroidX) {
+        implementation(ui)
+        implementation(tooling)
+        implementation(toolingPreview)
+        implementation(foundation)
+        implementation(material)
+        implementation(navigation)
+        implementation(activity)
+    }
+}
+
+object Dependencies {
+    object KotlinX {
+        const val coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.Kotlinx.version}"
+    }
+
+    object Maps {
+        const val compose = "com.google.maps.android:maps-compose:${Versions.Maps.version}"
+        const val utils = "com.google.maps.android:maps-compose-utils:${Versions.Maps.version}"
+        const val playServices = "com.google.android.gms:play-services-maps:${Versions.Maps.playServices}"
+    }
+
+    object AndroidX {
+        const val ui = "androidx.compose.ui:ui:${Versions.Androidx.version}"
+        const val tooling = "androidx.compose.ui:ui-tooling:${Versions.Androidx.version}"
+        const val toolingPreview = "androidx.compose.ui:ui-tooling-preview:${Versions.Androidx.version}"
+        const val foundation = "androidx.compose.foundation:foundation:${Versions.Androidx.version}"
+        const val material = "androidx.compose.material:material:${Versions.Androidx.version}"
+        const val navigation = "androidx.navigation:navigation-compose:${Versions.Androidx.navigation}"
+        const val activity = "androidx.activity:activity-compose:${Versions.Androidx.activity}"
+    }
+
+    private object Versions {
+        object Androidx {
+            const val version = "1.4.0"
+            const val navigation = "2.5.3"
+            const val activity = "1.7.0"
+        }
+        object Kotlinx {
+            const val version = "1.6.4"
+        }
+
+        object Maps {
+            const val version = "2.11.2"
+            const val playServices = "18.1.0"
+        }
+    }
 }
