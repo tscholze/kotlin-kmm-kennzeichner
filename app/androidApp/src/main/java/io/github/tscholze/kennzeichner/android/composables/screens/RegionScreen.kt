@@ -21,6 +21,12 @@ import io.github.tscholze.kennzeichner.android.composables.layouts.PageLayout
 import io.github.tscholze.kennzeichner.data.LicensePlateRepository
 import io.github.tscholze.kennzeichner.data.Region
 
+/**
+ * Represents detail information about given region.
+ *
+ * @param regionId ID of the region that shall be rendered
+ * @param navController Navigation controller to be used
+ */
 @Composable
 fun RegionScreen(regionId: String, navController: NavController) {
     PageLayout(stringResource(R.string.regions_title), navController) {

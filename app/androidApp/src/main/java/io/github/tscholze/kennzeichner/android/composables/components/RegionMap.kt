@@ -8,6 +8,11 @@ import com.google.maps.android.compose.GoogleMap
 import com.google.maps.android.compose.rememberCameraPositionState
 import io.github.tscholze.kennzeichner.data.Region
 
+/**
+ * Renders a map with centered on given region.
+ *
+ * @param region: Region that shall be rendered.
+ */
 @Composable
 fun RegionMap(region: Region, modifier: Modifier) {
     val coordinates = LatLng(

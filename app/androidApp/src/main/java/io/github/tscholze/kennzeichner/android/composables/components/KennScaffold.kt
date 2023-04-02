@@ -34,11 +34,8 @@ import io.github.tscholze.kennzeichner.android.R
 /**
  * App-themed scaffold with a top and bottom bar.
  *
- * Caution:
- *  The title has to be the same as for the AppScreen.*
- *  value. This is used to mark the tab item as selected.
- *
  * @param title Title of the screen
+ * @param navController Navigation controller that shall be used.
  * @param content Content of the scaffold
  */
 @Composable

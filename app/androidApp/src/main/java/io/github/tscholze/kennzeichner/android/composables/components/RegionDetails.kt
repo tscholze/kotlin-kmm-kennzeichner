@@ -16,6 +16,11 @@ import androidx.compose.ui.unit.dp
 import io.github.tscholze.kennzeichner.android.R
 import io.github.tscholze.kennzeichner.data.Region
 
+/**
+ * Renders region's text-based details.
+ *
+ * @param region: Region that shall be rendered.
+ */
 @Composable
 fun RegionDetails(region: Region) {
     Row(

@@ -7,6 +7,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 
+/**
+ * Loading indicator element.
+ */
 @Composable
 fun LoadingIndicator() {
     Box(

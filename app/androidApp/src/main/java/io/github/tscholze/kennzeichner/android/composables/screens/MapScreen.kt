@@ -33,6 +33,11 @@ import io.github.tscholze.kennzeichner.data.LicensePlateRepository
 import io.github.tscholze.kennzeichner.data.Region
 import kotlinx.coroutines.launch
 
+/**
+ * Represents a map based view of all regions.
+ *
+ * @param navController Navigation controller to be used
+ */
 @Composable
 fun MapScreen(navController: NavController) {
     PageLayout(title = stringResource(R.string.maps_title), navController) {

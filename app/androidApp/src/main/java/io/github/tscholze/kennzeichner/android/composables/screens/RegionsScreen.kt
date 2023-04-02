@@ -30,6 +30,11 @@ import io.github.tscholze.kennzeichner.data.LicensePlateRepository
 import io.github.tscholze.kennzeichner.data.Region
 import kotlinx.coroutines.launch
 
+/**
+ * Represents a list based view of all regions.
+ *
+ * @param navController Navigation controller to be used
+ */
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
 fun RegionsScreen(navController: NavController) {
