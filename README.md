@@ -11,23 +11,52 @@ This is currently a playground to get to know with [Kotlin Mobile Multiplatform]
 |-------|------|
 |-|-|
 
+## Publications
+
+- Dr. Windows: [Entwicklertagebuch: Kennzeichner #1 mit Bing AI Chat als Datengrundlage](https://www.drwindows.de/news/entwicklertagebuch-kennzeichner-1-mit-bing-ai-chat-als-datengrundlage)
+
+## Versions
+
+### 0.2 (Android MVP)
+**Main features**
+
+First Android views (List, detail, map) alongside the required `shared` features were implemented and tested.
+
+**UI**
+
+![](docs/020-summary.png)
+
+### 0.1 (Project setup)
+**Main features**
+
+Succesfull run of the Android Studio Kotlin Mobile Multiplatform. Tested by starting the Android and iOS application.
 
 ## Feature roadmap
 
 ### Setup
-- [ ] Project setup
-- [ ] Find data source of license plate ids
+- [x] Project setup
+- [x] Find data source of license plate ids
 
 ### Core functionality
-- [ ] List license plates id
-- [ ] Show detail of a license plate id
+- [x] List license plates id
+- [x] Show detail of a license plate id
 
 ### UI
-- [ ] Create list view in Compose and SwiftUI
-- [ ] Add searchbar to filter list
+#### Android (Compose)
+- [x] Create list view
+- [x] Create detail view
+- [x] Create map view with markers
+- [ ] Add searchbar to filter lists
+- [ ] Add Surface Duo's two pane support
+
+#### iOS (SwiftUI)
+- [ ] Create list view
+- [ ] Create detail view
+- [ ] Create map view with markers
+- [ ] Add searchbar to filter lists
 
 ### Future feature ideas
-- [ ] Add Siri support
+- [ ] Add digital assistant support
 
 ### Instruments
 - [ ] Check how's the memory consumption
@@ -40,6 +69,7 @@ This app is purely build for having fun! All features have room for improvements
 Just me, [Tobi]([https://tscholze.github.io).
 
 ## Links
+- [Dr. Windows](https://drwindows.de) news portal and community.
 - [Kobweb Discord](https://discord.com/invite/5NZ2GKV5Cs) server where I met awesome Kotlin folks
 - [KMM product page](https://kotlinlang.org/lp/mobile/) at kotlinlang.org
 
