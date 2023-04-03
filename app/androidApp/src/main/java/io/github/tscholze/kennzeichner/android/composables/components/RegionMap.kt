@@ -6,6 +6,7 @@ import com.google.android.gms.maps.model.CameraPosition
 import com.google.android.gms.maps.model.LatLng
 import com.google.maps.android.compose.GoogleMap
 import com.google.maps.android.compose.rememberCameraPositionState
+import io.github.tscholze.kennzeichner.data.Coordinate
 import io.github.tscholze.kennzeichner.data.Region
 
 /**
@@ -15,14 +16,9 @@ import io.github.tscholze.kennzeichner.data.Region
  */
 @Composable
 fun RegionMap(region: Region, modifier: Modifier) {
-    val coordinates = LatLng(
-        region.lat.replace(",", ".").toDouble(),
-        region.long.replace(",", ".").toDouble()
-    )
-
     val cameraPositionState = rememberCameraPositionState {
         position = CameraPosition.fromLatLngZoom(
-            coordinates,
+            LatLng(region.coordinate.latitude, region.coordinate.longitude),
             10f
         )
     }

@@ -21,6 +21,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
+import com.google.android.gms.maps.model.LatLng
 import io.github.tscholze.kennzeichner.android.R
 import io.github.tscholze.kennzeichner.android.composables.components.LoadingIndicator
 import io.github.tscholze.kennzeichner.android.composables.components.RegionDetails
@@ -63,7 +64,7 @@ fun RegionsScreen(navController: NavController) {
                 modifier = Modifier.padding(12.dp),
                 verticalArrangement = Arrangement.spacedBy(24.dp)
             ) {
-                items(regions) { region ->
+                items(regions){ region ->
                     Card(
                         elevation = 8.dp,
                         modifier = Modifier.fillMaxSize(),

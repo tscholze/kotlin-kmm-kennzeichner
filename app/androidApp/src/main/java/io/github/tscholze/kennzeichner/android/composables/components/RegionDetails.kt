@@ -15,6 +15,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import io.github.tscholze.kennzeichner.android.R
 import io.github.tscholze.kennzeichner.data.Region
+import java.text.NumberFormat
 
 /**
  * Renders region's text-based details.
@@ -50,16 +51,16 @@ fun RegionDetails(region: Region) {
                 }
 
                 // Inhabitants
-                if (region.inhabitants.isNotEmpty()) {
+                if (region.inhabitants != 0) {
                     RegionDetailText(
-                        stringResource(id = R.string.region_meta_inhabitants_format, region.inhabitants)
+                        stringResource(id = R.string.region_meta_inhabitants_format, NumberFormat.getNumberInstance().format(region.inhabitants))
                     )
                 }
 
                 // Area
-                if (region.area.isNotEmpty()) {
+                if (region.area != 0) {
                     RegionDetailText(
-                        stringResource(id = R.string.region_meta_area_format, region.area)
+                        stringResource(id = R.string.region_meta_area_format, NumberFormat.getNumberInstance().format(region.area))
                     )
                 }
             }

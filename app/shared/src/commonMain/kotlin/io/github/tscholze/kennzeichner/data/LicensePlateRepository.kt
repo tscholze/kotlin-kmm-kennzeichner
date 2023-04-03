@@ -1,11 +1,14 @@
 package io.github.tscholze.kennzeichner.data
 
+import io.github.tscholze.kennzeichner.data.dto.RegionDTO
 import io.github.tscholze.kennzeichner.utils.makeHttpClient
-import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.request.get
-import io.ktor.client.statement.bodyAsText
 
+/**
+ * This repository contains all properties and features
+ * to work with remotely fetched license plate regions.
+ */
 class LicensePlateRepository {
 
     // MARK: - Private properties -
@@ -24,9 +27,10 @@ class LicensePlateRepository {
             return cachedRegions
         }
 
-        cachedRegions = client
+        cachedRegions  = client
             .get("https://tscholze.github.io/blog/files/lp-regions-data.json")
-            .body()
+            .body<List<RegionDTO>>()
+            .mapNotNull {  Region.fromDto(it) }
 
         return cachedRegions
     }

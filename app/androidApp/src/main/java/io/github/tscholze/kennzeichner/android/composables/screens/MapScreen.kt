@@ -70,7 +70,7 @@ fun MapScreen(navController: NavController) {
                     Box(modifier = Modifier
                         .zIndex(2f)
                         .padding(12.dp)
-                        .alpha(0.8f)) {
+                        .alpha(0.9f)) {
                         Box(
                             modifier = Modifier
                                 .zIndex(2f)
@@ -103,17 +103,11 @@ fun MapScreen(navController: NavController) {
                     cameraPositionState = cameraPositionState
                 ) {
                     regions.map { region ->
-
-                        val coordinates = LatLng(
-                            region.lat.replace(",", ".").toDouble(),
-                            region.long.replace(",", ".").toDouble()
-                        )
-
                         Marker(
-                            state = rememberMarkerState(position = coordinates),
+                            state = rememberMarkerState(position = LatLng(region.coordinate.latitude, region.coordinate.longitude)),
                             title = region.id,
                             snippet = region.name,
-                            icon = BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE),
+                            icon = BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET),
                             onInfoWindowClick = { selectedRegion = region },
                             onClick = { _ ->
                                 selectedRegion = region
