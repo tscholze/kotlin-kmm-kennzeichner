@@ -63,6 +63,10 @@ dependencies {
         implementation(navigation)
         implementation(activity)
     }
+
+    with(Dependencies.Microsoft) {
+        implementation(twopane)
+    }
 }
 
 object Dependencies {
@@ -86,6 +90,10 @@ object Dependencies {
         const val activity = "androidx.activity:activity-compose:${Versions.Androidx.activity}"
     }
 
+    object Microsoft {
+        const val twopane = "com.microsoft.device.dualscreen:twopanelayout:${Versions.Microsoft.twopane}"
+    }
+
     private object Versions {
         object Androidx {
             const val version = "1.4.0"
@@ -99,6 +107,10 @@ object Dependencies {
         object Maps {
             const val version = "2.11.2"
             const val playServices = "18.1.0"
+        }
+
+        object Microsoft {
+            const val twopane = "1.0.1-alpha05"
         }
     }
 }
