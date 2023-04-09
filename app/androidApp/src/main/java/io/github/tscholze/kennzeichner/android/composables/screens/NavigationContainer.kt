@@ -3,6 +3,7 @@ package io.github.tscholze.kennzeichner.android.composables.screens
 import androidx.compose.runtime.Composable
 import com.microsoft.device.dualscreen.twopanelayout.twopanelayoutnav.composable
 import androidx.navigation.compose.rememberNavController
+import com.microsoft.device.dualscreen.twopanelayout.Screen
 import com.microsoft.device.dualscreen.twopanelayout.TwoPaneLayoutNav
 
 /**
@@ -25,12 +26,14 @@ fun NavigationContainer() {
     ) {
         // Regions
         composable("regions") {
-            RegionsScreen(navController)
+            RegionsScreen(navController) {region ->
+                navController.navigateTo("regions/${region.id}", Screen.Pane2 )
+            }
         }
 
         // Region's detail
-        composable("regions/{id}") { backStackEntry ->
-            val id = backStackEntry.arguments?.getString("id") ?: "A"
+        composable("regions/{id}") { twoPaneBackStack ->
+            val id = twoPaneBackStack.arguments?.getString("id") ?: "A"
             RegionScreen(regionId = id, navController)
         }
 
