@@ -1,7 +1,7 @@
 package io.github.tscholze.kennzeichner.android.composables.screens
 
 import androidx.compose.runtime.Composable
-import androidx.navigation.compose.composable
+import com.microsoft.device.dualscreen.twopanelayout.twopanelayoutnav.composable
 import androidx.navigation.compose.rememberNavController
 import com.microsoft.device.dualscreen.twopanelayout.TwoPaneLayoutNav
 
