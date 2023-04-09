@@ -14,6 +14,7 @@ This is currently a playground to get to know with [Kotlin Mobile Multiplatform]
 ## Publications
 
 - Dr. Windows: [Entwicklertagebuch: Kennzeichner #1 mit Bing AI Chat als Datengrundlage](https://www.drwindows.de/news/entwicklertagebuch-kennzeichner-1-mit-bing-ai-chat-als-datengrundlage)
+- Dr. Windows [Das Entwicklertagebuch Kennzeichner #2: Excel kann Geografie und mag kein Berlin](https://www.drwindows.de/news/das-entwicklertagebuch-kennzeichner-2-excel-kann-geografie-und-mag-kein-berlin)
 
 ## Versions
 
