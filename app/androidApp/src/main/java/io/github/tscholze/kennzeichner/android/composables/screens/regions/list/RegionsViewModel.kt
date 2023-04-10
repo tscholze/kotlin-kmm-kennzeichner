@@ -19,7 +19,7 @@ class RegionsViewModel(
 
     // MARK: - Properties & backing fields -
 
-    private val _uiState = MutableStateFlow(RegionsUiState.Success(emptyList()))
+    private var _uiState = MutableStateFlow<RegionsUiState>(RegionsUiState.Loading)
     val uiState: StateFlow<RegionsUiState> = _uiState
 
     // MARK: - Init -
@@ -37,4 +37,11 @@ class RegionsViewModel(
 sealed class RegionsUiState {
     data class Success(val regions: List<Region>): RegionsUiState()
     object Loading: RegionsUiState()
+}
+
+/**
+ * Defines all possible actions of the regions screen.
+ */
+sealed class RegionsActions {
+    data class NavigateToRegion(val region: Region)
 }

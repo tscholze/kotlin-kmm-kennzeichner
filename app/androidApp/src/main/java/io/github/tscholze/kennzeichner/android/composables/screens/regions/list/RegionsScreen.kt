@@ -38,20 +38,28 @@ import org.koin.androidx.compose.koinViewModel
 @Composable
 fun RegionsScreen(navController: NavController, viewModel: RegionsViewModel = koinViewModel()) {
     PageLayout(stringResource(id = R.string.regions_title), navController) {
+
+        // MARK: - Properties -
+
         val uiState by viewModel.uiState.collectAsState()
 
         // MARK: - UI -
+
+        val searchQuery = remember { mutableStateOf("") }
+
+        // Search bar
+        SearchBar(state = searchQuery)
 
         // Create content dependent on the ui state.
         when (uiState) {
             // Loading
             RegionsUiState.Loading -> LoadingIndicator()
 
-            // List
+            // List | why the cast?
             is RegionsUiState.Success -> RegionsList(
                 (uiState as RegionsUiState.Success).regions,
                 onRegionSelected = { navController.navigate("regions/${it.id}") }
-            ) // why the cast?
+            )
         }
     }
 }
@@ -59,17 +67,6 @@ fun RegionsScreen(navController: NavController, viewModel: RegionsViewModel = ko
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
 private fun RegionsList(regions: List<Region>, onRegionSelected: (Region) -> Unit) {
-
-    // MARK: - Properties -
-
-    val searchQuery = remember { mutableStateOf("") }
-
-    // MARK: - UI -
-
-    // Search bar
-    SearchBar(state = searchQuery)
-
-    // Content
     LazyColumn(
         modifier = Modifier.padding(12.dp),
         verticalArrangement = Arrangement.spacedBy(24.dp)
