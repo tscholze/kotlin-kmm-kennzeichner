@@ -35,6 +35,6 @@ class RegionsViewModel(
  * Defines all ui states of the regions screen.
  */
 sealed class RegionsUiState {
-    data class Success(val news: List<Region>): RegionsUiState()
+    data class Success(val regions: List<Region>): RegionsUiState()
     object Loading: RegionsUiState()
 }
