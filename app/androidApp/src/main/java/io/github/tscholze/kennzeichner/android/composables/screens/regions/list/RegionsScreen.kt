@@ -1,4 +1,4 @@
-@file:OptIn(ExperimentalMaterialApi::class)
+@file:OptIn(ExperimentalMaterialApi::class, ExperimentalMaterialApi::class)
 
 package io.github.tscholze.kennzeichner.android.composables.screens.regions.list
 
@@ -35,7 +35,6 @@ import org.koin.androidx.compose.koinViewModel
  *
  * @param navController Navigation controller to be used
  */
-@OptIn(ExperimentalMaterialApi::class)
 @Composable
 fun RegionsScreen(navController: NavController, viewModel: RegionsViewModel = koinViewModel()) {
     PageLayout(stringResource(id = R.string.regions_title), navController) {
@@ -44,7 +43,7 @@ fun RegionsScreen(navController: NavController, viewModel: RegionsViewModel = ko
         // MARK: - UI -
 
         // Create content dependent on the ui state.
-        when(uiState) {
+        when (uiState) {
             // Loading
             RegionsUiState.Loading -> LoadingIndicator()
 
@@ -57,6 +56,7 @@ fun RegionsScreen(navController: NavController, viewModel: RegionsViewModel = ko
     }
 }
 
+@OptIn(ExperimentalMaterialApi::class)
 @Composable
 private fun RegionsList(regions: List<Region>, onRegionSelected: (Region) -> Unit) {
 
@@ -74,7 +74,7 @@ private fun RegionsList(regions: List<Region>, onRegionSelected: (Region) -> Uni
         modifier = Modifier.padding(12.dp),
         verticalArrangement = Arrangement.spacedBy(24.dp)
     ) {
-        items(regions){ region ->
+        items(regions) { region ->
             Card(
                 elevation = 8.dp,
                 modifier = Modifier.fillMaxSize(),
@@ -90,7 +90,7 @@ private fun RegionsList(regions: List<Region>, onRegionSelected: (Region) -> Uni
                     )
 
                     // Details
-                    RegionDetails(region = region)
+                    RegionDetails(region)
                 }
             }
         }
