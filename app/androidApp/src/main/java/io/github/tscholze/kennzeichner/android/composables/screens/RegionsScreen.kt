@@ -21,11 +21,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.google.android.gms.maps.model.LatLng
 import io.github.tscholze.kennzeichner.android.R
 import io.github.tscholze.kennzeichner.android.composables.components.LoadingIndicator
 import io.github.tscholze.kennzeichner.android.composables.components.RegionDetails
 import io.github.tscholze.kennzeichner.android.composables.components.RegionMap
+import io.github.tscholze.kennzeichner.android.composables.components.SearchBar
 import io.github.tscholze.kennzeichner.android.composables.layouts.PageLayout
 import io.github.tscholze.kennzeichner.data.LicensePlateRepository
 import io.github.tscholze.kennzeichner.data.Region
@@ -41,6 +41,7 @@ import kotlinx.coroutines.launch
 fun RegionsScreen(navController: NavController) {
     PageLayout(stringResource(id = R.string.regions_title), navController) {
         val scope = rememberCoroutineScope()
+        val searchQuery = remember { mutableStateOf("") }
         var regions by remember { mutableStateOf(emptyList<Region>()) }
 
         // MARK: - On Start up -
@@ -48,7 +49,7 @@ fun RegionsScreen(navController: NavController) {
         LaunchedEffect(true) {
             scope.launch {
                 regions = try {
-                    LicensePlateRepository().fetchRegions()
+                    LicensePlateRepository().regionsForSearchQuery(searchQuery.value)
                 } catch (e: Exception) {
                     emptyList()
                 }
@@ -60,6 +61,10 @@ fun RegionsScreen(navController: NavController) {
         if(regions.isEmpty()) {
             LoadingIndicator()
         } else {
+            // Search bar
+            SearchBar(state = searchQuery)
+            
+            // Content
             LazyColumn(
                 modifier = Modifier.padding(12.dp),
                 verticalArrangement = Arrangement.spacedBy(24.dp)
@@ -74,9 +79,7 @@ fun RegionsScreen(navController: NavController) {
                             // Map
                             RegionMap(
                                 region = region,
-                                modifier = Modifier
-                                    .height(150.dp)
-                                    .fillMaxWidth()
+                                modifier = Modifier.height(150.dp).fillMaxWidth()
                             )
 
                             // Details
