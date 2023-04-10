@@ -34,6 +34,7 @@ import org.koin.androidx.compose.koinViewModel
  * Represents a list based view of all regions.
  *
  * @param navController Navigation controller to be used
+ * @param viewModel Related view model, injected by DI
  */
 @Composable
 fun RegionsScreen(navController: NavController, viewModel: RegionsViewModel = koinViewModel()) {
