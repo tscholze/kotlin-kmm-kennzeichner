@@ -45,11 +45,6 @@ fun RegionsScreen(navController: NavController, viewModel: RegionsViewModel = ko
 
         // MARK: - UI -
 
-        val searchQuery = remember { mutableStateOf("") }
-
-        // Search bar
-        SearchBar(state = searchQuery)
-
         // Create content dependent on the ui state.
         when (uiState) {
             // Loading
@@ -67,11 +62,35 @@ fun RegionsScreen(navController: NavController, viewModel: RegionsViewModel = ko
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
 private fun RegionsList(regions: List<Region>, onRegionSelected: (Region) -> Unit) {
+
+    // MARK: - Properties -
+
+    val searchQuery = remember { mutableStateOf("") }
+
+    // MARK: - Helper functions -
+
+    fun filteredRegions(): List<Region> {
+        val query = searchQuery.value
+
+        if(query.trim().isEmpty()) {
+            return regions
+        }
+
+        return regions.filter {
+            it.id.startsWith(query, ignoreCase = true) || it.name.startsWith(query, ignoreCase = true)
+        }
+    }
+
+    // MARK: - UI -
+
+    // Search bar
+    SearchBar(state = searchQuery)
+
     LazyColumn(
         modifier = Modifier.padding(12.dp),
         verticalArrangement = Arrangement.spacedBy(24.dp)
     ) {
-        items(regions) { region ->
+        items(filteredRegions()) { region ->
             Card(
                 elevation = 8.dp,
                 modifier = Modifier.fillMaxSize(),
