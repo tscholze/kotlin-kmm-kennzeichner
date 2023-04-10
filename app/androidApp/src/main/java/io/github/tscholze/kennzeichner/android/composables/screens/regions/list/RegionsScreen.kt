@@ -69,6 +69,7 @@ private fun RegionsList(regions: List<Region>, onRegionSelected: (Region) -> Uni
 
     // MARK: - Helper functions -
 
+    // TODO: Move to core!
     fun filteredRegions(): List<Region> {
         val query = searchQuery.value
 
