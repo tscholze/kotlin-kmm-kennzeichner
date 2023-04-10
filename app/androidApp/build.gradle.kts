@@ -63,6 +63,10 @@ dependencies {
         implementation(navigation)
         implementation(activity)
     }
+
+    with(Dependencies.Koin) {
+        implementation(compose)
+    }
 }
 
 object Dependencies {
@@ -86,6 +90,10 @@ object Dependencies {
         const val activity = "androidx.activity:activity-compose:${Versions.Androidx.activity}"
     }
 
+    object Koin {
+        const val compose = "io.insert-koin:koin-androidx-compose:${Versions.Koin.version}"
+    }
+
     private object Versions {
         object Androidx {
             const val version = "1.4.0"
@@ -99,6 +107,10 @@ object Dependencies {
         object Maps {
             const val version = "2.11.2"
             const val playServices = "18.1.0"
+        }
+
+        object Koin {
+            const val version = "3.4.3"
         }
     }
 }

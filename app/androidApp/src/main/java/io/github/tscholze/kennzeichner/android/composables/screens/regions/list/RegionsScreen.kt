@@ -1,4 +1,4 @@
-package io.github.tscholze.kennzeichner.android.composables.screens
+package io.github.tscholze.kennzeichner.android.composables.screens.regions.list
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -30,6 +30,7 @@ import io.github.tscholze.kennzeichner.android.composables.layouts.PageLayout
 import io.github.tscholze.kennzeichner.data.LicensePlateRepository
 import io.github.tscholze.kennzeichner.data.Region
 import kotlinx.coroutines.launch
+import org.koin.androidx.compose.koinViewModel
 
 /**
  * Represents a list based view of all regions.
@@ -38,7 +39,7 @@ import kotlinx.coroutines.launch
  */
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
-fun RegionsScreen(navController: NavController) {
+fun RegionsScreen(navController: NavController, viewModel: RegionsViewModel = koinViewModel()) {
     PageLayout(stringResource(id = R.string.regions_title), navController) {
         val scope = rememberCoroutineScope()
         val searchQuery = remember { mutableStateOf("") }
@@ -58,12 +59,19 @@ fun RegionsScreen(navController: NavController) {
 
         // MARK: - UI -
 
+        /*
+        when (viewModel.uiState) {
+            is RegionsUiState.Loading -> LoadingIndicator()
+            is RegionsUiState.Success ->
+        }
+         */
+
         if(regions.isEmpty()) {
             LoadingIndicator()
         } else {
             // Search bar
             SearchBar(state = searchQuery)
-            
+
             // Content
             LazyColumn(
                 modifier = Modifier.padding(12.dp),
@@ -79,7 +87,9 @@ fun RegionsScreen(navController: NavController) {
                             // Map
                             RegionMap(
                                 region = region,
-                                modifier = Modifier.height(150.dp).fillMaxWidth()
+                                modifier = Modifier
+                                    .height(150.dp)
+                                    .fillMaxWidth()
                             )
 
                             // Details
