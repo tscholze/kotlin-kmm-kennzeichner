@@ -1,3 +1,5 @@
+@file:OptIn(ExperimentalMaterialApi::class)
+
 package io.github.tscholze.kennzeichner.android.composables.screens.regions.list
 
 import androidx.compose.foundation.layout.Arrangement
@@ -11,7 +13,6 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.Card
 import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -38,25 +39,33 @@ import org.koin.androidx.compose.koinViewModel
 @Composable
 fun RegionsScreen(navController: NavController, viewModel: RegionsViewModel = koinViewModel()) {
     PageLayout(stringResource(id = R.string.regions_title), navController) {
-        val searchQuery = remember { mutableStateOf("") }
         val uiState by viewModel.uiState.collectAsState()
 
         // MARK: - UI -
 
+        // Create content dependent on the ui state.
         when(uiState) {
-            is RegionsUiState.Success -> ShowContent(
-                searchQuery,
+            // Loading
+            RegionsUiState.Loading -> LoadingIndicator()
+
+            // List
+            is RegionsUiState.Success -> RegionsList(
                 (uiState as RegionsUiState.Success).regions,
                 onRegionSelected = { navController.navigate("regions/${it.id}") }
             ) // why the cast?
-            RegionsUiState.Loading -> LoadingIndicator()
         }
     }
 }
 
-@OptIn(ExperimentalMaterialApi::class)
 @Composable
-fun ShowContent(searchQuery: MutableState<String>, regions: List<Region>, onRegionSelected: (Region) -> Unit) {
+private fun RegionsList(regions: List<Region>, onRegionSelected: (Region) -> Unit) {
+
+    // MARK: - Properties -
+
+    val searchQuery = remember { mutableStateOf("") }
+
+    // MARK: - UI -
+
     // Search bar
     SearchBar(state = searchQuery)
 
