@@ -28,6 +28,7 @@ import io.github.tscholze.kennzeichner.android.composables.components.RegionMap
 import io.github.tscholze.kennzeichner.android.composables.components.SearchBar
 import io.github.tscholze.kennzeichner.android.composables.layouts.PageLayout
 import io.github.tscholze.kennzeichner.data.Region
+import org.koin.androidx.compose.getViewModel
 import org.koin.androidx.compose.koinViewModel
 
 /**
@@ -53,7 +54,6 @@ fun RegionsScreen(navController: NavController, viewModel: RegionsViewModel = ko
 
             // List | why the cast?
             is RegionsUiState.Success -> RegionsList(
-                (uiState as RegionsUiState.Success).regions,
                 onRegionSelected = { navController.navigate("regions/${it.id}") }
             )
         }
@@ -62,37 +62,26 @@ fun RegionsScreen(navController: NavController, viewModel: RegionsViewModel = ko
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
-private fun RegionsList(regions: List<Region>, onRegionSelected: (Region) -> Unit) {
+private fun RegionsList(
+    onRegionSelected: (Region) -> Unit,
+    viewModel: RegionsViewModel = getViewModel()
+) {
 
     // MARK: - Properties -
 
     val searchQuery = remember { mutableStateOf("") }
-
-    // MARK: - Helper functions -
-
-    // TODO: Move to core!
-    fun filteredRegions(): List<Region> {
-        val query = searchQuery.value
-
-        if(query.trim().isEmpty()) {
-            return regions
-        }
-
-        return regions.filter {
-            it.id.startsWith(query, ignoreCase = true) || it.name.startsWith(query, ignoreCase = true)
-        }
-    }
 
     // MARK: - UI -
 
     // Search bar
     SearchBar(state = searchQuery)
 
+    // List of regions
     LazyColumn(
-        modifier = Modifier.padding(12.dp),
+        modifier = Modifier.padding(12.dp, 12.dp, 12.dp, 0.dp),
         verticalArrangement = Arrangement.spacedBy(24.dp)
     ) {
-        items(filteredRegions()) { region ->
+        items(viewModel.filterRegionsByQuery(searchQuery.value)) { region ->
             Card(
                 elevation = 8.dp,
                 modifier = Modifier.fillMaxSize(),

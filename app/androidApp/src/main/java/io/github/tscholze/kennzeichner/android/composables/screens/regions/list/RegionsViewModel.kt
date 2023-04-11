@@ -29,6 +29,31 @@ class RegionsViewModel(
             _uiState.value = RegionsUiState.Success(repository.fetchRegions())
         }
     }
+
+    // MARK: - Helper -
+
+    /**
+     * Filters region by given query.
+     *
+     * @param query Search query
+     * @return List of filtered regions
+     */
+    fun filterRegionsByQuery(query: String): List<Region> {
+        fun filter(regions: List<Region>, query: String): List<Region> {
+            if(query.trim().isEmpty()) {
+                return regions
+            }
+
+            return regions.filter {
+                it.id.startsWith(query, ignoreCase = true) || it.name.startsWith(query, ignoreCase = true)
+            }
+        }
+
+        return when(val state = _uiState.value) {
+            RegionsUiState.Loading -> emptyList()
+            is RegionsUiState.Success -> filter(state.regions, query)
+        }
+    }
 }
 
 /**
@@ -37,11 +62,4 @@ class RegionsViewModel(
 sealed class RegionsUiState {
     data class Success(val regions: List<Region>): RegionsUiState()
     object Loading: RegionsUiState()
-}
-
-/**
- * Defines all possible actions of the regions screen.
- */
-sealed class RegionsActions {
-    data class NavigateToRegion(val region: Region)
 }
