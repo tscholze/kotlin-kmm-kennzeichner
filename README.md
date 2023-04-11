@@ -20,8 +20,9 @@ This is currently a playground to get to know with [Kotlin Mobile Multiplatform]
 
 ### 0.2.* (Android MVP)
 **Main features**
-
-First Android views (List, detail, map, filter) alongside the required `shared` features were implemented and tested.
+- MVP-ish finished Android App with list, detail, map and filter features.
+- Added future-proof dependencies like Koin
+- Migrated from PoC to stable MVVM pattern
 
 **UI**
 
