@@ -5,7 +5,6 @@ import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
-import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.material.TextField
 import androidx.compose.material.icons.Icons
@@ -40,11 +39,7 @@ fun SearchBar(state: MutableState<String>) {
         value = state.value,
         onValueChange = { state.value = it },
         singleLine = true,
-        placeholder = {
-            Text(
-                stringResource(R.string.searchbar_text_placeholder),
-                color = MaterialTheme.colors.onSecondary
-            )
+        placeholder = { Text(stringResource(R.string.searchbar_text_placeholder))
         },
         leadingIcon = {
             Icon(
