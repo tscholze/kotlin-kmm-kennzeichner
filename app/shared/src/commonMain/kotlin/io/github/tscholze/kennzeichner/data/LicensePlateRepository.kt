@@ -36,17 +36,12 @@ class LicensePlateRepository {
     }
 
     /**
-     * filters region by given search query.
-     * If no regions are fetched, the data source will be updated first.
+     * Filters region by given search query.
      *
      * @param searchQuery User's search query
      * @return List of filtered regions.
      */
-    suspend fun regionsForSearchQuery(searchQuery: String): List<Region> {
-        if (cachedRegions.isEmpty()) {
-            fetchRegions()
-        }
-
+    fun regionsForSearchQuery(searchQuery: String): List<Region> {
         val sanitizedQuery = searchQuery.trim()
 
         if(sanitizedQuery.isEmpty()) {

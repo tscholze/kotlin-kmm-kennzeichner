@@ -21,7 +21,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import io.github.tscholze.kennzeichner.android.R
 import io.github.tscholze.kennzeichner.android.composables.components.LoadingIndicator
-import io.github.tscholze.kennzeichner.android.composables.components.RegionDetails
+import io.github.tscholze.kennzeichner.android.composables.components.RegionInformation
 import io.github.tscholze.kennzeichner.android.composables.components.RegionMap
 import io.github.tscholze.kennzeichner.android.composables.components.SearchBar
 import io.github.tscholze.kennzeichner.android.composables.layouts.PageLayout
@@ -98,7 +98,7 @@ private fun RegionsList(
                     )
 
                     // Details
-                    RegionDetails(region)
+                    RegionInformation(region)
                 }
             }
         }

@@ -39,27 +39,26 @@ class RegionsViewModel(
      * @return List of filtered regions
      */
     fun filterRegionsByQuery(query: String): List<Region> {
-        fun filter(regions: List<Region>, query: String): List<Region> {
-            if(query.trim().isEmpty()) {
-                return regions
-            }
-
-            return regions.filter {
-                it.id.startsWith(query, ignoreCase = true) || it.name.startsWith(query, ignoreCase = true)
-            }
-        }
-
-        return when(val state = _uiState.value) {
+        return when(_uiState.value) {
             RegionsUiState.Loading -> emptyList()
-            is RegionsUiState.Success -> filter(state.regions, query)
+            is RegionsUiState.Success -> repository.regionsForSearchQuery(query)
         }
     }
 }
 
+
 /**
- * Defines all ui states of the regions screen.
+ * Defines all ui states of the fetched regions screen
  */
 sealed class RegionsUiState {
     data class Success(val regions: List<Region>): RegionsUiState()
     object Loading: RegionsUiState()
+}
+
+/**
+ * Defines all ui states of a fetched region screen
+ */
+sealed class RegionUiState {
+    data class Success(val region: Region): RegionUiState()
+    object Loading: RegionUiState()
 }

@@ -23,7 +23,7 @@ import java.text.NumberFormat
  * @param region: Region that shall be rendered.
  */
 @Composable
-fun RegionDetails(region: Region) {
+fun RegionInformation(region: Region) {
     Row(
         modifier = Modifier.padding(8.dp),
         verticalAlignment = Alignment.CenterVertically,
