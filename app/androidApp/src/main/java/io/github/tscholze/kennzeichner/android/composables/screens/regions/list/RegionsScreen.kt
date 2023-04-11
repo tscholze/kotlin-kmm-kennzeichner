@@ -1,5 +1,3 @@
-@file:OptIn(ExperimentalMaterialApi::class, ExperimentalMaterialApi::class)
-
 package io.github.tscholze.kennzeichner.android.composables.screens.regions.list
 
 import androidx.compose.foundation.layout.Arrangement
@@ -38,7 +36,10 @@ import org.koin.androidx.compose.koinViewModel
  * @param viewModel Related view model, injected by DI
  */
 @Composable
-fun RegionsScreen(navController: NavController, viewModel: RegionsViewModel = koinViewModel()) {
+fun RegionsScreen(
+    navController: NavController,
+    viewModel: RegionsViewModel = koinViewModel()
+) {
     PageLayout(stringResource(id = R.string.regions_title), navController) {
 
         // MARK: - Properties -
