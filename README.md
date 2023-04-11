@@ -3,7 +3,9 @@
 ## tl;dr
 This is currently a playground to get to know with [Kotlin Mobile Multiplatform](https://kotlinlang.org/lp/mobile/) in combination with a shared Jetpack Compose and SwiftUI.
 
-![](docs/kennzeichner-desc.png?raw=true)
+The app(s) will provide a look for for German license plate IDs such as "A" for Augsburg, "M" for Munich, etc. pp. The long time goal is to roll out this limited set of features to more KMM-able platforms such as desktop or the web.
+
+![Kennzeichner Logo](docs/kennzeichner-desc.png?raw=true)
 
 ## Build status
 
