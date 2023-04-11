@@ -22,6 +22,7 @@ import androidx.compose.material.icons.rounded.Place
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
@@ -78,49 +79,35 @@ internal fun KennScaffold(
 
     @Composable
     fun KennBottomAppBar() {
+        // MARK: - Properties -
 
         val currentRoute = navController.currentBackStackEntry?.destination?.route ?: ""
+        val items = listOf(BottomNavigationItemData.List, BottomNavigationItemData.Map)
+
+        // MARK: - UI -
 
         BottomAppBar {
-            // List
-            BottomNavigationItem(
-                icon = {
-                    Icon(
-                        Icons.Rounded.List,
-                        contentDescription = stringResource(R.string.tabitem_list_title)
-                    )
-                },
-                label = {
-                    Text(
-                        text = stringResource(R.string.tabitem_list_title),
-                        fontSize = 10.sp
-                    )
-                },
-                selected = currentRoute.contains("regions"),
-                onClick = {
-                    navController.navigate("regions")
-                }
-            )
-
-            // Map
-            BottomNavigationItem(
-                icon = {
-                    Icon(
-                        Icons.Rounded.Place,
-                        contentDescription = stringResource(R.string.tabitem_map_title)
-                    )
-                },
-                label = {
-                    Text(
-                        text = stringResource(R.string.tabitem_map_title),
-                        fontSize = 10.sp
-                    )
-                },
-                selected = currentRoute == "map",
-                onClick = {
-                    navController.navigate("map")
-                }
-            )
+            items.map { item ->
+                // List
+                BottomNavigationItem(
+                    icon = {
+                        Icon(
+                            item.icon,
+                            contentDescription = stringResource(id = item.title)
+                        )
+                    },
+                    label = {
+                        Text(
+                            text = stringResource(id = item.title),
+                            fontSize = 10.sp
+                        )
+                    },
+                    selected = currentRoute.contains(item.route),
+                    onClick = {
+                        navController.navigate(item.route)
+                    }
+                )
+            }
         }
     }
 
@@ -142,4 +129,22 @@ internal fun KennScaffold(
             }
         }
     }
+}
+
+sealed class BottomNavigationItemData(
+    val title: Int,
+    val icon: ImageVector,
+    val route: String
+    ) {
+    object List: BottomNavigationItemData(
+        R.string.tabitem_map_title,
+        Icons.Rounded.List,
+        "regions"
+    )
+
+    object Map: BottomNavigationItemData(
+        R.string.tabitem_map_title,
+        Icons.Rounded.Place,
+        "map"
+    )
 }

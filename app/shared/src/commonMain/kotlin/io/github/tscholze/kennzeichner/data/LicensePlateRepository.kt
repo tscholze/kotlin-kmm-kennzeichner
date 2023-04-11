@@ -36,6 +36,25 @@ class LicensePlateRepository {
     }
 
     /**
+     * Filters region by given search query.
+     *
+     * @param searchQuery User's search query
+     * @return List of filtered regions.
+     */
+    fun regionsForSearchQuery(searchQuery: String): List<Region> {
+        val sanitizedQuery = searchQuery.trim()
+
+        if(sanitizedQuery.isEmpty()) {
+            return cachedRegions
+        }
+
+        return cachedRegions.filter { region ->
+            region.id.contains(sanitizedQuery, ignoreCase = true)
+                    || region.name.contains(sanitizedQuery, ignoreCase = true)
+        }
+    }
+
+    /**
      * Gets a region from list of cached regions by id.
      *
      * @param id ID to look up.

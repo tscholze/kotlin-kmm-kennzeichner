@@ -18,14 +18,14 @@ This is currently a playground to get to know with [Kotlin Mobile Multiplatform]
 
 ## Versions
 
-### 0.2 (Android MVP)
+### 0.2.* (Android MVP)
 **Main features**
 
-First Android views (List, detail, map) alongside the required `shared` features were implemented and tested.
+First Android views (List, detail, map, filter) alongside the required `shared` features were implemented and tested.
 
 **UI**
 
-![](docs/020-summary.png)
+![](docs/021-summary.png)
 
 ### 0.1 (Project setup)
 **Main features**

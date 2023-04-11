@@ -8,4 +8,5 @@
     <string name="tabitem_map_title">Karte</string>
     <string name="button_fork_me_title">GitHub</string>
     <string name="maps_title">Karte</string>
+    <string name="searchbar_text_placeholder">Suche \'A\' oder \'Augsburg\'</string>
 </resources>

@@ -8,6 +8,9 @@ import io.github.tscholze.kennzeichner.android.composables.screens.NavigationCon
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // MARK: - UI -
+
         setContent {
             NavigationContainer()
         }
