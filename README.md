@@ -54,7 +54,7 @@ Succesfull run of the Android Studio Kotlin Mobile Multiplatform. Tested by star
 - [x] Create list view
 - [x] Create detail view
 - [x] Create map view with markers
-- [ ] Add searchbar to filter lists
+- [x] Add searchbar to filter lists
 - [ ] Add Surface Duo's two pane support
 
 #### iOS (SwiftUI)
@@ -65,6 +65,7 @@ Succesfull run of the Android Studio Kotlin Mobile Multiplatform. Tested by star
 
 ### Future feature ideas
 - [ ] Add digital assistant support
+- [ ] Add "fav" and "share" feature
 
 ### Instruments
 - [ ] Check how's the memory consumption
