@@ -1,27 +1,21 @@
-import SwiftUI
+import MapKit
 import shared
+import SwiftUI
 
 struct ContentView: View {
-    @ObservedObject private(set) var viewModel: ViewModel
+    private let repository = LicensePlateRepository()
 
     var body: some View {
-        Text(viewModel.text)
-    }
-}
-
-extension ContentView {
-    class ViewModel: ObservableObject {
-        @Published var text = "Loading..."
-        init() {
-            LicensePlateRepository().demo { text, error in
-                DispatchQueue.main.async {
-                    if let text {
-                        self.text = text
-                    } else {
-                        self.text = error?.localizedDescription ?? "error"
-                    }
+        TabView {
+            ListView(viewModel: .init(repository: repository))
+                .tabItem {
+                    Label("Liste", systemImage: "list.bullet")
                 }
-            }
+
+            MapView(viewModel: .init(repository: repository))
+                .tabItem {
+                    Label("Karte", systemImage: "map")
+                }
         }
     }
 }

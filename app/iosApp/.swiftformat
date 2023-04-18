@@ -1,0 +1,23 @@
+# file options
+--exclude Pods,Carthage,iOSKit,AudiAppSDK
+
+# format options
+--indent 4
+--ifdef noindent
+--self remove
+--extensionacl on-declarations
+--guardelse same-line
+--elseposition next-line
+--wraparguments before-first
+--wrapparameters before-first
+--wrapreturntype preserve
+--wrapconditions after-first
+--importgrouping length
+
+# enabled rules
+--enable blockComments
+
+# disabled rules
+--disable strongOutlets
+--disable redundantReturn
+--disable wrapMultilineStatementBraces
