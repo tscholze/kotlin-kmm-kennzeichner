@@ -63,19 +63,77 @@ struct MapView: View {
         }
         .ignoresSafeArea()
         .sheet(item: $selectedRegion, onDismiss: { selectedRegion = nil }) { region in
-            NavigationView {
-                Text(region.leader)
-                    .toolbar {
-                        ToolbarItem(placement: .primaryAction) {
-                            Button {
-                                selectedRegion = nil
-                            } label: {
-                                Image(systemName: "xmark.circle")
-                            }
+            SheetView(region: region)
+                .presentationDetents([.medium])
+        }
+    }
+}
+
+extension MapView {
+    struct SheetView: View {
+        // MARK: - Private properties -
+
+        private let region: Region
+        @State private var coordindate: MKCoordinateRegion
+
+        // MARK: - Init -
+
+        init(region: Region) {
+            self.region = region
+            coordindate = .init(
+                center: .init(latitude: region.coordinate.latitude, longitude: region.coordinate.longitude),
+                span: .init(latitudeDelta: 0.05, longitudeDelta: 0.05)
+            )
+        }
+
+        // MARK: - UI -
+
+        var body: some View {
+            VStack(alignment: .leading) {
+                // Texts
+                HStack {
+                    Text(region.id)
+                        .font(.largeTitle)
+                        .fontDesign(.monospaced)
+
+                    VStack(alignment: .leading) {
+                        if region.leader.isEmpty == false {
+                            Text("Bürgermeister*in: \(region.leader)")
+                                .lineLimit(1)
+                                .font(.caption)
+                        }
+
+                        if region.inhabitants != 0 {
+                            Text("Einwohner: \(region.inhabitants)")
+                                .font(.caption)
+                        }
+
+                        if region.area != 0 {
+                            Text("Fläche: \(region.area) qkm")
+                                .font(.caption)
                         }
                     }
+                }
+                .padding()
+
+                // Map with button
+                Button {
+                    openMaps(for: region)
+                } label: {
+                    Map(coordinateRegion: $coordindate)
+                        .disabled(true)
+                        .ignoresSafeArea()
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                }
             }
-            .presentationDetents([.medium])
+        }
+
+        // MARK: - Private helper -
+
+        private func openMaps(for region: Region) {
+            let string = "maps://?sll=\(region.coordinate.latitude),\(region.coordinate.longitude)"
+            guard let url = URL(string: string) else { return }
+            UIApplication.shared.open(url)
         }
     }
 }
