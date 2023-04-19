@@ -3,7 +3,11 @@ import shared
 import SwiftUI
 
 struct ContentView: View {
+    // MARK: - Private (shared) repositories -
+
     private let repository = LicensePlateRepository()
+
+    // MARK: - UI -
 
     var body: some View {
         TabView {

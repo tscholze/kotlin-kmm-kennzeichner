@@ -30,12 +30,12 @@ struct ListView: View {
                 .padding()
             }
             .searchable(text: $searchQuery, prompt: Text("Suche nach A oder Augsburg"))
-            .background(Color.blue.opacity(0.2))
+            .background(Color.accentColor.opacity(0.2))
             .navigationTitle("Kennzeichen")
             .toolbar {
                 ToolbarItem {
                     Button {
-                        UIApplication.shared.open(URL(string: "https://github.com")!)
+                        UIApplication.shared.open(Constants.githubUrl)
                     } label: {
                         Image(systemName: "globe")
                     }
@@ -73,9 +73,7 @@ extension ListView {
     }
 }
 
-extension Region: Identifiable {}
-
-struct RegionListItemView: View {
+private struct RegionListItemView: View {
     // MARK: - Private properties -
 
     private let region: Region
@@ -128,10 +126,17 @@ struct RegionListItemView: View {
             .padding([.leading, .trailing], 4)
             .frame(maxWidth: .infinity, alignment: .leading)
         }
-        .background(Color.white)
+        .background(
+            RoundedRectangle(cornerRadius: 4)
+                .fill(Color.white)
+        )
         .overlay(
             RoundedRectangle(cornerRadius: 4.0)
-                .stroke(Color.blue, lineWidth: 1)
+                .stroke(Color.accentColor, lineWidth: 1)
+                .shadow(
+                    color: .black.opacity(0.5),
+                    radius: 3
+                )
         )
     }
 }

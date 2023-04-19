@@ -31,7 +31,6 @@ struct MapView: View {
             showsUserLocation: true,
             annotationItems: viewModel.regions
         ) { region in
-
             MapAnnotation(
                 coordinate: .init(
                     latitude: region.coordinate.latitude,
@@ -49,22 +48,20 @@ struct MapView: View {
                         Text(region.name)
                             .foregroundColor(.black)
                     }
-                    .padding(4)
+                    .padding(8)
                     .background {
                         RoundedRectangle(cornerRadius: 4, style: .continuous)
-                            .fill(Color.yellow)
+                            .fill(Color("TownSignYellow"))
                     }
                     .overlay(
                         RoundedRectangle(cornerRadius: 4, style: .continuous)
                             .strokeBorder(Color.black, lineWidth: 2)
+                            .padding(4)
                     )
                 }
             }
         }
-        .frame(
-            maxWidth: .infinity,
-            maxHeight: .infinity
-        )
+        .ignoresSafeArea()
         .sheet(item: $selectedRegion, onDismiss: { selectedRegion = nil }) { region in
             NavigationView {
                 Text(region.leader)

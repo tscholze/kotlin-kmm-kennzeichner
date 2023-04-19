@@ -1,6 +1,3 @@
-# file options
---exclude Pods,Carthage,iOSKit,AudiAppSDK
-
 # format options
 --indent 4
 --ifdef noindent
