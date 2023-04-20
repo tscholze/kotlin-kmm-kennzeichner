@@ -1,9 +1,9 @@
 //
 //  Shared+Models+Extensions.swift
-//  iosApp
+//  Kennzeichner
 //
 //  Created by Tobias Scholze on 19.04.23.
-//  Copyright © 2023 orgName. All rights reserved.
+//  Copyright ©2023 Tobias Scholze. All rights reserved.
 //
 
 import shared

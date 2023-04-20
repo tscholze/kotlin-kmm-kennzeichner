@@ -1,9 +1,9 @@
 //
 //  MapView.swift
-//  iosApp
+//  Kennzeichner
 //
 //  Created by Tobias Scholze on 18.04.23.
-//  Copyright © 2023 orgName. All rights reserved.
+//  Copyright ©2023 Tobias Scholze. All rights reserved.
 //
 
 import MapKit
@@ -61,8 +61,11 @@ struct MapView: View {
                 }
             }
         }
-        .ignoresSafeArea()
-        .sheet(item: $selectedRegion, onDismiss: { selectedRegion = nil }) { region in
+        .ignoresSafeArea(edges: [.top])
+        .sheet(
+            item: $selectedRegion,
+            onDismiss: { selectedRegion = nil }
+        ) { region in
             SheetView(region: region)
                 .presentationDetents([.medium])
         }
@@ -90,29 +93,33 @@ extension MapView {
 
         var body: some View {
             VStack(alignment: .leading) {
-                // Texts
-                HStack {
-                    Text(region.id)
-                        .font(.largeTitle)
-                        .fontDesign(.monospaced)
+                VStack(alignment: .leading, spacing: 8) {
+                    // Texts
+                    HStack {
+                        Text(region.id)
+                            .font(.largeTitle)
+                            .fontDesign(.monospaced)
 
-                    VStack(alignment: .leading) {
-                        if region.leader.isEmpty == false {
-                            Text("Bürgermeister*in: \(region.leader)")
-                                .lineLimit(1)
-                                .font(.caption)
-                        }
+                        VStack(alignment: .leading) {
+                            if region.leader.isEmpty == false {
+                                Text("Region.Detail.Leader.Format \(region.leader)")
+                                    .lineLimit(1)
+                                    .font(.caption)
+                            }
 
-                        if region.inhabitants != 0 {
-                            Text("Einwohner: \(region.inhabitants)")
-                                .font(.caption)
-                        }
+                            if region.inhabitants != 0 {
+                                Text("Region.Detail.Inhabitants.Format \(region.inhabitants)")
+                                    .font(.caption)
+                            }
 
-                        if region.area != 0 {
-                            Text("Fläche: \(region.area) qkm")
-                                .font(.caption)
+                            if region.area != 0 {
+                                Text("Region.Detail.Area.Format \(region.area)")
+                                    .font(.caption)
+                            }
                         }
                     }
+
+                    Text(region.name)
                 }
                 .padding()
 

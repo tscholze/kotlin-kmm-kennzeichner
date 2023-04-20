@@ -1,9 +1,9 @@
 //
 //  ListView.swift
-//  iosApp
+//  Kennzeichner
 //
 //  Created by Tobias Scholze on 18.04.23.
-//  Copyright © 2023 orgName. All rights reserved.
+//  Copyright ©2023 Tobias Scholze. All rights reserved.
 //
 
 import shared
@@ -29,9 +29,9 @@ struct ListView: View {
                 .frame(maxWidth: .infinity)
                 .padding()
             }
-            .searchable(text: $searchQuery, prompt: Text("Suche nach A oder Augsburg"))
+            .searchable(text: $searchQuery, prompt: Text("ListView.Search.Placeholder"))
             .background(Color.accentColor.opacity(0.2))
-            .navigationTitle("Kennzeichen")
+            .navigationTitle("ListView.Navigation.Title")
             .toolbar {
                 ToolbarItem {
                     Button {
@@ -98,26 +98,32 @@ private struct RegionListItemView: View {
                 .disabled(true)
 
             VStack(alignment: .leading) {
-                Text(region.id)
-                    .font(.largeTitle)
-                    .fontDesign(.monospaced)
+                HStack {
+                    Text(region.id)
+                        .font(.largeTitle)
+                        .fontDesign(.monospaced)
+
+                    Text(region.name)
+                        .lineLimit(2)
+                        .font(.caption)
+                }
 
                 VStack(alignment: .leading) {
                     if region.leader.isEmpty == false {
-                        Text("Bürgermeister*in: \(region.leader)")
+                        Text("Region.Detail.Leader.Format \(region.leader)")
                             .lineLimit(1)
                             .font(.caption)
                             .foregroundStyle(.secondary)
                     }
 
                     if region.inhabitants != 0 {
-                        Text("Einwohner: \(region.inhabitants)")
+                        Text("Region.Detail.Inhabitants.Format \(region.inhabitants)")
                             .font(.caption)
                             .foregroundStyle(.secondary)
                     }
 
                     if region.area != 0 {
-                        Text("Fläche: \(region.area) qkm")
+                        Text("Region.Detail.Area.Format \(region.area)")
                             .font(.caption)
                             .foregroundStyle(.secondary)
                     }

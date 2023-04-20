@@ -13,12 +13,18 @@ struct ContentView: View {
         TabView {
             ListView(viewModel: .init(repository: repository))
                 .tabItem {
-                    Label("Liste", systemImage: "list.bullet")
+                    Label(
+                        "ListView.TabItem.Title",
+                        systemImage: "list.bullet"
+                    )
                 }
 
             MapView(viewModel: .init(repository: repository))
                 .tabItem {
-                    Label("Karte", systemImage: "map")
+                    Label(
+                        "MapView.TabItem.Title",
+                        systemImage: "map"
+                    )
                 }
         }
     }
