@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  iosApp
+
+  Created by Tobias Scholze on 19.04.23.
+  Copyright © 2023 orgName. All rights reserved.
+*/
+
+"ListView.TabItem.Title" = "List";
+"ListView.Navigation.Title" = "License Plates";
+"ListView.Search.Placeholder" = "Look up for A or Augsburg";
+
+
+"MapView.TabItem.Title" = "Map";
+"MapView.Navigation.Title" = "Map";
+
+
+"Region.Detail.Leader.Format %@" = "Leader: %@";
+"Region.Detail.Inhabitants.Format %d" = "Inhabitants: %d";
+"Region.Detail.Area.Format %d" = "Area: %d qkm";
