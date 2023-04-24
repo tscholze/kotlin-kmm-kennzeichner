@@ -10,6 +10,8 @@ import shared
 import MapKit
 import SwiftUI
 
+/// Renders a list-based representation of all available regions
+/// for license plate IDs.
 struct ListView: View {
     // MARK: - Private properties -
 
@@ -48,6 +50,9 @@ struct ListView: View {
 // MARK: - ViewModel -
 
 extension ListView {
+    /// View model for a region list view.
+    /// Subscribe to the `regions` property to get informed
+    /// about fetched data items.
     @MainActor class ViewModel: ObservableObject {
         // MARK: - Internal properties -
 
@@ -59,6 +64,9 @@ extension ListView {
 
         // MARK: - Init -
 
+        /// Initializes a new view model with given repository.
+        ///
+        /// - Parameter repository: Required license plate repository
         init(repository: LicensePlateRepository) {
             self.repository = repository
 
@@ -67,6 +75,9 @@ extension ListView {
 
         // MARK: - Internal helper -
 
+        /// Filters data set for given string
+        ///
+        /// - Parameter query: Search query
         func filteredRegions(for query: String) -> [Region] {
             return repository.regionsForSearchQuery(searchQuery: query)
         }
@@ -83,10 +94,7 @@ private struct RegionListItemView: View {
 
     init(region: Region) {
         self.region = region
-        coordindate = .init(
-            center: .init(latitude: region.coordinate.latitude, longitude: region.coordinate.longitude),
-            span: .init(latitudeDelta: 0.05, longitudeDelta: 0.05)
-        )
+        coordindate = region.coordinate.toCoordinateRegion(withSpanDelta: 0.05)
     }
 
     // MARK: - UI -

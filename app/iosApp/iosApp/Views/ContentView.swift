@@ -2,6 +2,7 @@ import MapKit
 import shared
 import SwiftUI
 
+/// Root ui view of the app.
 struct ContentView: View {
     // MARK: - Private (shared) repositories -
 

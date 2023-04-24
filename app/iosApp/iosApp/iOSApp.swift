@@ -1,5 +1,6 @@
 import SwiftUI
 
+/// Entry point of the runable.
 @main
 struct iOSApp: App {
     var body: some Scene {
@@ -8,6 +9,8 @@ struct iOSApp: App {
         }
     }
 }
+
+// MARK: - App-wide constants -
 
 enum Constants {
     static var githubUrl: URL {

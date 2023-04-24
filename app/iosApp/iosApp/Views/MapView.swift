@@ -10,70 +10,90 @@ import MapKit
 import shared
 import SwiftUI
 
+/// Renders a map-based representation of all available regions
+/// for license plate IDs.
 struct MapView: View {
-    // MARK: - Private properties -
+    // MARK: - Private consants -
 
-    @ObservedObject private(set) var viewModel: ViewModel
-
-    @State private var selectedRegion: Region?
-
-    @State private var initialCoordinate = MKCoordinateRegion(
+    private static let germanyCentered = MKCoordinateRegion(
         center: .init(latitude: 50.8113684, longitude: 10.7489082),
         span: .init(latitudeDelta: 8, longitudeDelta: 8)
     )
 
+    // MARK: - Private properties -
+
+    @ObservedObject private(set) var viewModel: ViewModel
+    @State private var selectedRegion: Region?
+    @State private var coordindate = germanyCentered
+
     // MARK: - UI -
 
     var body: some View {
-        Map(
-            coordinateRegion: $initialCoordinate,
-            interactionModes: .all,
-            showsUserLocation: true,
-            annotationItems: viewModel.regions
-        ) { region in
-            MapAnnotation(
-                coordinate: .init(
-                    latitude: region.coordinate.latitude,
-                    longitude: region.coordinate.longitude
-                )
-            ) {
-                Button {
-                    selectedRegion = region
-                } label: {
-                    VStack {
-                        Text(region.id)
-                            .fontWeight(Font.Weight.bold)
-                            .foregroundColor(.black)
-
-                        Text(region.name)
-                            .foregroundColor(.black)
-                    }
-                    .padding(8)
-                    .background {
-                        RoundedRectangle(cornerRadius: 4, style: .continuous)
-                            .fill(Color("TownSignYellow"))
-                    }
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 4, style: .continuous)
-                            .strokeBorder(Color.black, lineWidth: 2)
-                            .padding(4)
+        ZStack(alignment: .topTrailing) {
+            Map(
+                coordinateRegion: $coordindate,
+                interactionModes: .all,
+                showsUserLocation: true,
+                annotationItems: viewModel.regions
+            ) { region in
+                MapAnnotation(
+                    coordinate: .init(
+                        latitude: region.coordinate.latitude,
+                        longitude: region.coordinate.longitude
                     )
+                ) {
+                    Button {
+                        selectedRegion = region
+                        coordindate = region.coordinate.toCoordinateRegion(withSpanDelta: 1)
+                    } label: {
+                        VStack {
+                            Text(region.id)
+                                .fontWeight(Font.Weight.bold)
+                                .foregroundColor(.black)
+
+                            Text(region.name)
+                                .foregroundColor(.black)
+                        }
+                        .padding(8)
+                        .background {
+                            RoundedRectangle(cornerRadius: 4, style: .continuous)
+                                .fill(Color("TownSignYellow"))
+                        }
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 4, style: .continuous)
+                                .strokeBorder(Color.black, lineWidth: 2)
+                                .padding(4)
+                        )
+                    }
                 }
             }
-        }
-        .ignoresSafeArea(edges: [.top])
-        .sheet(
-            item: $selectedRegion,
-            onDismiss: { selectedRegion = nil }
-        ) { region in
-            SheetView(region: region)
-                .presentationDetents([.medium])
+            .ignoresSafeArea(edges: [.top])
+            .sheet(
+                item: $selectedRegion,
+                onDismiss: { selectedRegion = nil }
+            ) { region in
+                SheetView(region: region)
+                    .presentationDetents([.fraction(0.4)])
+            }
+
+            // Button
+            Button {
+                coordindate = Self.germanyCentered
+            } label: {
+                Image(systemName: "map.circle")
+                    .resizable()
+                    .frame(width: 30, height: 30)
+            }
+            .shadow(radius: 2)
+            .padding(12)
         }
     }
 }
 
+// MARK: - SheetView -
+
 extension MapView {
-    struct SheetView: View {
+    fileprivate struct SheetView: View {
         // MARK: - Private properties -
 
         private let region: Region
@@ -81,12 +101,12 @@ extension MapView {
 
         // MARK: - Init -
 
+        /// Initializes a new view model with given repository.
+        ///
+        /// - Parameter repository: Required license plate repository
         init(region: Region) {
             self.region = region
-            coordindate = .init(
-                center: .init(latitude: region.coordinate.latitude, longitude: region.coordinate.longitude),
-                span: .init(latitudeDelta: 0.05, longitudeDelta: 0.05)
-            )
+            coordindate = region.coordinate.toCoordinateRegion(withSpanDelta: 0.05)
         }
 
         // MARK: - UI -
