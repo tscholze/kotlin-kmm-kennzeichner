@@ -44,9 +44,16 @@ data class Coordinate(
     companion object {
        @Throws(NumberFormatException::class)
         fun fromDto(dto: RegionDTO): Coordinate {
+           val latitude = dto.lat.replace(",", ".").toDouble()
+           val longitude = dto.long.replace(",", ".").toDouble()
+
+           if(latitude == 0.0 || longitude == 0.0) {
+               throw NumberFormatException("Lat or Long value of 0.0 is not supported.")
+           }
+
             return Coordinate(
-                dto.lat.replace(",", ".").toDouble(),
-                dto.long.replace(",", ".").toDouble()
+                latitude,
+                longitude
             )
         }
     }
@@ -54,7 +61,14 @@ data class Coordinate(
 
 @Throws(NumberFormatException::class)
 private fun Int.Companion.fromDtoString(value: String): Int {
-    return value.replace(",", "")
+    val intValue = value
+        .replace(",", "")
         .replace(".", "")
         .toInt()
+
+    return if(intValue == 0) {
+      throw NumberFormatException("Int value of zero is not supported.")
+    } else {
+        intValue
+    }
 }

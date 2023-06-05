@@ -12,6 +12,7 @@ struct ContentView: View {
 
     var body: some View {
         TabView {
+            // 1. List view
             ListView(viewModel: .init(repository: repository))
                 .tabItem {
                     Label(
@@ -20,6 +21,7 @@ struct ContentView: View {
                     )
                 }
 
+            // 2. Map view
             MapView(viewModel: .init(repository: repository))
                 .tabItem {
                     Label(

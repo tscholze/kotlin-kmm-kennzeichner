@@ -51,18 +51,14 @@ fun RegionInformation(region: Region) {
                 }
 
                 // Inhabitants
-                if (region.inhabitants != 0) {
-                    RegionDetailText(
-                        stringResource(id = R.string.region_meta_inhabitants_format, NumberFormat.getNumberInstance().format(region.inhabitants))
-                    )
-                }
+                RegionDetailText(
+                    stringResource(id = R.string.region_meta_inhabitants_format, NumberFormat.getNumberInstance().format(region.inhabitants))
+                )
 
                 // Area
-                if (region.area != 0) {
-                    RegionDetailText(
-                        stringResource(id = R.string.region_meta_area_format, NumberFormat.getNumberInstance().format(region.area))
-                    )
-                }
+                RegionDetailText(
+                    stringResource(id = R.string.region_meta_area_format, NumberFormat.getNumberInstance().format(region.area))
+                )
             }
         }
     }

@@ -32,7 +32,7 @@ struct ListView: View {
                 .padding()
             }
             .searchable(text: $searchQuery, prompt: Text("ListView.Search.Placeholder"))
-            .background(Color.accentColor.opacity(0.2))
+            .background(Color.accentColor.opacity(0.05))
             .navigationTitle("ListView.Navigation.Title")
             .toolbar {
                 ToolbarItem {
@@ -101,11 +101,14 @@ private struct RegionListItemView: View {
 
     var body: some View {
         HStack {
+            // 1. Map
             Map(coordinateRegion: $coordindate)
                 .frame(width: 125, height: 100)
                 .disabled(true)
 
+            // 2. Text container
             VStack(alignment: .leading) {
+                // 2.1 Title container
                 HStack {
                     Text(region.id)
                         .font(.largeTitle)
@@ -116,7 +119,9 @@ private struct RegionListItemView: View {
                         .font(.caption)
                 }
 
+                // 2.2. Meta container
                 VStack(alignment: .leading) {
+                    // 2.2.1 Leader
                     if region.leader.isEmpty == false {
                         Text("Region.Detail.Leader.Format \(region.leader)")
                             .lineLimit(1)
@@ -124,17 +129,15 @@ private struct RegionListItemView: View {
                             .foregroundStyle(.secondary)
                     }
 
-                    if region.inhabitants != 0 {
-                        Text("Region.Detail.Inhabitants.Format \(region.inhabitants)")
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
-                    }
+                    // 2.2.2 Inhabitants
+                    Text("Region.Detail.Inhabitants.Format \(region.inhabitants)")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
 
-                    if region.area != 0 {
-                        Text("Region.Detail.Area.Format \(region.area)")
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
-                    }
+                    // 2.2.3 Area
+                    Text("Region.Detail.Area.Format \(region.area)")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
                 }
             }
             .padding([.leading, .trailing], 4)
@@ -146,10 +149,10 @@ private struct RegionListItemView: View {
         )
         .overlay(
             RoundedRectangle(cornerRadius: 4.0)
-                .stroke(Color.accentColor, lineWidth: 1)
+                .stroke(Color.accentColor.opacity(0.6), lineWidth: 1)
                 .shadow(
                     color: .black.opacity(0.5),
-                    radius: 3
+                    radius: 2
                 )
         )
     }
