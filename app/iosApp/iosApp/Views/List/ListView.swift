@@ -10,36 +10,38 @@ import shared
 import MapKit
 import SwiftUI
 
-/// Renders a list-based representation of all available regions
-/// for license plate IDs.
-struct ListView: View {
-    // MARK: - Private properties -
+extension Ui.Features.List {
+    /// Renders a list-based representation of all available regions
+    /// for license plate IDs.
+    struct ListView: View {
+        // MARK: - Private properties -
 
-    @ObservedObject private(set) var viewModel: ViewModel
-    @State private var searchQuery = ""
+        @ObservedObject private(set) var viewModel: ViewModel
+        @State private var searchQuery = ""
 
-    // MARK: - UI -
+        // MARK: - UI -
 
-    var body: some View {
-        NavigationView {
-            ScrollView {
-                LazyVStack {
-                    ForEach(viewModel.filteredRegions(for: searchQuery)) { region in
-                        RegionListItemView(region: region)
+        var body: some View {
+            NavigationView {
+                ScrollView {
+                    LazyVStack {
+                        ForEach(viewModel.filteredRegions(for: searchQuery)) { region in
+                            RegionListItemView(region: region)
+                        }
                     }
+                    .frame(maxWidth: .infinity)
+                    .padding()
                 }
-                .frame(maxWidth: .infinity)
-                .padding()
-            }
-            .searchable(text: $searchQuery, prompt: Text("ListView.Search.Placeholder"))
-            .background(Color.accentColor.opacity(0.05))
-            .navigationTitle("ListView.Navigation.Title")
-            .toolbar {
-                ToolbarItem {
-                    Button {
-                        UIApplication.shared.open(Constants.githubUrl)
-                    } label: {
-                        Image(systemName: "globe")
+                .searchable(text: $searchQuery, prompt: Text("ListView.Search.Placeholder"))
+                .background(Color.accentColor.opacity(0.05))
+                .navigationTitle("ListView.Navigation.Title")
+                .toolbar {
+                    ToolbarItem {
+                        Button {
+                            UIApplication.shared.open(Constants.githubUrl)
+                        } label: {
+                            Image(systemName: "globe")
+                        }
                     }
                 }
             }
@@ -49,7 +51,7 @@ struct ListView: View {
 
 // MARK: - ViewModel -
 
-extension ListView {
+extension Ui.Features.List.ListView {
     /// View model for a region list view.
     /// Subscribe to the `regions` property to get informed
     /// about fetched data items.

@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         TabView {
             // 1. List view
-            ListView(viewModel: .init(repository: repository))
+            Ui.Features.List.ListView(viewModel: .init(repository: repository))
                 .tabItem {
                     Label(
                         "ListView.TabItem.Title",
@@ -22,7 +22,7 @@ struct ContentView: View {
                 }
 
             // 2. Map view
-            MapView(viewModel: .init(repository: repository))
+            Ui.Features.Map.MapView(viewModel: .init(repository: repository))
                 .tabItem {
                     Label(
                         "MapView.TabItem.Title",
