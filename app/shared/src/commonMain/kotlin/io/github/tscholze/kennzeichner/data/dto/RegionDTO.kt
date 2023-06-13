@@ -10,9 +10,9 @@ import kotlinx.serialization.Serializable
 data class RegionDTO (
     val id: String,
     val name: String,
-    val lat: String,
-    val long: String,
-    val inhabitants: String,
-    val leader: String,
-    val area: String
+    val lat: Double,
+    val long: Double,
+    val inhabitants: Int,
+    val leader: String? = null,
+    val area: Int? = null
 )

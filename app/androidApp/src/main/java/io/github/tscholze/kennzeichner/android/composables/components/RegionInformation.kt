@@ -44,21 +44,21 @@ fun RegionInformation(region: Region) {
             Column(modifier = Modifier.fillMaxWidth()) {
 
                 // Leader
-                if (region.leader.isNotEmpty()) {
+                region.leader?.let {
                     RegionDetailText(
-                        stringResource(id = R.string.region_meta_leader_format, region.leader)
+                        stringResource(id = R.string.region_meta_leader_format, it)
                     )
                 }
 
                 // Inhabitants
-                if (region.inhabitants != 0) {
+                region.inhabitants?.let {
                     RegionDetailText(
-                        stringResource(id = R.string.region_meta_inhabitants_format, NumberFormat.getNumberInstance().format(region.inhabitants))
+                        stringResource(id = R.string.region_meta_inhabitants_format, NumberFormat.getNumberInstance().format(it))
                     )
                 }
 
                 // Area
-                if (region.area != 0) {
+                region.area?.let {
                     RegionDetailText(
                         stringResource(id = R.string.region_meta_area_format, NumberFormat.getNumberInstance().format(region.area))
                     )
