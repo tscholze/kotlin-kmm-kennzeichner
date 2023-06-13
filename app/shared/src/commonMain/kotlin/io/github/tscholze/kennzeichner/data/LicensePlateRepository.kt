@@ -19,7 +19,8 @@ class LicensePlateRepository {
     // MARK: - Access methods -
 
     /**
-     * Fetches async region from remote
+     * Fetches async region from remote and
+     * maps it into valid [Region] objects.
      */
     suspend fun fetchRegions(): List<Region> {
 
