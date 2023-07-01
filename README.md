@@ -27,6 +27,7 @@ The app(s) will provide a look for for German license plate IDs such as "A" for 
 - MVP-ish finished Android App with list, detail, map and filter features.
 - Added future-proof dependencies like Koin
 - Migrated from PoC to stable MVVM pattern
+- Added documentation to Kotlin files
 
 **UI**
 
