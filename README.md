@@ -18,7 +18,7 @@ The app(s) will provide a look for for German license plate IDs such as "A" for 
 - Dr. Windows [Das Entwicklertagebuch Kennzeichner #1: Bing AI Chat als Datengrundlage](https://www.drwindows.de/news/entwicklertagebuch-kennzeichner-1-mit-bing-ai-chat-als-datengrundlage)
 - Dr. Windows [Das Entwicklertagebuch Kennzeichner #2: Excel kann Geografie und mag kein Berlin](https://www.drwindows.de/news/das-entwicklertagebuch-kennzeichner-2-excel-kann-geografie-und-mag-kein-berlin)
 - Dr. Windows [Das Entwicklertagebuch Kennzeichner #3: Shared Core – der Kern des Ganzen](https://www.drwindows.de/news/das-entwicklertagebuch-kennzeichner-3-shared-core-der-kern-des-ganzen)
-- Dr. Windows [Das Entwicklertagebuch: Kennzeichner #4: Jetzt wird’s mobil](https://www.drwindows.de/news/entwicklertagebuch-kennzeichner-4-jetzt-wirds-mobil)
+- Dr. Windows [Das Entwicklertagebuch Kennzeichner #4: Jetzt wird’s mobil](https://www.drwindows.de/news/entwicklertagebuch-kennzeichner-4-jetzt-wirds-mobil)
 
 ## Versions
 
