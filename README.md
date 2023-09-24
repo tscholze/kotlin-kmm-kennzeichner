@@ -20,6 +20,15 @@ The app(s) will provide a look for for German license plate IDs such as "A" for 
 - Dr. Windows [Das Entwicklertagebuch Kennzeichner #3: Shared Core – der Kern des Ganzen](https://www.drwindows.de/news/das-entwicklertagebuch-kennzeichner-3-shared-core-der-kern-des-ganzen)
 - Dr. Windows [Das Entwicklertagebuch Kennzeichner #4: Jetzt wird’s mobil](https://www.drwindows.de/news/entwicklertagebuch-kennzeichner-4-jetzt-wirds-mobil)
 
+## Requirements
+- Windows / Linux / macOS
+- Android Studio with KMM plugin
+- Google Maps App Key in `local.properties`
+
+### iOS App
+- macOS Ventura+
+- Xcode Command line tools 13.4
+
 ## Versions
 
 ### 0.2.* (Android MVP)
