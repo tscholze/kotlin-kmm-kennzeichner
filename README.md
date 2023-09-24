@@ -31,16 +31,16 @@ The app(s) will provide a look for for German license plate IDs such as "A" for 
 
 **UI**
 
-![](docs/021-summary.png)
+![Version 0.2.1](docs/021-summary.png)
 
 ### 0.1 (Project setup)
 **Main features**
 
-Succesfull run of the Android Studio Kotlin Mobile Multiplatform. Tested by starting the Android and iOS application.
+Successful run of the Android Studio Kotlin Mobile Multiplatform. Tested by starting the Android and iOS application.
 
 **UI**
 
-![](docs/010-summary.png)
+![Version 0.1.0](docs/010-summary.png)
 
 ## Feature roadmap
 
