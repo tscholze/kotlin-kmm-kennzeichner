@@ -33,7 +33,6 @@ extension Ui.Features.List {
                     .padding()
                 }
                 .searchable(text: $searchQuery, prompt: Text("ListView.Search.Placeholder"))
-                .background(Color.accentColor.opacity(0.05))
                 .navigationTitle("ListView.Navigation.Title")
                 .toolbar {
                     ToolbarItem {
@@ -155,11 +154,7 @@ private struct RegionListItemView: View {
         )
         .overlay(
             RoundedRectangle(cornerRadius: 4.0)
-                .stroke(Color.accentColor.opacity(0.6), lineWidth: 1)
-                .shadow(
-                    color: .black.opacity(0.5),
-                    radius: 2
-                )
+                .stroke(Color.accentColor, lineWidth: 2)
         )
     }
 }
