@@ -124,22 +124,26 @@ private struct RegionListItemView: View {
                 // 2.2. Meta container
                 VStack(alignment: .leading) {
                     // 2.2.1 Leader
-                    if region.leader.isEmpty == false {
-                        Text("Region.Detail.Leader.Format \(region.leader)")
+                    if let leader = region.leader {
+                        Text("Region.Detail.Leader.Format \(leader)")
                             .lineLimit(1)
                             .font(.caption)
                             .foregroundStyle(.secondary)
                     }
 
                     // 2.2.2 Inhabitants
-                    Text("Region.Detail.Inhabitants.Format \(region.inhabitants)")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
+                    if let inhabitants = region.inhabitants {
+                        Text("Region.Detail.Inhabitants.Format \(inhabitants)")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    }
 
                     // 2.2.3 Area
-                    Text("Region.Detail.Area.Format \(region.area)")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
+                    if let area = region.area {
+                        Text("Region.Detail.Area.Format \(area)")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    }
                 }
             }
             .padding([.leading, .trailing], 4)
