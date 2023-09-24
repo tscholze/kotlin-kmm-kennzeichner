@@ -123,19 +123,19 @@ extension Ui.Features.Map.MapView {
                             .fontDesign(.monospaced)
 
                         VStack(alignment: .leading) {
-                            if region.leader.isEmpty == false {
-                                Text("Region.Detail.Leader.Format \(region.leader)")
+                            if let leader = region.leader {
+                                Text("Region.Detail.Leader.Format \(leader)")
                                     .lineLimit(1)
                                     .font(.caption)
                             }
 
-                            if region.inhabitants != 0 {
-                                Text("Region.Detail.Inhabitants.Format \(region.inhabitants)")
+                            if let inhabitants = region.inhabitants {
+                                Text("Region.Detail.Inhabitants.Format \(inhabitants)")
                                     .font(.caption)
                             }
 
-                            if region.area != 0 {
-                                Text("Region.Detail.Area.Format \(region.area)")
+                            if let area = region.area {
+                                Text("Region.Detail.Area.Format \(area)")
                                     .font(.caption)
                             }
                         }
