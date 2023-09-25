@@ -6,7 +6,6 @@ struct iOSApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .accentColor(Color("TownSignYellow", bundle: nil))
         }
     }
 }

@@ -9,6 +9,7 @@ import MapKit
 import shared
 import SwiftUI
 
+/// Flow for the map feature
 struct RegionMapNavigationStack: View {
     // MARK: - Constants -
 

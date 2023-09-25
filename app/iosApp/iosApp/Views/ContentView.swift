@@ -18,17 +18,17 @@ struct ContentView: View {
 
     var body: some View {
         Group {
-            if appStore.state == .filled {
-                AppTabView()
-            }
-            else {
-                PreparationView()
+            switch appStore.state {
+            case .filled: AppTabView()
+            default: PreparationView()
             }
         }
         .environmentObject(appStore)
     }
 }
 
+/// A store that contains all app-wide persisted data.
+/// It works as a wrapper around the KMP repository.
 @MainActor
 class AppStore: ObservableObject {
     // MARK: - Internal properties -
@@ -68,7 +68,7 @@ class AppStore: ObservableObject {
     /// - Parameter query: Search query
     /// - Returns: Found regions, if search string is empty, all will be returned.
     func regions(forSearchQuery query: String = "") -> [Region] {
-        return repository.regionsForSearchQuery(searchQuery: query)
+        return repository.regionsForSearchQuery(searchQuery: query).filter { $0.id.starts(with: "W") == false }
     }
 
     // MARK: - State -

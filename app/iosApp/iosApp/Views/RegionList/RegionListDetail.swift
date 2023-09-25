@@ -9,9 +9,11 @@ import MapKit
 import shared
 import SwiftUI
 
+/// Represents a detail view for a list item.
 struct RegionListDetail: View {
-    // MARK: - Properties -
+    // MARK: - Internal properties -
 
+    /// Region to be shown.
     let region: Region
 
     // MARK: - UI -
@@ -36,9 +38,4 @@ struct RegionListDetail: View {
         }
         .navigationTitle(region.name)
     }
-}
-
-#Preview {
-    Text("Reenable it")
-    // RegionListDetail()
 }

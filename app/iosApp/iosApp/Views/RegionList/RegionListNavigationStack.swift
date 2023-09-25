@@ -8,10 +8,11 @@
 import shared
 import SwiftUI
 
+/// Flow for the list feature
 struct RegionListNavigationStack: View {
-    // MARK: - Properties -
+    // MARK: - Private properties -
 
-    @EnvironmentObject var appStore: AppStore
+    @EnvironmentObject private var appStore: AppStore
     @State private var searchText = ""
 
     // MARK: - UI -

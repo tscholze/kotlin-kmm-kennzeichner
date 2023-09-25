@@ -10,7 +10,7 @@ import SwiftUI
 
 /// This view is reponsable for preparing all required data for the app.
 struct PreparationView: View {
-    // MARK: - Properties -
+    // MARK: - Private properties -
 
     @EnvironmentObject private var appStore: AppStore
 

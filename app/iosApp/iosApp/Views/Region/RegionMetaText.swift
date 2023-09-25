@@ -8,9 +8,12 @@
 import shared
 import SwiftUI
 
+/// Component to show textual meta information
+/// for given `Region`.
 struct RegionMetaText: View {
-    // MARK: - Properties -
+    // MARK: - Internal properties -
 
+    /// Region to be shown
     let region: Region
 
     // MARK: - UI -

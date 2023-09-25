@@ -12,12 +12,15 @@ import SwiftUI
 /// Renders a grid item with overview information of given
 /// `Region`.
 struct RegionGridItem: View {
-    // MARK: - Properties -
+    // MARK: - Internal properties  -
 
     /// Region to show
     let region: Region
 
+    // MARK: - Private properties -
+
     @State private var position = MapCameraPosition.automatic
+    private let itemShape = RoundedRectangle(cornerRadius: 8)
 
     // MARK: - UI -
 
@@ -38,12 +41,12 @@ struct RegionGridItem: View {
                     .foregroundStyle(.primary)
                     .font(.caption)
             }
+            .foregroundStyle(Color.black)
             .padding([.leading, .trailing, .bottom], .init(4))
         }
-        .overlay(
-            RoundedRectangle(cornerRadius: 8)
-                .stroke(Color.black, lineWidth: 1)
-        )
+        .background(Color.townSignYellow)
+        .clipShape(itemShape)
+        .overlay(itemShape.stroke(Color.text, lineWidth: 1))
         .onAppear {
             position = .region(
                 .init(

@@ -21,6 +21,7 @@ The app(s) will provide a look for for German license plate IDs such as "A" for 
 - Dr. Windows [Das Entwicklertagebuch Kennzeichner #4: Jetzt wird’s mobil](https://www.drwindows.de/news/entwicklertagebuch-kennzeichner-4-jetzt-wirds-mobil)
 
 ## Requirements
+### Android app
 - Windows / Linux / macOS
 - Android Studio with KMM plugin
 - Google Maps App Key in `local.properties`
@@ -30,6 +31,15 @@ The app(s) will provide a look for for German license plate IDs such as "A" for 
 - Xcode Command line tools 13.4
 
 ## Versions
+
+### 0.3.* (iOS MVP)
+**Main features**
+- MVP-ish finished iOS App with list, detail, map and filter features.
+- Updated toolchain to Xcode 15 and iOS 17
+- Updated Readme to cover how to run the project
+
+**UI**
+![Version 0.3.0](docs/030-summary.png)
 
 ### 0.2.* (Android MVP)
 **Main features**
