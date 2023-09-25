@@ -79,10 +79,10 @@ Successful run of the Android Studio Kotlin Mobile Multiplatform. Tested by star
 - [x] Add searchbar to filter lists
 
 #### iOS (SwiftUI)
-- [ ] Create list view
-- [ ] Create detail view
-- [ ] Create map view with markers
-- [ ] Add searchbar to filter lists
+- [x] Create list view
+- [x] Create detail view
+- [x] Create map view with markers
+- [x] Add searchbar to filter lists
 
 ### Future feature ideas
 - [ ] Add digital assistant support
