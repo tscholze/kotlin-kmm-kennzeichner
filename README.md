@@ -39,6 +39,7 @@ The app(s) will provide a look for for German license plate IDs such as "A" for 
 - Updated Readme to cover how to run the project
 
 **UI**
+
 ![Version 0.3.0](docs/030-summary.png)
 
 ### 0.2.* (Android MVP)
@@ -49,7 +50,6 @@ The app(s) will provide a look for for German license plate IDs such as "A" for 
 - Added documentation to Kotlin files
 
 **UI**
-
 ![Version 0.2.1](docs/021-summary.png)
 
 ### 0.1 (Project setup)
