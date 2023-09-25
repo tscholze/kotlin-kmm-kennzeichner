@@ -1,7 +1,7 @@
 {
-  "sourceLanguage" : "de",
+  "sourceLanguage" : "en",
   "strings" : {
-    "ListView.Navigation.Title" : {
+    "List.Navigation.Title" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -17,39 +17,23 @@
         }
       }
     },
-    "ListView.Search.Placeholder" : {
+    "Map.Annotation.Label" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suche nach A oder Augsburg"
+            "value" : "Klicke für mehr Informationen"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Search for M or Munich"
+            "value" : "Tap for more information"
           }
         }
       }
     },
-    "ListView.TabItem.Title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Liste"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "List"
-          }
-        }
-      }
-    },
-    "MapView.TabItem.Title" : {
+    "Map.Navigation.Title" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -65,18 +49,98 @@
         }
       }
     },
-    "Region.Detail.Area.Format %@" : {
+    "Misc.Retry" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fläche: %@km"
+            "value" : "Erneut versuchen"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Area: %@ skm"
+            "value" : "Retry"
+          }
+        }
+      }
+    },
+    "Preparation.State.Failed.Message" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leider ging irgendwas nicht so wie wir es wollten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something failed. I do not know what"
+          }
+        }
+      }
+    },
+    "Preparation.State.Failed.Title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es ging was schief"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ooopsie, sorry"
+          }
+        }
+      }
+    },
+    "Preparation.State.Filled.Title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yay, bin fertig!"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yay, I'm finished"
+          }
+        }
+      }
+    },
+    "Preparation.State.Preparing.Title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich bereite mich vor"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Let me prepare myself"
+          }
+        }
+      }
+    },
+    "Region.Detail.Area.Format %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fläche: %@ qkm"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Area: %@ sqkm"
           }
         }
       }
