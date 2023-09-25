@@ -92,10 +92,10 @@ struct RegionMapNavigationStack: View {
         }
         .padding(12)
     }
-    
+
     // MARK: - Private helpers -
-    
-    private func onSelectedRegionChanged(oldValue: Region?, newValue: Region?) {
+
+    private func onSelectedRegionChanged(oldValue _: Region?, newValue: Region?) {
         if let selectedRegion = newValue {
             coordindate = selectedRegion.coordinate.toLocationCoordinate()
         }
