@@ -21,16 +21,7 @@ struct RegionMapNavigationStack: View {
 
     @EnvironmentObject private var appStore: AppStore
     @State private var coordindate = germanyCentered
-    @State private var selectedRegion: Region? {
-        didSet {
-            if let selectedRegion {
-                coordindate = selectedRegion.coordinate.toLocationCoordinate()
-            }
-            else {
-                coordindate = Self.germanyCentered
-            }
-        }
-    }
+    @State private var selectedRegion: Region?
 
     // MARK: - UI -
 
@@ -48,6 +39,7 @@ struct RegionMapNavigationStack: View {
                 makeCenterButton()
             }
             .navigationTitle("Map.Navigation.Title")
+            .onChange(of: selectedRegion, onSelectedRegionChanged(oldValue:newValue:))
             .sheet(
                 item: $selectedRegion,
                 onDismiss: { selectedRegion = nil }
@@ -71,6 +63,7 @@ struct RegionMapNavigationStack: View {
 
                     Text(region.name)
                 }
+                .foregroundStyle(Color.black)
                 .padding(8)
                 .background {
                     RoundedRectangle(cornerRadius: 4, style: .continuous)
@@ -98,6 +91,17 @@ struct RegionMapNavigationStack: View {
                 .frame(width: 30, height: 30)
         }
         .padding(12)
+    }
+    
+    // MARK: - Private helpers -
+    
+    private func onSelectedRegionChanged(oldValue: Region?, newValue: Region?) {
+        if let selectedRegion = newValue {
+            coordindate = selectedRegion.coordinate.toLocationCoordinate()
+        }
+        else {
+            coordindate = Self.germanyCentered
+        }
     }
 }
 
