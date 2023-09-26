@@ -1,7 +1,7 @@
 # kotlin-kmm-kennzeichner
 
 ## tl;dr
-This is currently a playground to get to know with [Kotlin Mobile Multiplatform](https://kotlinlang.org/lp/mobile/) in combination with a shared Jetpack Compose and SwiftUI.
+This is currently a playground to get to know with [Kotlin Multiplatform](https://kotlinlang.org/lp/mobile/) in combination with a shared Jetpack Compose and SwiftUI.
 
 The app(s) will provide a look for for German license plate IDs such as "A" for Augsburg, "M" for Munich, etc. pp. The long time goal is to roll out this limited set of features to more KMM-able platforms such as desktop or the web.
 
@@ -23,7 +23,7 @@ The app(s) will provide a look for for German license plate IDs such as "A" for 
 ## Requirements
 ### Android app
 - Windows / Linux / macOS
-- Android Studio with KMM plugin
+- Android Studio with KMP plugin
 - Google Maps App Key in `local.properties`
 
 ### iOS App
@@ -109,7 +109,7 @@ Just me, [Tobi]([https://tscholze.github.io).
 The app is built on the work of giants. Without the following folks, repositories and posts, my tiny project would not exist.
 
 - [David Herman (bitspittle)](https://github.com/bitspittle) - one of the most aspiring Kotlin educator and developer of [Kobweb](http://kobweb.varabyte.com)
-- [Adrian Witaszak (adrianwitaszak)](https://github.com/adrianwitaszak) for bringing the joy of KMM into my life
+- [Adrian Witaszak (adrianwitaszak)](https://github.com/adrianwitaszak) for bringing the joy of KMP into my life
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
