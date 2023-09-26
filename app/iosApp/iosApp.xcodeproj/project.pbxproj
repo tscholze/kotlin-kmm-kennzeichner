@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */; };
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
+		4A2ABA642AC2AD640001794F /* iOSAppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ABA632AC2AD640001794F /* iOSAppStore.swift */; };
 		4A3F0AF129EFD33E005C65FF /* Shared+Models+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3F0AF029EFD33E005C65FF /* Shared+Models+Extensions.swift */; };
 		4A3F0AF929EFD3AB005C65FF /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = 4A3F0AF529EFD3AA005C65FF /* .swiftformat */; };
 		4A3F0AFA29EFD3AB005C65FF /* Mintfile in Resources */ = {isa = PBXBuildFile; fileRef = 4A3F0AF629EFD3AA005C65FF /* Mintfile */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2152FB032600AC8F00CF470E /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
+		4A2ABA632AC2AD640001794F /* iOSAppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAppStore.swift; sourceTree = "<group>"; };
 		4A3F0AF029EFD33E005C65FF /* Shared+Models+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shared+Models+Extensions.swift"; sourceTree = "<group>"; };
 		4A3F0AF529EFD3AA005C65FF /* .swiftformat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftformat; sourceTree = SOURCE_ROOT; };
 		4A3F0AF629EFD3AA005C65FF /* Mintfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mintfile; sourceTree = SOURCE_ROOT; };
@@ -174,6 +176,7 @@
 		7555FF7D242A565900829871 /* iosApp */ = {
 			isa = PBXGroup;
 			children = (
+				4A2ABA632AC2AD640001794F /* iOSAppStore.swift */,
 				2152FB032600AC8F00CF470E /* iOSApp.swift */,
 				4A3F0AF429EFD37D005C65FF /* Resources */,
 				4A3F0AF329EFD36E005C65FF /* Extensions */,
@@ -321,6 +324,7 @@
 				4A3F0AF129EFD33E005C65FF /* Shared+Models+Extensions.swift in Sources */,
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
 				4AA1C74E2AC17E6B0085D24A /* PreparationView.swift in Sources */,
+				4A2ABA642AC2AD640001794F /* iOSAppStore.swift in Sources */,
 				4AA1C7392AC176DD0085D24A /* AppTabView.swift in Sources */,
 				4AA1C7412AC176DD0085D24A /* RegionListDetail.swift in Sources */,
 				4AA1C7402AC176DD0085D24A /* RegionListNavigationStack.swift in Sources */,
