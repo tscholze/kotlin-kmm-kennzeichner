@@ -13,6 +13,13 @@ The app(s) will provide a look for for German license plate IDs such as "A" for 
 |-------|------|
 |-|-|
 
+## Keep in mind
+### Not production ready
+This app is purely build for having fun! All features have room for improvements or could be done more elegant. This app was and will be never meant to run in production-like environments. Learning is fun!
+
+### Not all license plates are available
+To generate the JSON file with all licesense plates and their meta information, I had to do a lot of manual work. Because of the fact that my focus is set to "KMP evaluation" and not 100% data coverage, it might be that some license plates are missing.
+
 ## Publications
 
 - Dr. Windows [Das Entwicklertagebuch Kennzeichner #1: Bing AI Chat als Datengrundlage](https://www.drwindows.de/news/entwicklertagebuch-kennzeichner-1-mit-bing-ai-chat-als-datengrundlage)
@@ -92,9 +99,6 @@ Successful run of the Android Studio Kotlin Mobile Multiplatform. Tested by star
 ### Instruments
 - [ ] Check how's the memory consumption
 - [ ] Check if there is no memory leakage
-
-## Keep in mind
-This app is purely build for having fun! All features have room for improvements or could be done more elegant. This app was and will be never meant to run in production-like environments. Learning is fun!
 
 ## Authors
 Just me, [Tobi]([https://tscholze.github.io).
