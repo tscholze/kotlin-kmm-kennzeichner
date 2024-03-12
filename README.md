@@ -26,6 +26,7 @@ To generate the JSON file with all licesense plates and their meta information, 
 - Dr. Windows [Das Entwicklertagebuch Kennzeichner #2: Excel kann Geografie und mag kein Berlin](https://www.drwindows.de/news/das-entwicklertagebuch-kennzeichner-2-excel-kann-geografie-und-mag-kein-berlin)
 - Dr. Windows [Das Entwicklertagebuch Kennzeichner #3: Shared Core – der Kern des Ganzen](https://www.drwindows.de/news/das-entwicklertagebuch-kennzeichner-3-shared-core-der-kern-des-ganzen)
 - Dr. Windows [Das Entwicklertagebuch Kennzeichner #4: Jetzt wird’s mobil](https://www.drwindows.de/news/entwicklertagebuch-kennzeichner-4-jetzt-wirds-mobil)
+- Dr. Windows [Das Entwicklertagebuch Kennzeichner #5: Die iOS App](https://www.drwindows.de/news/entwicklertagebuch-kennzeichner-5-die-ios-app)
 
 ## Requirements
 ### Android app
